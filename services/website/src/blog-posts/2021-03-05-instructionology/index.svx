@@ -1,0 +1,43 @@
+---
+title: "論指令"
+title_en: "Instructionology"
+intro_title: "無所謂，自己想怎樣就怎樣吧"
+intro_title_en: "I don’t mind; just do whatever you like"
+artist_name: "黃慧妍"
+artist_name_en: "Wong Wai Yin"
+artist_bio: "藝術家，兒子七歲。"
+artist_bio_en: "Artist, with a 7-year-old son"
+record_no: "1"
+slug: "instructionology"
+createdAt: 2021-03-05
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
+</script>
+
+我說：「你喜不喜歡指令？」
+
+問說：「無所謂。但不喜歡有人攤在沙發上叫我去拿一些她自己拿到的東西。」
+
+我忍著笑繼續：「那你喜歡給別人指令嗎？」
+
+問說：「自己想怎樣就怎樣吧。好似我也不喜歡跟樂高積木的說明書，所以砌一次就拆散，然後做自己喜歡的。」
+
+我說：「我們一起想一些指令來玩吧。」
+
+問說：「不用了，好奇怪。」
+
+---
+
+I said, ‘do you like instructions?’
+
+Man said, ‘I don’t mind. But I don’t like it when someone lazes around on the sofa and asks me to get something she can get herself.’
+
+I continued, suppressing a laugh, ‘then do you like giving others instructions?’
+
+Man said, ‘just do whatever you like. Just as I don’t like to follow LEGO’s instructions. That’s why I take [the blocks] apart after just one time. After that, I make something I like.’
+
+I said, ‘let’s come up with some instructions for fun.’
+Man said, ‘no need. That’s very weird.’
