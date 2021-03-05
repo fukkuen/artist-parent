@@ -1,107 +1,86 @@
 const fs = require("fs");
 
-const is_event = process.env.EVENT === '1'
-
-const type = process.env.EVENT === '1' ? 'event' : 'blog'
-
-const categories = ['nutrition', 'reflection', 'spiritual', 'fitness']
-
-const event_categories = ['be-our-guess', 'hiking', 'cultural', 'nutrition', 'fitness', 'book-sharing']
-
-const title_prompt = {
-  type: "input",
-  name: "blogPostTitle",
-  message: "What's the title?",
-}
-
-const summary_prompt = {
-  type: "input",
-  name: "blogPostSummary",
-  message: "What's the summary?",
-}
-
-const create_date_prompt = {
-  type: "input",
-  name: "blogPostCreatedAt",
-  message: "What's the createdAt time [YYYY-MM-DD]? (leave blank for now)",
-  default: new Date().toISOString().split('T')[0],
-}
-
-const category_prompt = {
-  type: "list",
-  name: "blogPostCategory",
-  message: "What's the category?",
-  choices: is_event ? event_categories : categories
-}
-
-const tag_prompt = {
-  type: "input",
-  name: "blogPostTag",
-  message: "What are the tags (separate by comma)?"
-}
+const categories = ['what-is-instruction', 'mouth-ears-legs-heads-eyes', 'love-fear', 'metabolism', 'story', 'emotion']
 
 const blog_prompts = [
-  title_prompt,
-  summary_prompt,
-  create_date_prompt,
-  category_prompt,
-  {
-    type: "list",
-    name: "blogPostAuthor",
-    message: "Who is the author?",
-    choices: ['melissa', 'joyce', 'king', 'mang', 'cliff', 'admin']
-  },
-  tag_prompt
-]
-
-const event_prompts = [
-  title_prompt,
-  summary_prompt,
-  create_date_prompt,
-  category_prompt,
   {
     type: "input",
-    name: "eventStartDate",
-    message: "What's the event start date [YYYY-MM-DD]? (leave blank for now)",
+    name: "blogPostTitle",
+    message: "What's the post title?",
+  },
+  {
+    type: "input",
+    name: "blogPostTitleEn",
+    message: "What's the post title? (en)",
+  },
+  {
+    type: "input",
+    name: "introTitle",
+    message: "What's the intro title?",
+  },
+  {
+    type: "input",
+    name: "introTitleEn",
+    message: "What's the intro title? (en)",
+  },
+  {
+    type: "input",
+    name: "artistName",
+    message: "Who's the artist?",
+  },
+  {
+    type: "input",
+    name: "artistNameEn",
+    message: "Who's the artist? (en)",
+  },
+  {
+    type: "input",
+    name: "artistBio",
+    message: "What's the artist bio?",
+  },
+  {
+    type: "input",
+    name: "artistBioEn",
+    message: "What's the artist bio? (en)",
+  },
+  {
+    type: "input",
+    name: "recordNo",
+    message: "The ID of the art piece",
+  },
+  {
+    type: "input",
+    name: "blogPostCreatedAt",
+    message: "What's the createdAt time [YYYY-MM-DD]? (leave blank for now)",
     default: new Date().toISOString().split('T')[0],
   },
   {
-    type: "input",
-    name: "eventTime",
-    message: "What's the event time (any format)"
-  },
-  {
-    type: "input",
-    name: "eventLocation",
-    message: "What's the event location"
-  },
-  {
-    type: "input",
-    name: "eventFee",
-    message: "What's the event fee"
-  },
-  tag_prompt
+    type: "list",
+    name: "blogPostCategory",
+    message: "What's the category?",
+    choices: categories
+  }
 ]
 
 module.exports = (plop) => {
   return {
     description: "Generate a new blog post.",
-    prompts: is_event ? event_prompts : blog_prompts,
+    prompts: blog_prompts,
     actions: [
       {
         type: "add",
-        path: `../services/website/src/${type}-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/index.svx`,
-        templateFile: `../templates/${type}-post/index.svx.hbs`,
+        path: `../services/website/src/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/index.svx`,
+        templateFile: `../templates/blog-post/index.svx.hbs`,
       },
       {
         type: "add",
-        path: `../services/website/src/routes/${type}/{{dashCase blogPostTitle}}/index.svelte`,
-        templateFile: `../templates/${type}-post/page.svelte.hbs`,
+        path: `../services/website/src/routes/blog/{{dashCase blogPostTitle}}/index.svelte`,
+        templateFile: `../templates/blog-post/page.svelte.hbs`,
       },
       {
         type: "add",
-        path: `../services/website/static/${type}-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/cover.jpg`,
-        templateFile: `../templates/${type}-post/cover.jpg`,
+        path: `../services/website/static/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/cover.jpg`,
+        templateFile: `../templates/blog-post/cover.jpg`,
       },
     ],
   };
