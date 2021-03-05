@@ -16,7 +16,6 @@
         "@id": "https://google.com/article"
       },
       "headline": "${post.metadata.title}",
-      "keywords": "${post.metadata.tags.join(",")}",
       "image": [
         "${imageUrl}"
        ],

@@ -9,13 +9,11 @@
   const image = `https://www.mikenikles.com/blog-posts/${
     createdAt.split("T")[0]
   }-${slug}/cover-preview-lead.jpg`;
-  const keywords = tags.join(', ');
 </script>
 
 <SeoHead
   {description}
   {image}
-  {keywords}
   {title}
   imageAlt={`Cover picture for a blog post titled ${title}`}>
   <LdJson {post} />
