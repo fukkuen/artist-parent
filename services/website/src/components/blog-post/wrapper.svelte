@@ -2,9 +2,14 @@
   import Footer from "../footer.svelte";
   import ImageZoom from "./image-zoom.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
-  import formatDate from "../../helpers/format-date";
 
   export let post;
+
+  const test = node => {
+    const hk_div = node.querySelector(".hk")
+    const en_div = node.querySelector(".en")
+    en_div.style.display = 'none'
+  }
 </script>
 
 <style>
@@ -29,8 +34,11 @@
       <h2 class="text-xl">{post.metadata.title} {post.metadata.title_en}</h2>
       <p>{post.metadata.artist_name} {post.metadata.artist_name_en}</p>
       <p>{post.metadata.artist_bio} {post.metadata.artist_bio_en}</p>
+      <p># {post.metadata.record_no}</p>
       <div class="h-1 bg-gray-200 mb-8"></div>
+      <div use:test>
       <slot />
+      </div>
     </div>
   </div>
   <div class="col-span-1 bg-white p-4">

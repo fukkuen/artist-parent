@@ -17,6 +17,7 @@ category: ["what-is-instruction"]
   const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
 </script>
 
+<div class="hk">
 我說：「你喜不喜歡指令？」
 
 問說：「無所謂。但不喜歡有人攤在沙發上叫我去拿一些她自己拿到的東西。」
@@ -28,9 +29,9 @@ category: ["what-is-instruction"]
 我說：「我們一起想一些指令來玩吧。」
 
 問說：「不用了，好奇怪。」
+</div> 
 
----
-
+<div class="en">
 I said, ‘do you like instructions?’
 
 Man said, ‘I don’t mind. But I don’t like it when someone lazes around on the sofa and asks me to get something she can get herself.’
@@ -40,4 +41,6 @@ I continued, suppressing a laugh, ‘then do you like giving others instructions
 Man said, ‘just do whatever you like. Just as I don’t like to follow LEGO’s instructions. That’s why I take [the blocks] apart after just one time. After that, I make something I like.’
 
 I said, ‘let’s come up with some instructions for fun.’
+
 Man said, ‘no need. That’s very weird.’
+</div>
