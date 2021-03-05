@@ -1,0 +1,20 @@
+---
+title: "為何A夢有牙齒？不批判是最好的支持"
+title_en: "Doraemon with teeth? Absence of judgment &#x3D; Best support"
+intro_title: "中秋節燈籠"
+intro_title_en: "Mid-Autumn Festival Lantern "
+artist_name: "蕭偉恒"
+artist_name_en: "Siu Wai Hang"
+artist_bio: ""
+artist_bio_en: ""
+record_no: "4"
+slug: "doraemon-with-teeth-absence-of-judgment-best-support"
+createdAt: 2021-03-05
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
+</script>
+
+write you post here...

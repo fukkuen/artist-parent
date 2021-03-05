@@ -1,0 +1,20 @@
+---
+title: "全部，由他決定"
+title_en: "It’s all up to him "
+intro_title: "紙船子緣"
+intro_title_en: "Father and Son Relation-Ship "
+artist_name: "小克"
+artist_name_en: "Siu Hak"
+artist_bio: ""
+artist_bio_en: ""
+record_no: "3"
+slug: "it-s-all-up-to-him"
+createdAt: 2021-03-05
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
+</script>
+
+write you post here...

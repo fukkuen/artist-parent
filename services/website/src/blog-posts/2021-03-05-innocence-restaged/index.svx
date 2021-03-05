@@ -1,0 +1,20 @@
+---
+title: "重演赤子"
+title_en: "Innocence Restaged"
+intro_title: "可愛成年人"
+intro_title_en: "Adorable adults"
+artist_name: "羅文樂"
+artist_name_en: "Law Man Lok"
+artist_bio: ""
+artist_bio_en: ""
+record_no: "8"
+slug: "innocence-restaged"
+createdAt: 2021-03-05
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
+</script>
+
+write you post here...

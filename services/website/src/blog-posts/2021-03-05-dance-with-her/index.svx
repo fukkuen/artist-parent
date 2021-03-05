@@ -1,0 +1,20 @@
+---
+title: "與她共舞"
+title_en: "Dance with Her"
+intro_title: "讓子女指導你，譬如，與她共舞"
+intro_title_en: "Let your child guide you, for example, dance with her"
+artist_name: "鄧國騫"
+artist_name_en: "Tang Kwok Hin"
+artist_bio: ""
+artist_bio_en: ""
+record_no: "9"
+slug: "dance-with-her"
+createdAt: 2021-03-05
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
+</script>
+
+write you post here...
