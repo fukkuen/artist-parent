@@ -72,9 +72,11 @@
 
 {#if is_render}
 	{#if posts && posts.length}
-		{#each posts as post}
-			<Preview {post}/>
-		{/each}
+		<div class="grid grid-cols-2 gap-4">
+			{#each posts as post}
+				<Preview {post}/>
+			{/each}
+		</div>
 		{#if !is_last}
 			<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
 		{/if}

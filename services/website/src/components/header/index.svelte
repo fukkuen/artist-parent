@@ -60,19 +60,12 @@
 					</svg>
 				</button>
 			</div>
-			<div class="flex-1 flex justify-center">
-				<a href="/" class="flex items-center">
-					<img src="images/logo.png" alt="logo" class="h-10 sm:h-16 md:h-20">
-					<img src="images/logotype.png" alt="logo" class="h-5 sm:h-8 md:h-10 ml-1 sm:ml-2 md:ml-4">
-				</a>
-			</div>
+			<p>Artist parent</p>
 			<div class="flex-1 flex justify-end">
-				<SocialIcons/>
+
 			</div>
 		</div>
 	</div>
-
-	<DesktopMenu {items} {segment} {selected_category}/>
 
 	<MobileMenu {items} {segment} {selected_category}  isOpen={menu_opened} on:close={() => (menu_opened = false)}/>
 </div>
