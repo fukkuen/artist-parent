@@ -59,6 +59,11 @@ const blog_prompts = [
     name: "blogPostCategory",
     message: "What's the category?",
     choices: categories
+  },
+  {
+    type: "input",
+    name: "blogPostTitleEn",
+    message: "What's the post title? (en)",
   }
 ]
 
@@ -69,17 +74,17 @@ module.exports = (plop) => {
     actions: [
       {
         type: "add",
-        path: `../services/website/src/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/index.svx`,
+        path: `../services/website/src/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitleEn}}/index.svx`,
         templateFile: `../templates/blog-post/index.svx.hbs`,
       },
       {
         type: "add",
-        path: `../services/website/src/routes/blog/{{dashCase blogPostTitle}}/index.svelte`,
+        path: `../services/website/src/routes/blog/{{dashCase blogPostTitleEn}}/index.svelte`,
         templateFile: `../templates/blog-post/page.svelte.hbs`,
       },
       {
         type: "add",
-        path: `../services/website/static/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitle}}/cover.jpg`,
+        path: `../services/website/static/blog-posts/{{convertDateIsoToYMD blogPostCreatedAt}}-{{dashCase blogPostTitleEn}}/cover.jpg`,
         templateFile: `../templates/blog-post/cover.jpg`,
       },
     ],
