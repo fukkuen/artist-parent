@@ -14,7 +14,8 @@
     </div>
     <div class="px-4 py-8">
       <div class="mb-4">
-        <h2 class="text-2xl mb-2 font-bold">{post.metadata.intro_title}</h2>
+        <h2 class="text-lg mb-2">{post.metadata.intro_title}</h2>
+        <p>{post.metadata.artist_name}</p>
       </div>
     </div>
   </a>
