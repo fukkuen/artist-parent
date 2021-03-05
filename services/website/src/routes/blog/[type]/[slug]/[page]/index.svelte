@@ -16,7 +16,7 @@
 	export let total_page_count
 
 	import { stores } from '@sapper/app';
-	import {categories, authors} from "../../../../../taxonomy";
+	import {categories} from "../../../../../taxonomy";
 	const { page } = stores();
 
 	let is_render = true

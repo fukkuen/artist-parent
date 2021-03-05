@@ -12,9 +12,6 @@
 
 <div class="mb-4">
   <a href="blog/{post.metadata.slug}" class="block bg-white shadow">
-    <div class="p-4">
-      <PostAuthor {post}/>
-    </div>
     <div class="bg-gray-500">
       <IMG src={coverImageBasePath}/>
     </div>
@@ -27,9 +24,6 @@
       <p class="mb-2 leading-8 text-lg text-gray-700">{post.body}</p>
       <p class="text-blue-500 mb-4">繼續閱讀...</p>
       <p class="mb-4">
-        {#each post.metadata.tags as t}
-          <a href="/blog/tag/{encodeURI(t)}/1" class="post-tag">#{t}</a>
-        {/each}
         {#each post.metadata.category as cat}
           <a href="/blog/category/{cat.slug}/1" class="post-tag">#{cat.name}</a>
         {/each}

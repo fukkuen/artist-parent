@@ -5,7 +5,7 @@
   import SocialIcons from './social-icons.svelte'
   import MobileMenu from './mobile-menu.svelte'
   import DesktopMenu from './desktop-menu.svelte'
-  import {event_categories, categories} from "../../taxonomy";
+  import {categories} from "../../taxonomy";
 
   export let segment
   let menu_opened = false
@@ -14,12 +14,6 @@
   $: selected_category = $page.query.category
 
   const items = [
-	  {
-		  name: "活動日誌",
-		  href: "/event",
-		  children: event_categories,
-		  mobile: true
-	  },
 	  {
 		  name: "文章分享",
 		  href: "/blog",
