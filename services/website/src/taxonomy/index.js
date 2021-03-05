@@ -1,7 +1,7 @@
 export const categories = [
 	{
 		slug: 'what-is-instruction',
-		name: '營養隨筆'
+		name: '咩嘢係指令'
 	},
 	{
 		slug: 'mouth-ears-legs-heads-eyes',

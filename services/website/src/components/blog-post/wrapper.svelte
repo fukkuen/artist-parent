@@ -26,7 +26,10 @@
          alt="cover"/>
 
     <div class="prose lg:prose-xl content break-words mx-auto px-4 py-8">
-      <h2 class="text-xl">{post.metadata.title}</h2>
+      <h2 class="text-xl">{post.metadata.title} {post.metadata.title_en}</h2>
+      <p>{post.metadata.artist_name} {post.metadata.artist_name_en}</p>
+      <p>{post.metadata.artist_bio} {post.metadata.artist_bio_en}</p>
+      <div class="h-1 bg-gray-200 mb-8"></div>
       <slot />
     </div>
   </div>
