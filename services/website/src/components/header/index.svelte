@@ -35,7 +35,7 @@
 
 </script>
 
-<div class="mb-8">
+<div class="mb-8 hidden">
 	<div class="mx-auto max-w-screen-lg px-2 my-4">
 		<div class="flex items-center justify-around">
 			<div class="flex-grow-0 sm:flex-1">
