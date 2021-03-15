@@ -47,7 +47,7 @@
 
 <div class="container mx-auto my-8">
 	<div class="flex flex-wrap gap-4" use:onWaterfull>
-		{#each postsArray as post}
+		{#each postsArray as post, i}
 			<div class="p-4 w-1/2">
 				<a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
 					<div class="relative">
@@ -65,16 +65,34 @@
 					</div>
 				</a>
 			</div>
-		{/each}
-		<div class="bg-orange-700 text-white p-8">
-			<div class="mono text-h3 mb-12">1.</div>
-			<h3 class="text b-border-2 border-current">收藏系列</h3>
-			<div class="flex items-center">
-				<p class="text-t1">咩野係指令</p>
-				<div class="ml-4 flex-shrink-0 text-white">
-					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36" class="w-8 fill-current"><path d="M31.48 19.244l-8.38 8.383 1.638 1.697L36 18.064 24.61 6.675l-1.64 1.697 8.512 8.51L0 16.886v2.36"></path></svg>
+			{#if i === 3}
+				<div class="p-4 w-1/2">
+					<div class="bg-orange-700 text-white p-8">
+						<div class="mono text-h3 mb-24">1.</div>
+						<h3 class="text b-border-2 border-current">收藏系列</h3>
+						<div class="flex items-center">
+							<p class="text-t1">咩野係指令</p>
+							<div class="ml-4 flex-shrink-0 text-white">
+								<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36" class="w-8 fill-current"><path d="M31.48 19.244l-8.38 8.383 1.638 1.697L36 18.064 24.61 6.675l-1.64 1.697 8.512 8.51L0 16.886v2.36"></path></svg>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+			{/if}
+			{#if i === 7}
+				<div class="p-4 w-1/2">
+					<div class="bg-orange-700 text-white p-8">
+						<div class="mono text-h3 mb-24">2.</div>
+						<h3 class="text b-border-2 border-current">收藏系列</h3>
+						<div class="flex items-center">
+							<p class="text-t1">咩野係指令</p>
+							<div class="ml-4 flex-shrink-0 text-white">
+								<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36" class="w-8 fill-current"><path d="M31.48 19.244l-8.38 8.383 1.638 1.697L36 18.064 24.61 6.675l-1.64 1.697 8.512 8.51L0 16.886v2.36"></path></svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/if}
+		{/each}
 	</div>
 </div>
