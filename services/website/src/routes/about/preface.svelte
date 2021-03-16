@@ -3,11 +3,11 @@
 	const posts = [
 		{
 			title: '從1960到到現代的指令藝術',
-			author: '寶山'
+			author: '許寶'
 		},
 		{
 			title: '父母子女bababa',
-			author: '寶山2'
+			author: 'stella方'
 		}
 	]
 </script>
