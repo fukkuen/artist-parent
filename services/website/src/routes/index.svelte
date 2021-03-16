@@ -10,6 +10,7 @@
   export let page_number
   export let is_last
   export let total_page_count
+  import Icon from '../components/ui-elements/icon.svelte'
 
   // Without cloning the posts, it is an empty array when hydration kicks in.
   const postsArray = [...posts];
@@ -24,7 +25,7 @@
   }
 </script>
 
-<div class="h-screen bg-orange-500 text-white">
+<div class="h-140 bg-orange-500 text-white">
 	<div class="max-w-screen-lg mx-auto">
 		<div class="grid grid-cols-2">
 			<div class="self-center py-16 text-h1">
@@ -32,7 +33,7 @@
 				<p>artist parents</p>
 			</div>
 			<div>
-				<img src="/images/keyvisual.png" alt="key-visual">
+				<img class="max-w-md mx-auto" src="/images/keyvisual.png" alt="key-visual">
 			</div>
 		</div>
 	</div>
@@ -42,6 +43,12 @@
 	<div class="max-w-screen-md mx-auto px-4 py-16">
 		<h2 class="text-t1 text-center mb-4 font-bold">咩係指令藝術</h2>
 		<p class="text-p3">「指令藝術」於普羅大眾而言可能是相對陌生的藝術類型，它是觀念 藝術的一種，表現的是一個想法，而非實體藝術品。</p>
+		<div class="flex justify-center mt-4">
+			<div class="inline-flex items-center text-white bg-orange-500 rounded bg-opacity-80 px-6 py-2">
+				<a class="text-p2 font-bold text-center" href="/about/preface">前言</a>
+				<Icon name="right" className="w-4 ml-2"/>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -52,7 +59,6 @@
 				<a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
 					<div class="relative">
 						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full">
-						<p class="absolute top-4 left-4 text-white mono font-bold text-t1">{post.metadata.record_no}</p>
 					</div>
 					<div class="bg-orange-400 p-4">
 						<h3 class="text-white text-p3 mb-2">{post.metadata.intro_title}</h3>
