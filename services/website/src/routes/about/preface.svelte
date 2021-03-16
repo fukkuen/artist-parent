@@ -1,5 +1,23 @@
+<script>
+	import Icon from '../../components/ui-elements/icon.svelte'
+	const posts = [
+		{
+			title: '從1960到到現代的指令藝術',
+			author: '寶山'
+		},
+		{
+			title: '父母子女bababa',
+			author: '寶山2'
+		}
+	]
+</script>
+
 <div class="h-96 bg-orange-500 text-white">
 	<div class="max-w-screen-lg mx-auto px-8 py-16">
+		<a href="/" class="inline-flex items-center mb-4">
+			<Icon name="back"/>
+			<p class="font-bold ml-2">返回</p>
+		</a>
 		<h1 class="text-h1 font-bold">前言</h1>
 	</div>
 </div>
@@ -17,6 +35,24 @@
 		<div class="text-orange-500 font-bold">
 			<p>羅玉梅，又係藝術家，又係阿媽，仲係編輯。</p>
 			<p>2021年1月15日</p>
+		</div>
+	</div>
+</div>
+
+<div class="bg-orange-300 bg-opacity-10">
+	<div class="max-w-screen-md mx-auto px-4 sm:px-8 py-4">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
+			{#each posts as p}
+				<div class="bg-orange-300 bg-opacity-30 hover:bg-opacity-60 rounded p-4 text-orange-500 flex flex-col">
+					<p>序言</p>
+					<h3 class="text-p3 font-bold mb-8">{p.title}</h3>
+					<div class="flex items-center">
+						<p class="mt-auto">{p.author}</p>
+						<div class="flex-1"></div>
+						<Icon className="w-4" name="right"/>
+					</div>
+				</div>
+			{/each}
 		</div>
 	</div>
 </div>
