@@ -13,7 +13,10 @@ export const get = (req, res) => {
 			"Content-Type": "application/json",
 		});
 
-		res.end(lookup.get(slug));
+		const result = {
+			post: lookup.get(slug)
+		}
+		res.end(JSON.stringify(result));
 	} else {
 		res.writeHead(404, {
 			"Content-Type": "application/json",
