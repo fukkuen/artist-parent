@@ -5,7 +5,7 @@ intro_title: "中秋節燈籠"
 intro_title_en: "Mid-Autumn Festival Lantern "
 artist_name: "蕭偉恒"
 artist_name_en: "Siu Wai Hang"
-artist_bio: ""
+artist_bio: "於2018年成為了日日的媽媽 ，喜歡以創作捕捉細碎的生活。"
 artist_bio_en: ""
 record_no: "4"
 slug: "doraemon-with-teeth-absence-of-judgment-best-support"
@@ -17,4 +17,10 @@ category: ["what-is-instruction"]
   const assetsBasePath = `blog-posts/2021-03-05-${slug}`;
 </script>
 
-write you post here...
+「日日，我們一起玩一個遊戲吧！
+
+首先我們要剪兩張大約雞蛋大小的圓形，然後再請你在紙的中心剪一個洞，個洞甚麼形狀都可以，再把這兩張圓形紙貼上媽媽的眼鏡鏡片上。
+
+現在媽媽帶上有框框的眼鏡，看不清楚前面的路，請你拖住媽媽的手，帶領媽媽去大冒險吧！」
+
+遊戲是希望藉此把照顧者和被照顧者的角色交換，把框框換上不同形狀，試試用不一樣的角度經驗事情。
