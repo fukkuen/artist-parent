@@ -15,18 +15,37 @@
 
   const items = [
 	  {
-		  name: "文章分享",
-		  href: "/blog",
+		  name: "作品",
+		  href: "/",
 		  children: categories,
 		  mobile: true
 	  },
 	  {
-		  name: "團隊成員",
+		  name: "About this project",
 		  href: "/team",
+		  mobile: false,
+		  children: [
+			  {
+			  	href: '/about/preface',
+				  name: '前言(mui)'
+			  },
+			  {
+				  href: '/about/preface-2',
+				  name: '前言(hui po)'
+			  },
+			  {
+				  href: '/about/preface-3',
+				  name: '前言(stella fong)'
+			  }
+		  ]
+	  },
+	  {
+		  name: "About rooftop",
+		  href: "/about/rooftop",
 		  mobile: false
 	  },
 	  {
-		  name: "使命宗旨",
+		  name: "How to use the site",
 		  href: "/about",
 		  mobile: false
 	  }
@@ -35,7 +54,7 @@
 
 </script>
 
-<div class="mb-8 hidden">
+<div class="mb-8 fixed text-white left-4 top-4">
 	<div class="mx-auto max-w-screen-lg px-2 my-4">
 		<div class="flex items-center justify-around">
 			<div class="flex-grow-0 sm:flex-1">
@@ -60,7 +79,7 @@
 					</svg>
 				</button>
 			</div>
-			<p>Artist parent</p>
+
 			<div class="flex-1 flex justify-end">
 
 			</div>
