@@ -5,10 +5,9 @@
   import Icon from '../../components/ui-elements/icon.svelte'
 
   export let post;
-  console.log(typeof post)
   let this_post = JSON.parse(post.post)
-  console.log(this_post.body)
-  console.log(this_post.metadata)
+  let related_posts = post.related_posts
+  console.log(post.related_posts)
 </script>
 
 <style>
@@ -75,3 +74,5 @@
     </div>
   </div>
 </div>
+
+<pre>{related_posts}</pre>
