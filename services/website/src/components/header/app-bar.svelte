@@ -2,13 +2,26 @@
 	import {slide} from 'svelte/transition'
 	import {categories} from '../../taxonomy'
 	let menu_on = false
+	import {t, locale} from 'svelte-i18n'
+	console.log(t, $locale)
+
+	const languages = [
+		{
+			key: 'hk',
+			label: '中'
+		},
+		{
+			key: 'en',
+			label: 'ENG'
+		}
+	]
 </script>
 
 <div class="fixed inset-x-0 bottom-0 bg-white shadow">
 	{#if menu_on}
 		<div transition:slide>
 			<div class="p-4 border-b border-gray-300">
-				<p class="font-bold mb-2">作品分類</p>
+				<p class="font-bold mb-2">{$t('work_category')}</p>
 				<div class="grid grid-cols-2 gap-4">
 					{#each categories as c, i}
 						<div>
@@ -19,8 +32,9 @@
 				</div>
 			</div>
 			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300">
-				<button class="rounded bg-gray-300 text-center py-1 text-sm">中</button>
-				<button class="rounded bg-gray-300 text-center py-1 text-sm">EN</button>
+				{#each languages as l}
+					<button on:click={() => {locale.set(l.key)}} class:bg-orange-300={l.key === $locale} class="rounded bg-gray-200 text-center py-1 text-sm">{l.label}</button>
+				{/each}
 			</div>
 		</div>
 	{/if}
