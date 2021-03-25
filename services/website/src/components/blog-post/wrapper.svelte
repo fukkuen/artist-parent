@@ -4,6 +4,7 @@
   import SeoHeadPost from "../seo/head-post.svelte";
   import Icon from '../../components/ui-elements/icon.svelte'
   import {locale} from 'svelte-i18n'
+  import ShareButton from './_share_button.svelte'
 
   export let post;
   let this_post = JSON.parse(post.post)
@@ -70,6 +71,7 @@
         </div>
       </div>
     </div>
+    <ShareButton title="xx" text="xx"/>
   </div>
 </div>
 
@@ -87,4 +89,3 @@
   </div>
 </div>
 
-<pre>{related_posts}</pre>
