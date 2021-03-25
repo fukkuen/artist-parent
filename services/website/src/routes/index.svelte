@@ -11,6 +11,7 @@
   export let is_last
   export let total_page_count
   import Icon from '../components/ui-elements/icon.svelte'
+  import {locale} from 'svelte-i18n'
 
   // Without cloning the posts, it is an empty array when hydration kicks in.
   const postsArray = [...posts];
@@ -18,11 +19,6 @@
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
 	}-${post.metadata.slug}/cover.jpg`
-
-  const onWaterfull = (node) => {
-		console.log('hi')
-		waterfall(node)
-  }
 </script>
 
 <div class="h-48 bg-orange-500 text-white">
@@ -56,9 +52,10 @@
 						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full">
 					</div>
 					<div class="bg-orange-400 p-4">
-						<h3 class="text-white text-p3 mb-2">{post.metadata.intro_title}</h3>
+
+						<h3 class="text-white text-p3 mb-2">{post.metadata[`intro_title_${$locale}`]}</h3>
 						<div class="flex items-center">
-							<p class="text flex-1 font-bold text-orange-500">{post.metadata.artist_name}</p>
+							<p class="text flex-1 font-bold text-orange-500">{post.metadata[`artist_name_${$locale}`]}</p>
 							<div class="ml-4 flex-shrink-0 text-white">
 								<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36" class="w-4 fill-current"><path d="M31.48 19.244l-8.38 8.383 1.638 1.697L36 18.064 24.61 6.675l-1.64 1.697 8.512 8.51L0 16.886v2.36"></path></svg>
 							</div>

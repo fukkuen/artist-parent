@@ -1,5 +1,6 @@
 <script>
   import IMG from "../../ui-elements/bg-image.svelte";
+  import {locale} from 'svelte-i18n'
   export let post;
 
   const coverImageBasePath = `blog-posts/${
@@ -15,8 +16,8 @@
     <div class="px-4 py-8">
       <div class="mb-4">
         <h2 class="text-lg mb-2"># 0{post.metadata.record_no}</h2>
-        <h2 class="text-lg mb-2">{post.metadata.intro_title}</h2>
-        <p>{post.metadata.artist_name}</p>
+        <h2 class="text-lg mb-2">{post.metadata[`intro_title_${$locale}`]}</h2>
+        <p>{post.metadata[`artist_name_${$locale}`]}</p>
       </div>
     </div>
   </a>
