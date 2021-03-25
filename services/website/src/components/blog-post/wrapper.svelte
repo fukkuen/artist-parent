@@ -40,7 +40,7 @@
 
 <div class="bg-orange-300 pt-8 md:pt-16">
   <div class="max-w-screen-lg mx-auto px-4 py-12">
-    <div class="flex">
+    <div class="block sm:flex">
       <div class="lg:col-span-4 text-orange-700 _prose">
         <slot/>
       </div>

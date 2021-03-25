@@ -53,9 +53,9 @@
 </div>
 
 <div class="container mx-auto my-8">
-	<div class="flex flex-wrap gap-4" use:onWaterfull>
+	<div class="flex flex-wrap gap-4">
 		{#each postsArray as post, i}
-			<div class="p-4 w-1/2">
+			<div class="p-4">
 				<a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
 					<div class="relative">
 						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full">
