@@ -2,6 +2,7 @@
   import Footer from "../footer.svelte";
   import ImageZoom from "./image-zoom.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
+  import Topbar from '../../components/header/top-bar.svelte'
   import Icon from '../../components/ui-elements/icon.svelte'
   import {locale} from 'svelte-i18n'
   import ShareButton from './_share_button.svelte'
@@ -34,10 +35,7 @@
   <link href="prism.css" rel="stylesheet" />
 </svelte:head>
 
-<div class="absolute text-white inset-0 top-0 h-16 px-6 flex items-center">
-  <Icon name="back"/>
-  <div class="flex-1"></div>
-</div>
+<Topbar/>
 
 <div class="bg-orange-500">
   <div class="max-w-screen-md mx-auto px-4 pt-16">
