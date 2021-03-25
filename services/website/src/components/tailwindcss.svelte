@@ -8,7 +8,7 @@
   }
 
   body {
-      font-family: Courier, sans-serif;
+      font-family: Arial, sans-serif;
       background: white;
   }
 

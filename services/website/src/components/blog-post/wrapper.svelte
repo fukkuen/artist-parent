@@ -3,11 +3,18 @@
   import ImageZoom from "./image-zoom.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
   import Icon from '../../components/ui-elements/icon.svelte'
+  import {locale} from 'svelte-i18n'
 
   export let post;
   let this_post = JSON.parse(post.post)
   let related_posts = post.related_posts
-  console.log(post.related_posts)
+
+  const show_post_body = (node) => {
+    const hk_node = node.querySelector('.hk')
+    const en_node = node.querySelector('.en')
+    hk_node.style.display = $locale === 'hk' ? 'block' : 'none'
+    en_node.style.display = $locale === 'en' ? 'block' : 'none'
+  }
 </script>
 
 <style>
@@ -23,14 +30,13 @@
 <div class="absolute text-white inset-0 top-0 h-16 px-6 flex items-center">
   <Icon name="back"/>
   <div class="flex-1"></div>
-  <p class="font-bold">中 EN</p>
 </div>
 
 <div class="bg-orange-500">
   <div class="max-w-screen-md mx-auto px-4 pt-16">
     <div class="mb-8 lg:text-center">
-      <p class="text-orange-300 font-bold mb-2 text-p2">{this_post.metadata.intro_title}</p>
-      <h1 class="font-bold text-white text-t1">{this_post.metadata.title}</h1>
+      <p class="text-orange-300 font-bold mb-2 text-p2">{this_post.metadata[`intro_title_${$locale}`]}</p>
+      <h1 class="font-bold text-white text-t1">{this_post.metadata[`title_${$locale}`]}</h1>
     </div>
     <img src="blog-posts/{this_post.metadata.createdAt.split('T')[0]}-{this_post.metadata.slug}/cover.jpg"
          class="max-w-sm lg:max-w-md mx-auto w-full rounded-lg -mb-16"
@@ -41,13 +47,13 @@
 <div class="bg-orange-300 pt-8 md:pt-16">
   <div class="max-w-screen-lg mx-auto px-4 py-12">
     <div class="block sm:flex">
-      <div class="lg:col-span-4 text-orange-700 _prose">
+      <div class="lg:col-span-4 text-orange-700 _prose" use:show_post_body>
         <slot/>
       </div>
       <div class="w-60 flex-shrink-0 text-orange-500 ml-8">
         <div class="mb-8">
-          <p class="font-bold">{this_post.metadata.artist_name}</p>
-          <p>{this_post.metadata.artist_bio}</p>
+          <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
+          <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
         </div>
         <div class="bg-orange-500 rounded text-white p-4">
           <div class="flex">
