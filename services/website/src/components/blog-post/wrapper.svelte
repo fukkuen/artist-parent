@@ -57,21 +57,21 @@
       <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
         <slot/>
       </div>
-      <div class="w-60 flex-shrink-0 text-orange-500 ml-8">
+      <div class="my-4 sm:my-0 sm:w-60 flex-shrink-0 text-orange-500 sm:ml-8">
         <div class="mb-8">
           <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
           <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
         </div>
         <div class="bg-orange-500 rounded text-white p-4">
-          <div class="flex">
+          <div class="flex items-center leading-none">
             <p>收藏於</p>
-            <p class="text-t1 mono">02</p>
+            <p class="text-t1 mono ml-2">02</p>
           </div>
-          <p>除把口，我仲有耳仔、腳、雙手，同埋眼睛</p>
+          <p class="text-xs">除把口，我仲有耳仔、腳、雙手，同埋眼睛</p>
         </div>
       </div>
     </div>
-    <ShareButton title="xx" text="xx"/>
+    <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
   </div>
 </div>
 

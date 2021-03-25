@@ -29,7 +29,7 @@
 	})
 </script>
 
-<button on:click={onShare} class="h-10 flex items-center justify-center bg-blue-500 text-white hover:bg-blue-800">
+<button on:click={onShare} class="bg-white bg-opacity-80 text-orange-500 font-bold w-full rounded h-10 flex items-center justify-center">
 	{#if is_native_share_available}
 		分享
 	{:else}
