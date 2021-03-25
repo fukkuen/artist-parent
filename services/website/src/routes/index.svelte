@@ -25,24 +25,19 @@
   }
 </script>
 
-<div class="h-140 bg-orange-500 text-white">
+<div class="h-48 bg-orange-500 text-white">
 	<div class="max-w-screen-lg mx-auto">
-		<div class="grid grid-cols-2">
-			<div class="self-center py-16 text-h1">
-				<p>event scores</p>
-				<p>artist parents</p>
-			</div>
-			<div>
-				<img class="max-w-md mx-auto" src="/images/keyvisual.png" alt="key-visual">
-			</div>
+		<div class="self-center p-8 text-t1">
+			<p>event scores</p>
+			<p>artist parents</p>
 		</div>
 	</div>
 </div>
 
-<div class="bg-orange-300 text-white" on:click={onWaterfull}>
-	<div class="max-w-screen-md mx-auto px-4 py-16">
-		<h2 class="text-t1 text-center mb-4 font-bold">咩係指令藝術</h2>
-		<p class="text-p3">「指令藝術」於普羅大眾而言可能是相對陌生的藝術類型，它是觀念 藝術的一種，表現的是一個想法，而非實體藝術品。</p>
+<div class="bg-orange-300 text-white">
+	<div class="max-w-screen-md mx-auto px-4 py-8">
+		<h2 class="text-p2 text-center mb-4 font-bold">咩係指令藝術</h2>
+		<p class="text">「指令藝術」於普羅大眾而言可能是相對陌生的藝術類型，它是觀念 藝術的一種，表現的是一個想法，而非實體藝術品。</p>
 		<div class="flex justify-center mt-4">
 			<div class="inline-flex items-center text-white bg-orange-500 rounded bg-opacity-80 px-6 py-2">
 				<a class="text-p2 font-bold text-center" href="/about/preface">前言</a>

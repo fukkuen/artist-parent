@@ -7,7 +7,7 @@
 <div class="fixed inset-x-0 bottom-0 bg-white shadow">
 	{#if menu_on}
 		<div transition:slide>
-			<div class="p-4">
+			<div class="p-4 border-b border-gray-300">
 				<p class="font-bold mb-2">作品分類</p>
 				<div class="grid grid-cols-2 gap-4">
 					{#each categories as c, i}
@@ -17,6 +17,10 @@
 						</div>
 					{/each}
 				</div>
+			</div>
+			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300">
+				<button class="rounded bg-gray-300 text-center py-1 text-sm">中</button>
+				<button class="rounded bg-gray-300 text-center py-1 text-sm">EN</button>
 			</div>
 		</div>
 	{/if}
