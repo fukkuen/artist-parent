@@ -8,6 +8,12 @@
   export let post;
   let this_post = JSON.parse(post.post)
   let related_posts = post.related_posts
+  let body_el
+
+  $: {
+    console.log($locale)
+    if (body_el) show_post_body(body_el)
+  }
 
   const show_post_body = (node) => {
     const hk_node = node.querySelector('.hk')
@@ -47,7 +53,7 @@
 <div class="bg-orange-300 pt-8 md:pt-16">
   <div class="max-w-screen-lg mx-auto px-4 py-12">
     <div class="block sm:flex">
-      <div class="lg:col-span-4 text-orange-700 _prose" use:show_post_body>
+      <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
         <slot/>
       </div>
       <div class="w-60 flex-shrink-0 text-orange-500 ml-8">

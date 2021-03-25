@@ -26,7 +26,7 @@
 					{#each categories as c, i}
 						<div>
 							<p class="font-bold mono">{i}</p>
-							<p class="text-xs">{c.name}</p>
+							<p class="text-xs">{c[`name_${$locale}`]}</p>
 						</div>
 					{/each}
 				</div>
