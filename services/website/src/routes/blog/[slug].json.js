@@ -13,13 +13,17 @@ export const get = (req, res) => {
 			"Content-Type": "application/json",
 		});
 
-		let this_post = lookup.get(slug)
-		let next_post = posts[posts.indexOf(this_post) - 1]
+		let idx = posts.findIndex(p => p.metadata.slug === slug)
+		let current = posts[idx]
+		let next = posts[idx+1]
+		let prev = posts[idx-1]
+		let related_posts = [next, prev]
+		related_posts = related_posts.filter(p => !!p)
+		console.log(current)
+
 		const result = {
-			post: lookup.get(slug),
-			related_posts: [
-				next_post
-			]
+			post: current,
+			related_posts: related_posts
 		}
 		res.end(JSON.stringify(result));
 	} else {
