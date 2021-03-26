@@ -11,7 +11,6 @@
   let this_post = post.post
   let related_posts = post.related_posts
   let body_el
-
   $: {
     console.log($locale)
     if (body_el) show_post_body(body_el)
@@ -61,13 +60,13 @@
             <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
             <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
           </div>
-          <div class="bg-orange-500 rounded text-white p-4">
+          <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="bg-orange-500 rounded text-white p-4">
             <div class="flex items-center leading-none">
               <p>收藏於</p>
               <p class="text-t1 mono ml-2">02</p>
             </div>
-            <p class="text-xs">除把口，我仲有耳仔、腳、雙手，同埋眼睛</p>
-          </div>
+            <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
+          </a>
         </div>
       </div>
       <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
