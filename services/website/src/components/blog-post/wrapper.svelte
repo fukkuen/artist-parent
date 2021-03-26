@@ -79,10 +79,10 @@
       <h3 class="text-center mb-4 text-orange-500 font-bold">其他作品</h3>
       <div class="grid grid-cols-2 gap-2 sm:gap-2">
         {#each related_posts as p}
-          <div class="bg-orange-400 text-orange-500 text-p3 rounded py-4 px-2">
+          <a href="/blog/{p.metadata.slug}" class="block bg-orange-400 text-orange-500 text-p3 rounded py-4 px-2">
             <h3 class="text font-bold mb-4 leading-tight">{p.metadata[`intro_title_${$locale}`]}</h3>
             <p class="text-xs">{p.metadata[`artist_name_${$locale}`]}</p>
-          </div>
+          </a>
         {/each}
       </div>
     </div>
