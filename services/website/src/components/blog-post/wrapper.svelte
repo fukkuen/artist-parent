@@ -60,7 +60,7 @@
             <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
             <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
           </div>
-          <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="bg-orange-500 rounded text-white p-4">
+          <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
             <div class="flex items-center leading-none">
               <p>收藏於</p>
               <p class="text-t1 mono ml-2">02</p>
