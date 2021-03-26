@@ -1,0 +1,32 @@
+---
+title_hk: "中秋節燈籠"
+title_en: "Mid-Autumn Festival Lantern "
+intro_title_hk: "為何A夢有牙齒？不批判是最好的支持"
+intro_title_en: "Doraemon with teeth? Absence of judgment &#x3D; Best support"
+artist_name_hk: "蕭偉恒"
+artist_name_en: "Siu Wai Hang"
+artist_bio_hk: "蕭偉恒，半職藝術家、半職教書、半職家庭煮夫，有兩名年齡差三歲的女兒。"
+artist_bio_en: "Siu Wai Hang, part-time artist, part-time teacher, part-time househusband, with two daughters three years apart"
+record_no: "4"
+slug: "mid-autumn-festival-lantern"
+createdAt: 2021-03-26
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+女兒的中秋節家課是畫一個燈籠。在指導她的時候， 我問她想要甚麼燈籠，她說：「要畫一隻兔仔。」我說：「好，你畫。」於是，她畫了一張圓圓的臉後，說不像兔子。我說：「好，你覺得像甚麼？」她說：「像一隻貓。」我說：「就畫貓。」於是她加入耳朵，加眼睛。她說現在像A夢，於是她填色，並加入牙齒。我看見有牙的A夢，問她：「為何A夢有牙齒？」她說：「A夢要食月餅。」
+
+孩子創作時需要家長支持，不批判是最好的支持。看到有牙A夢，我會心微笑了。
+
+</div>
+
+<div class="en">
+My daughter’s Mid-Autumn Festival homework was a lantern drawing. While instructing her, I asked her what kind of lantern she would like. She said, ‘I want to draw a rabbit.’ I said, ‘okay. Draw it.’ So, she drew a round face and said it didn’t look like a rabbit. I said, ‘okay. What do you think it looks like?’ She said, ‘Looks like a cat.’ I said, ‘draw a cat then.’ So she added ears and eyes. She said now it looked like Doraemon. She then coloured it and added teeth. I saw a Doraemon with teeth and asked her, ‘why does Doraemon have teeth?’ She said, ‘Doraemon wants to eat mooncakes.’ 
+
+When children create, they need parental support. The absence of judgment is the best support. Looking at the Doraemon with teeth, I smiled knowingly.
+
+</div>

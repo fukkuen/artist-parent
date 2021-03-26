@@ -1,0 +1,38 @@
+---
+title_hk: "身體力行，環遊世界"
+title_en: "DIY World Tour"
+intro_title_hk: "用身體去環遊世界"
+intro_title_en: "Travel around the world via your body "
+artist_name_hk: "張嘉莉"
+artist_name_en: "Clara Cheung"
+artist_bio_hk: "張嘉莉，藝術工作者、灣仔區議員。喜歡寫生、以身體創作，有兩名女兒。"
+artist_bio_en: "Clara Cheung, artist, Wan Chai district councillor; mother of two daughters; she enjoys outdoor painting and art-making with her body"
+record_no: "13"
+slug: "diy-world-tour"
+createdAt: 2021-03-26
+category: ["mouth-ears-legs-heads-eyes"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+1. 翻開世界地圖集或百科全書。
+2. 挑選一個世界級景點的建築物。
+3. 與孩子一起用身體去演繹建築物。
+4. 拍照記錄。
+5. 為這行為藝術作品命名。
+
+圖片說明：走到埃及、巴黎、孟菲斯巿的雙人金字塔
+</div>
+
+<div class="en">
+1. Flip through a world atlas or encyclopaedia.
+2. Choose a piece of architecture at a world-class tourist spot.
+3. Perform the architectural structure physically with your children.
+4. Document with photography.
+5. Give a title to this performance art piece.
+
+Image: Visit the double pyramid in Egypt, Paris and Memphis
+</div>

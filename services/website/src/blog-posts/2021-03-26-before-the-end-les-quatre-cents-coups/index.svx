@@ -1,0 +1,39 @@
+---
+title_hk: "終結前：四百擊 "
+title_en: "Before the End: Les Quatre Cents Coups"
+intro_title_hk: "向他撒謊，請他跟我來一場賽跑"
+intro_title_en: "I lied to him, &#x27;run a race with me!&#x27;"
+artist_name_hk: "關尚智"
+artist_name_en: "Kwan Sheung Chi"
+artist_bio_hk: "關尚智，藝術家，有一個七歲的兒子。"
+artist_bio_en: "Kwan Sheung Chi, Artist, with a 7-year-old son"
+record_no: "7"
+slug: "before-the-end-les-quatre-cents-coups"
+createdAt: 2021-03-26
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+很久以前我就想如果我有一個兒子，我希望讓他模仿電影《四百擊》結尾中主角逃離教導所奔跑至海灘這一幕。這想法很適合我在2017年的個展，當時兒子四歲，按照我的經驗，要讓他遵照指示在鏡頭前表演是不可能的。雖然平常他非常乖巧，但當你認真地要求他做某件事情時他就會變得非常緊張，無法好好地做。
+
+於是，我決定向他撒謊，請他跟我來一場賽跑。我讓他拿著旗幟奔跑，自己就拿著攝影機拍他。
+
+展覽開幕，兒子看到作品後說：「原來爸爸你是想我幫你做作品！」
+
+是的，謝謝。
+</div>
+
+<div class="en">
+A long time ago, I imagined, if I had a son, I hoped he could imitate the final scene of Les Quatre Cents Coups, where the protagonist runs away from the training centre to the beach. The idea was well-suited for my solo exhibition in 2017, when my son was four years old. From my experience, it was impossible for him to act according to instructions in front of the camera. Although he was usually very well-behaved, when you seriously asked him to do something, he would become very nervous and couldn’t do it well. 
+
+Thus, I decided to lie to him and asked him to run a race with me. I asked him to run with a flag and I held up the camera to shoot him.
+
+At the exhibition opening, my son said after seeing the work, ‘so, Dad, you wanted me to help you make the work!’
+
+Yes, thank you.
+
+</div>

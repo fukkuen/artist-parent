@@ -1,0 +1,26 @@
+---
+title_hk: "我教你教我教你教我"
+title_en: "I Teach You Teach Me Teach You Teach Me"
+intro_title_hk: "爸爸我教你畫畫"
+intro_title_en: "Dad, I teach you to paint!"
+artist_name_hk: "徐沛之"
+artist_name_en: "Chui Pui Chee"
+artist_bio_hk: "徐沛之，水墨藝術家，傻爸爸，有一個三歲半的女兒。"
+artist_bio_en: "Chui Pui Chee, ink artist, a silly dad with a 3.5-year-old daughter "
+record_no: "5"
+slug: "i-teach-you-teach-me-teach-you-teach-me"
+createdAt: 2021-03-26
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+有一天，我如常陪女兒用水彩顏色隨意畫些東西，甚麼都好，她開心就可以。和我自己工作一樣，我教女兒在開始前有條理地放好工具，今次我沒有幫忙，她自己放好畫簿、杯、毛巾、梅花碟，擠顏色在格的中央，兩隻顏色中間留一格來混色，然後快樂地隨意畫些線條。對她來說，洗筆的水更吸引，用洗筆水上了淡色和積水，我叫她用濃的顏色點在積水上看看破墨的效果和顏色的流動，她又興奮了一會。之後，她自信地對我說：「爸爸我教你畫畫！」
+</div>
+
+<div class="en">
+One day, I accompanied my daughter as usual to paint freely with watercolours; anything is fine, as long as she is happy. Just like working on my own, I taught my daughter to place the tools in an orderly manner before starting. I didn’t help her this time. She put the sketch book, cup, towel and painting palette by herself. She squeezed the paint in the middle of a grid, leaving a grid between the two colours to mix the paints. She then happily drew some lines at will. To her, the brush-washing water was more attractive. She used the brush-washing water for lighter colours and water drops. I asked her to use thick colour dots on the water drops to see the Haboku (splashing) effect and the flow of colours. She was excited for a while. After that, she confidently said to me, ‘Dad, I teach you to paint!’
+</div>

@@ -1,0 +1,36 @@
+---
+title_hk: "角色對調"
+title_en: "Role Swap "
+intro_title_hk: "對調才是真正的遊戲"
+intro_title_en: "The real game: identity swap and role reversal"
+artist_name_hk: "梁思鳴"
+artist_name_en: "Gabriel Leung"
+artist_bio_hk: "梁思鳴，藝術家與攝影師，育有一個五歲女兒。"
+artist_bio_en: "Gabriel Leung, artist and photographer, with a 5-year-old daughter "
+record_no: "10"
+slug: "role-swap"
+createdAt: 2021-03-26
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+「準備、一、二、三、笑」這是永遠捕捉不到孩子自然的笑容，因為沒有什麼比聽父母指令更悶的了。
+
+留在家中女兒經常呼叫「好悶呀」！這時她便會邀請我玩尋蛋遊戲：一人三隻蛋分別在客廳或房間收放好，然後到對方的空間尋找，最快找到便勝出，然後重復十次，玩足一年。
+
+遊戲中我們都有機會決定別人今次用哪個空間，例如「不要太難」或是「少少難」的地方。當有一方未能找到時，可要求綫索，但她總會反過來叫我不要說話。我想其實身份和發指令的角色對調才是真正的遊戲。
+
+</div>
+
+<div class="en">
+‘Ready, one, two, three, smile’ This is the last thing you do to get a child’s natural smile, as there is nothing more boring than listening to parents’ instructions.   
+
+My stay-at-home daughter often protests, ‘so bored’! At a time like this, she would invite me to join an egg hunt: each person hides three eggs in the living room or bedroom, and then goes to each other’s space to find them. The person who can find them faster wins. This is to be repeated for 10 times. We played this for one whole year.
+
+In the game, both get the chance to decide which space the other person uses this time, e.g. a place that is ‘not too difficult’ or ‘a bit difficult’. When one of the persons fails to find them, he or she can ask for clues, but she always tells me not to speak. I think the real game lies in the swap of identities and the reversal of the instructional role.
+
+</div>

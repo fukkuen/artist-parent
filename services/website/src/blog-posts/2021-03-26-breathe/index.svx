@@ -1,0 +1,32 @@
+---
+title_hk: "呼吸"
+title_en: "Breathe"
+intro_title_hk: "用手呼吸"
+intro_title_en: "Breathe with your hands"
+artist_name_hk: "戴媛婷"
+artist_name_en: "Wun Ting Wendy Tai"
+artist_bio_hk: "戴媛婷，混合媒介藝術家，教育工作者，是八個月大的Pim的媽媽。"
+artist_bio_en: "Wun Ting Wendy Tai, mixed-media artist, educator and mother of 8-month-old Pim"
+record_no: "15"
+slug: "breathe"
+createdAt: 2021-03-26
+category: ["mouth-ears-legs-heads-eyes"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+把手放在她/ 他的身體，
+把手放在你的身體，
+                                  呼吸。
+
+</div>
+
+<div class="en">
+place a hand on their body 
+place a hand on your body 
+                                      breathe.
+
+</div>

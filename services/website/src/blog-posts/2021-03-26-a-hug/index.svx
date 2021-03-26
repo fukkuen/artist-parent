@@ -1,0 +1,26 @@
+---
+title_hk: "抱一抱"
+title_en: "A Hug"
+intro_title_hk: "給我抱一抱"
+intro_title_en: "Let me give you a hug"
+artist_name_hk: "朱力行"
+artist_name_en: "Henry Chu"
+artist_bio_hk: "朱力行，網站設計師及新媒體藝術家，女兒八歲。 "
+artist_bio_en: "Henry Chu, website designer and new media artist, with an 8-year-old daughter "
+record_no: "6"
+slug: "a-hug"
+createdAt: 2021-03-26
+category: ["what-is-instruction"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+你出題，和我比賽，輸了，給我抱一抱，贏了，換我出題⋯⋯
+</div>
+
+<div class="en">
+You propose a topic to compete with me. You lose. You let me give you a hug. You win. My turn to propose a topic…
+</div>

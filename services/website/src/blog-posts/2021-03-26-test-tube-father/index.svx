@@ -1,0 +1,50 @@
+---
+title_hk: "試管父親"
+title_en: "Test Tube Father"
+intro_title_hk: "看圖畫，可如鏡子自照"
+intro_title_en: "Looking at pictures like looking at yourself in the mirror"
+artist_name_hk: "尊子"
+artist_name_en: "Zunzi"
+artist_bio_hk: "尊子，畫漫畫的 ，有時不是。一子之父，暫時。教仔心得，基本過時。"
+artist_bio_en: "Zunzi, he draws comics, sometimes doesn’t; father of one son (so far); parenting insights, basic and outdated"
+record_no: "20"
+slug: "test-tube-father"
+createdAt: 2021-03-26
+category: ["love-fear"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+兒子該慶幸他爸不是醫生，說不定我天天拿他當白老鼠餵藥⋯⋯
+
+利用畫畫來教子，我試過，且有奇效。
+
+那年某日，幼稚園老師說：「你兒排隊時經常踢同學! 你可給你兒畫個連環圖，內容是有人排隊踢書友，結果大家不喜歡他，令他不快。」
+我聽完照做。
+給仔睇。
+他看良久，然後問：「這個是我嗎？」
+我反問：「這是你嗎？」
+次天起，他不再踢同學。
+
+看圖畫，可如鏡子自照？能令我們搖身變成第三者觀看自己？有改變人類行為的法術？ 要認真fact check!
+
+
+</div>
+
+<div class="en">
+My son should be thankful that his dad wasn’t a doctor. Otherwise, I might have treated him like a guinea pig feeding him medicine every day...  
+
+Teaching my son through drawing – I’ve tried it and it worked wonders.
+
+One day that year, the kindergarten teacher said, ‘your son often kicks his classmates while lining up! You can draw a comic strip for your son about someone kicking his classmates while lining up. In the end, everyone dislikes him, making him unhappy.’
+I did as advised.
+I showed it to my son.
+He looked at it for a long time and then asked, ‘is this me?’
+I replied with a question, ‘is this you?’
+From the next day onwards, he stopped kicking his classmates.
+
+Isn’t looking at pictures like looking at yourself in a mirror? Can it turn us instantly into a third party to observe ourselves? Does it come with a magic spell to alter human behaviour? You need to fact check those carefully!
+</div>

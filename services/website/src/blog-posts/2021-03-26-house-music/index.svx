@@ -1,0 +1,68 @@
+---
+title_hk: "屋企音樂"
+title_en: "House Music"
+intro_title_hk: "在家裡，找聲音，給它一個顏色"
+intro_title_en: "Explore the sounds at home; name them with colours "
+artist_name_hk: "凌藝廉"
+artist_name_en: "William Lane"
+artist_bio_hk: "凌藝廉，音樂家，一個四歲兒子和一個11個月大的女兒的爸爸"
+artist_bio_en: "William Lane, musician, father of a 4-year-old son and a 11-month-old daughter"
+record_no: "17"
+slug: "house-music"
+createdAt: 2021-03-26
+category: ["mouth-ears-legs-heads-eyes"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
+</script>
+
+<div class="hk">
+和你的小朋友一起 
+在家裡找發聲物件 
+利用現有工具 
+突襲廚房櫥櫃 
+或自己動手製
+
+發掘
+響亮與柔和的聲音
+長和短的聲音
+高低音
+深綫色
+花時間與他們探索
+讓他們閉上眼睛
+聆聽共鳴
+
+一同創作自己的樂譜
+（沒有固定的規則）
+用多種顏色代表
+不同的元素
+讓小朋友帶領導過程
+然後一起表演
+
+</div>
+
+<div class="en">
+Together with your children
+find sound-making objects at home 
+Use existing instruments
+Raid the kitchen cupboards
+or make your own
+
+Discover
+loud and soft sounds
+long and short sounds
+high and low pitches
+bright and dark colours
+Spend time to explore with them
+and make them close their eyes
+to listen to the resonance
+
+Make your own musical score together
+(there are no fixed rules)
+Use many colours to represent
+the different elements
+Let your children lead the process
+Then perform it together
+
+</div>
