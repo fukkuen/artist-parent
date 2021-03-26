@@ -1,7 +1,6 @@
 <script context="module">
 	export function preload({ params }) {
-		const {type, slug, page} = params
-		return this.fetch(`blog/category/all/1.json`).then(r => r.json());
+		this.redirect(302, '/blog/category/all/1')
 	}
 </script>
 

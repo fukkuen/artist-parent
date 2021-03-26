@@ -6,10 +6,10 @@
 </script>
 
 <script>
-	import Preview from '../../../../../components/blog-post/previews/index.svelte'
 	import loadMoreHandler from "../../../../../helpers/load-more-handler";
 	import range from "../../../../../helpers/range";
 	import {locale} from 'svelte-i18n'
+	import TopBar from '../../../../../components/header/top-bar.svelte'
 
 	export let posts
 	export let page_number
@@ -42,12 +42,23 @@
 	}
 </script>
 
+<div class="mb-4">
 {#if entity}
-	<div class="bg-orange-500 text-white p-8 mb-4">
+	<TopBar/>
+	<div class="bg-orange-500 text-white p-8">
 		<p>分類:</p>
 		<h1 class="text-t1">{entity.name_hk}</h1>
 	</div>
+{:else}
+	<div class="h-48 bg-orange-500 text-white">
+		<div class="max-w-screen-lg mx-auto">
+			<div class="self-center p-8 text-t1">
+				<p>HOME</p>
+			</div>
+		</div>
+	</div>
 {/if}
+</div>
 
 <div class="px-4">
 	{#if posts && posts.length}

@@ -26,10 +26,10 @@
 				<p class="font-bold mb-2">{$t('work_category')}</p>
 				<div class="grid grid-cols-2 gap-4">
 					{#each categories as c, i}
-						<div>
+						<a href="/blog/category/{c.slug}/1">
 							<p class="font-bold mono">{i}</p>
 							<p class="text-xs">{c[`name_${$locale}`]}</p>
-						</div>
+						</a>
 					{/each}
 				</div>
 			</div>
