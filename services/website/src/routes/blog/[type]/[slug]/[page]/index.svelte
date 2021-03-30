@@ -66,7 +66,7 @@
 			{#each posts as post, i}
 				<a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
 					<div class="relative">
-						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full">
+						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full" loading="lazy">
 					</div>
 					<div class="bg-orange-400 p-4">
 

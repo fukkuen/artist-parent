@@ -22,7 +22,7 @@ category: ["emotion"]
 
 把BB每天的奶量，對應成簡譜，發明你可高歌訴說的日記式音樂吧！
 
-*
+
 其他的奶量可設計成 #/b升降音
 親餵的可按時間來配對簡譜
 可把數字填入簡譜APP播放來唱，例子：https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164
@@ -33,7 +33,7 @@ As a new parent, you have to learn the meaning of crying every day. The records 
 
 Correspond your baby’s daily milk volumes to a numbered musical notation. Compose diary-like music that you can sing and express!
 
-*
+
 Other milk volumes can be composed in #/b sharp or flat key
 Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
 You can fill the numbers in the numbered musical notation App to play and sing along, e.g.:

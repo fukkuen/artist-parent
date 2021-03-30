@@ -23,7 +23,7 @@ export const get = (req, res) => {
     }
   })
   page = page || 1
-  const size = 9
+  const size = 100
   const result = getPaginatedPosts(filtered_posts, page, size)
 
   res.writeHead(200, {
