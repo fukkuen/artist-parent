@@ -1,0 +1,42 @@
+---
+title_hk: "胃口歌"
+title_en: "Appetising Songs"
+intro_title_hk: "哭的意思"
+intro_title_en: "The meaning of crying "
+artist_name_hk: "嚴瑞芳"
+artist_name_en: "Yim Sui Fong"
+artist_bio_hk: "嚴瑞芳，藝術家，女兒生於2020年春天，由她出生起才學識規律之美妙。"
+artist_bio_en: "Yim Sui Fong, artist, her daughter was born in the spring of 2020; she hasn’t learned the wonder of routine until her daughter was born."
+record_no: "45"
+slug: "appetising-songs"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+初為人父母的你，天天要學習哭的意思，每日作息奶量變化的紀錄就是讀懂BB的聖經，緊張非常！除了嚴謹記錄，我覺得最難是單向對著BB說話，用甚麼聲音安撫她？後來我發現隨意為音調填詞，直接把對BB的不解不滿唱比女聽，她竟笑笑回應我，真可惡！而內容日日變化多端，實在是母女二人化解壓力的娛樂。
+
+把BB每天的奶量，對應成簡譜，發明你可高歌訴說的日記式音樂吧！
+
+*
+其他的奶量可設計成 #/b升降音
+親餵的可按時間來配對簡譜
+可把數字填入簡譜APP播放來唱，例子：https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164
+</div>
+
+<div class="en">
+As a new parent, you have to learn the meaning of crying every day. The records of the daily rest, milk volumes and changes are the bible to your baby’s needs. You’re always on edge! In addition to recording rigidly, I think the most difficult thing is to talk to my baby one-way. What voice should I use to comfort her? Later, I discovered when I spontaneously gave lyrics to tunes and sang my parenthood’s bewilderment and discontentment directly to her, she responded with a smile. How cunning! The contents vary greatly daily. It is indeed an entertainment for the mother and the daughter to de-stress.  
+
+Correspond your baby’s daily milk volumes to a numbered musical notation. Compose diary-like music that you can sing and express!
+
+*
+Other milk volumes can be composed in #/b sharp or flat key
+Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
+You can fill the numbers in the numbered musical notation App to play and sing along, e.g.:
+https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164
+
+</div>

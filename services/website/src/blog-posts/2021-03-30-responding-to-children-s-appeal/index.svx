@@ -1,0 +1,26 @@
+---
+title_hk: "回應孩子的訴求"
+title_en: "Responding to Children’s Appeal"
+intro_title_hk: "像示威者舉著一張寫滿「訴求」的紙"
+intro_title_en: "As if holding a piece of paper full of ‘appeals’ like a protestor"
+artist_name_hk: "馬琼珠"
+artist_name_en: "Ivy Ma"
+artist_bio_hk: "馬琼珠，愛上視覺藝術創作，從事藝術教學工作。女兒Z，七歲半。"
+artist_bio_en: "Ivy Ma, fallen in love with visual art creation, engaged in art education, her daughter Z is 7.5 years old."
+record_no: "42"
+slug: "responding-to-children-s-appeal"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+今年疫情期間，我經常在家網上教學和處理校務。女兒Z很喜歡跟我一起做手工，她見我在家，便嚷著要我跟她玩。有次，在開始網上教學前，只有十五分鐘，我在專心準備，Z突然在我身旁出現，像示威者那樣舉著一張寫滿「訴求」的紙。我那刻非常受感動，因為她用了一個安靜但強而有力地的方式，去直接表達自己的意願。結果，我們玩泥膠玩了十五分鐘。她成功爭取了。
+</div>
+
+<div class="en">
+During the pandemic this year, I often taught online and handled school affairs at home. My daughter Z likes to make crafts with me a lot. Whenever she sees me at home, she clamoured for me to play with her. Once, I had only fifteen minutes to prepare before I started teaching online. Z suddenly appeared beside me, holding a piece of paper full of ‘appeals’ like a protestor. I was very moved that moment because she used a quiet but powerful way to directly express her wishes. As a result, we played with modelling clay for fifteen minutes. She successfully fought for what she was after.
+</div>

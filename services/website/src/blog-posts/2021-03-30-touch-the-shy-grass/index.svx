@@ -1,0 +1,28 @@
+---
+title_hk: "點草草"
+title_en: "Touch the Shy Grass "
+intro_title_hk: "Hello 吾怕醜草"
+intro_title_en: "Hello, not-shy grass"
+artist_name_hk: "潘蔚然"
+artist_name_en: "Vivian Poon"
+artist_bio_hk: "潘蔚然，從事不同藝術工作，有一個兩歲兒子。   "
+artist_bio_en: "Vivian Poon, engaged in different artistic pursuits, with a 2-year-old son. "
+record_no: "28"
+slug: "touch-the-shy-grass"
+createdAt: 2021-03-30
+category: ["metabolism"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+婆婆和小時候的媽媽經常玩一個小遊戲，就是找出生長在路邊的怕醜草（含羞草）。找到了便用指尖輕輕點一點，看著小葉片閉合，跟它説一聲「早抖」。有一些小草和怕醜草長得很相像，葉子卻不會合上，一點也不怕醜。現在怕醜草好像不那麼常見了，於是我們特意在家中種植了一盆，孩子也知道這個小遊戲。在街上，他喜歡用手指點點不同的野草，葉子不會合上的話，我們會跟它說：「Hello，唔怕醜草！」
+
+</div>
+
+<div class="en">
+Grandma often played a small game with Mum during her childhood: they looked for touch-me-not plants (mimosa pudica or ‘shy grass’ in Cantonese) on roadside. When Mum found it, she tapped it lightly with her fingertip. She watched the small leaves fold up and said ‘good night’ to it. There are some small grasses that look very similar to touch-me-not plants, but the leaves do not fold up, and they are not shy at all. Nowadays, touch-me-not plants are not so commonly seen, so we specially planted a pot at home. Our child knows about this small game too. In the street, he likes to point to different weeds. If the leaves do not fold up, we say ‘Hello, not-shy grass!’
+
+</div>

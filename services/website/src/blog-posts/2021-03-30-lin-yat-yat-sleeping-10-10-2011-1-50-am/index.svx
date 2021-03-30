@@ -1,0 +1,29 @@
+---
+title_hk: "連一一睡覺，10/10/2011， 1:50AM"
+title_en: "Lin Yat Yat Sleeping, 10/10/2011, 1:50AM"
+intro_title_hk: "太過具體就像把秘密説溜了嘴"
+intro_title_en: "Too definite, like exposing a secret by a slip of the tongue"
+artist_name_hk: "連安洋"
+artist_name_en: "Lin On Yeung"
+artist_bio_hk: "連安洋，文化工作者，育有兩個小孩。"
+artist_bio_en: "Lin On Yeung, cultural worker, with two children."
+record_no: "34"
+slug: "lin-yat-yat-sleeping-10-10-2011-1-50-am"
+createdAt: 2021-03-30
+category: ["story"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+現在記得那一晩，因為這張素描。
+事情前後都不記得了，唯獨一看到這張畫，就像回到當時那一刻，因為我花了實在的時間去全神凝望，去投入描繪。一個嬰兒，日常少有沉靜地容許我長時間觀察和素描，將印象轉化，記錄在紙上。度過了這個過程，感覺和回憶封存在畫中，那是個只有自己擁有和可以解碼的記憶。可能相片和錄像都不能比擬，因為它們太過具體，就像把秘密說溜了嘴一樣。
+
+</div>
+
+<div class="en">
+I recall that night now, thanks to this sketch. 
+I don’t remember the things that happened before and after it. Just that on seeing this sketch, I feel as if I had returned to that moment, for I am spending actual time to gaze attentively at the sketch and have thrown myself into sketching it. A baby, being rarely quiet to allow me to observe and sketch for a long time. I transformed the impression and recorded it on paper. After this process, my feelings and memories are sealed in the painting a memory owned and decipherable only by me. Perhaps, photos and videos can’t compare with it because they are too definite, like exposing a secret by a slip of the tongue.
+</div>

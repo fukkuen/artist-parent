@@ -1,0 +1,55 @@
+---
+title_hk: "縫紉時光機"
+title_en: "Sewing Time Machine"
+intro_title_hk: "三代人的足跡"
+intro_title_en: "The footprints of three generations"
+artist_name_hk: "謝淑婷"
+artist_name_en: "Sara Tse"
+artist_bio_hk: "謝淑婷，愛玩泥漿。女兒七歲，兒子九歲，愛拍片做YouTuber。"
+artist_bio_en: "Sara Tse, loves to play with clay slurries; her 7-year-old daughter and 9-year-old son enjoy making video and being YouTubers."
+record_no: "29"
+slug: "sewing-time-machine"
+createdAt: 2021-03-30
+category: ["metabolism"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+A
+衣服上有哥哥喜愛的恐龍。
+哥哥把手放在恐龍上，用筆畫手的輪廓並剪下，跟隨線痕縫出手套。
+哥哥斜剪衣袖，車一行線，便成小熊的帽子。
+
+從此，恐龍跟著哥哥擁抱小白熊，在琴鍵上起舞。
+
+B
+妹妹將五年前媽媽拍攝用的襯布 (1) 裁成長方形，
+布的兩邊連接妹妹三歲時穿的長襪 (2)，變成側袋；
+又從媽媽廿五歲時穿的裙子 (3)上剪下小長方形，對摺沿邊縫成反襟；
+把外婆故衣的鈕扣 (4) 縫到背囊上。
+
+小背包結合三代人的足跡。
+
+製作過程:
+https://youtu.be/i4Urvg-ObFc
+</div>
+
+<div class="en">
+On the T-shirt, there is a dinosaur that the brother loves. 
+The brother places his hand on the dinosaur. He outlines his hand with a pen and cut it out. Then, he sews the glove following the line. 
+The brother cuts a sleeve diagonally and sews a line to turn it into a bear’s hat.  
+
+From then on, the dinosaur can hug the little white bear with the brother and dance on the piano keyboard.
+
+B
+The sister cuts a piece of cloth Mum used for shooting five years ago into a rectangular shape. (1) The two sides of the cloth are attached to the socks the sister wore when she was three (2) and become side pockets; she then cuts out a small rectangle from the dress Mum wore when she was 25, (3) fold it in half and sew it into a fold; sew a button from late Grandma’s clothes (4) onto the backpack.
+
+The small backpack combines the footprints of three generations.
+
+Production Process:
+https://youtu.be/i4Urvg-ObFc
+
+</div>

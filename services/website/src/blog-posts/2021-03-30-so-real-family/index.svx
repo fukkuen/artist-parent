@@ -1,0 +1,27 @@
+---
+title_hk: "至「真」呢家人"
+title_en: "So-Real Family"
+intro_title_hk: "當你真係咁做，就知咩嘢料"
+intro_title_en: "When you actually do this, you&#x27;ll know what&#x27;s going on "
+artist_name_hk: "鄭怡敏 (阿金)"
+artist_name_en: "Cheng Yee Man (Gum)"
+artist_bio_hk: "鄭怡敏 (阿金)，男，香港出生，已婚，有兩女，係藝術家、係策劃人、又係藝術老師、仲係註冊社工。"
+artist_bio_en: "Cheng Yee Man (Gum), male, born in Hong Kong, married, with two daughters; he is an artist, curator, art teacher and also registered social worker."
+record_no: "31"
+slug: "so-real-family"
+createdAt: 2021-03-30
+category: ["metabolism"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+喺屋企搵一個夠位、夠距離影全家福相嘅地方，然後搵一部信得過嘅相機、搵一張吉嘅信得過嘅記憶咭，set腳架或搵張高櫈/枱，set好相機校時間自拍全家福 (盡量輕鬆啲)。之後mark低相機擺放位置，mark嘅位要穩固，方便之後將相機擺返同一個位置。完成第一張全家福後，一家人商量並落實互相提點，定時按照影第一張時嘅post再影。建議每星期影一張，影足兩年就有一百張、十年就有五百張喇。當你真係咁做完，一次過一家大細睇返晒啲相，就知咩嘢料。
+</div>
+
+<div class="en">
+Find a place at home that has enough space and distance to take family portraits, as well as a reliable camera and an empty reliable memory card. Then, set a tripod or a high stool/table and set the camera time to take family selfies (try to relax). After that, mark the camera position, which has to be well-defined to make it easier to place the camera at the same spot again later. After taking the first family portrait, the family can discuss and give each other suggestions. Re-take regularly based on the pose on the first family portrait. It is recommended to take the portrait once a week. There will be one hundred after two years and five hundred after ten years. When you actually do this, you will know what is going on when you look at the portraits with your family members in one go.
+
+</div>

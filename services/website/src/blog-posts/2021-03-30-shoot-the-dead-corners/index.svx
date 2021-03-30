@@ -1,0 +1,28 @@
+---
+title_hk: "打死角"
+title_en: "Shoot the Dead Corners"
+intro_title_hk: "漆黑中打死角"
+intro_title_en: "To shoot dead corners in the dark"
+artist_name_hk: "白雙全"
+artist_name_en: "Pak Sheung Chuen"
+artist_bio_hk: "白雙全，藝術家，一星期有兩日與兒子獨處，見住佢成長，睇住佢來學習。"
+artist_bio_en: "Pak Sheung Chuen, artist, he spends time alone with his son twice a week, seeing his son grow up and watching him learn."
+record_no: "23"
+slug: "shoot-the-dead-corners"
+createdAt: 2021-03-30
+category: ["love-fear"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+年頭突如其來的疫症改變了全世界。我觀察到孩子好怕外出，好怕接觸人。於是我幫他規劃空閒時間，每日加插小任務，被迫又好，誘導又好，我想帶他回到一個充滿可能和奇妙的世界去探索。例如一天我邀請他和我晚上去倒完垃圾後一起去：打死角，很簡單，手持一支電筒，對準鄰居村屋頂層死角，著燈射中有五分，多分者勝。他興奮到拿起電筒和玩具槍，我們在漆黑的村巷中繞了幾個圈打死角，他說好像「打喪屍」十分刺激。希望冇為鄰居帶來騷擾啦！
+
+</div>
+
+<div class="en">
+The unexpected pandemic at the beginning of the year has shaken the world. My son, I observed, was very afraid of going out and contacting people. Thus, I helped him plan his free time, giving him extra small tasks daily. Be it imposition or induction, I wanted to take him back to a world full of possibilities and wonders to explore. For example, one night I invited him to do something after taking out the rubbish with me: shoot the dead corners. It’s very simple; hold up a torch and aim at a dead corner of a neighbouring village house roof floor. Turn the torch on and if you aim correctly, you get five points. The person with more points wins. He was so excited that he picked up a torch and a toy gun. We went around the village alleys in the dark several times to shoot the corners. He said it was like ‘shooting zombies’, very exciting. I hope we didn’t disturb our neighbours!
+
+</div>

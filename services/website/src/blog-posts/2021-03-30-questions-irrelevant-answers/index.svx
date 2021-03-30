@@ -1,0 +1,36 @@
+---
+title_hk: "問・非所答"
+title_en: "Questions・Irrelevant Answers"
+intro_title_hk: "郵差叔叔每天要送出幾多個問號"
+intro_title_en: "How many question marks does Mr Postman deliver every day?"
+artist_name_hk: "雄仔叔叔"
+artist_name_en: "Uncle Hung"
+artist_bio_hk: "雄仔叔叔，講古佬，也寫詩。「一隻蚊⋯⋯」的問題是兒子七歲時問的，他現在已經二十四歲了。"
+artist_bio_en: "Uncle Hung, storyteller, poet. ‘When a mosquito…’ question was asked by his son when he was seven; his son is now 24."
+record_no: "36"
+slug: "questions-irrelevant-answers"
+createdAt: 2021-03-30
+category: ["story"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+「一隻蚊被另一隻蚊咬到，會唔會痕？早上和夜晚交更，會打一個甚麼手勢？石頭聽到甚麼音樂會打乞嗤？」這遊戲主要目的不是答問題，而是創作問題。
+
+
+大人丶孩子誰先開始都可以。這是一個讓我們離開一下循規蹈矩的日常行事，我們不是要鼓勵孩子創作嗎？事實上，大人也得益。
+
+把創作的問題寫下，裝訂成書，變成諾貝爾文學得獎者 Pablo Neruda 的詩集 Book of Questions 的姊妹版。孩子也可跟朋友玩，我鼓勵用真實郵件。然後問：「郵差叔叔每天要送出幾多個問號？」
+</div>
+
+<div class="en">
+‘When a mosquito is bitten by another mosquito, does it feel itchy? What hand gesture is made at the change of morning and night shifts? What concert would make a stone sneeze?’ The main purpose of this game is not to answer the questions, but to create questions.
+
+Both grown-ups and children can start first. This allows us to leave the convention-abiding day-to-day routine. Don’t we want to encourage children to create? In fact, grown-ups benefit from this too.
+
+Write down the questions created, bind them into a book and turn it into a sister edition of poetry collection Book of Questions by Nobel Prize winner Pablo Neruda. Children can also play with friends and I encourage using physical letters. Then ask, ‘How many question marks does Mr Postman deliver every day?’
+
+</div>

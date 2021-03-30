@@ -1,0 +1,28 @@
+---
+title_hk: "Whatsapp家書"
+title_en: "WhatsApp Family Letters"
+intro_title_hk: "可以的話每日發一張相片給我"
+intro_title_en: "Send me a photo every day, by the way "
+artist_name_hk: "何兆基"
+artist_name_en: "Ho Siu Kee"
+artist_bio_hk: "何兆基, 從事雕塑創作並在大學任教。十九歲的兒子何見山去年赴德國升學，大家已習慣用 WhatsApp 溝通。"
+artist_bio_en: "Ho Siu Kee, engaged in sculpture creation and teaching at university, his 19-year-old son Jasen Ho went to Germany for study last year; they have got used to communicating through WhatsApp. "
+record_no: "39"
+slug: "whats-app-family-letters"
+createdAt: 2021-03-30
+category: ["story"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+J，你一個人在德國已有一年了，在不同文化背景的地方學習和生活，應該有不少獨特的經歷甚或是文化衝擊。可以的話，每日發一張相片給我，是你的生活日記，尤其是能觸發你思考文化差異的種種人和事。相片最好附一、兩句文字解說，我建議你用德文書寫，並有中、英文翻譯。同時用幾種語文思考，更能令你比對不同文化的特質，我相信會是有趣的體驗。
+
+</div>
+
+<div class="en">
+J, you have been in Germany by yourself for already one year. Studying and living in a place with different cultural backgrounds should have given you many unique experiences or even a culture shock. If possible, send me a photo every day (as a diary of your life), especially about the people and things that can trigger you to reflect on cultural differences. It’s best to add one or two sentences to explain the photo. I suggest you write them in German and translate them in Chinese and English. Thinking in several languages simultaneously enables you to further compare the characteristics of different cultures. I believe it will be an interesting experience.
+
+</div>

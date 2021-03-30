@@ -1,0 +1,32 @@
+---
+title_hk: "我哋篤、篤篤篤篤、篤篤"
+title_en: "We Tap, Tap Tap Tap Tap, Tap Tap"
+intro_title_hk: "無意義的美感"
+intro_title_en: "The beauty of meaninglessness"
+artist_name_hk: "高文灝"
+artist_name_en: "Ahko"
+artist_bio_hk: "高文灝，漫畫故事創作者，有個有特殊學習需要（SEN）的兒子。"
+artist_bio_en: "Ahko, comic story creative, with a SEN son. "
+record_no: "21"
+slug: "we-tap-tap-tap-tap-tap-tap-tap"
+createdAt: 2021-03-30
+category: ["love-fear"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+兒子喜歡操控手機電腦，爸爸想到新玩法，讓父子一起先將鍵盤鍵拔出，放進小袋裡隨機抽出再重置。結果我們得到一個陌生、只屬於我倆的電腦鍵盤！大家猜如果輸入“I am Sam”時，熒幕會出現甚麼結果？
+
+然後大家合作用新鍵盤接駁電腦輸入文字。兒子不斷輸入，爸爸隨意用快速鍵轉換文字大小及行距等。不斷快速敲打鍵盤的動作及聲音很刺激，最後將完成的文件檔打印及貼在牆上裝飾。滿滿的圖案、無意義及不規則的符號排列，讓大家欣賞畫面的美感。
+
+</div>
+
+<div class="en">
+Spellbound by mobile phones and computers, the son likes to take control of them. The father thought of a new way to play. The father and the son first pulled out the keyboard keys. They then put them into the small bag and randomly drew them out before re-placing them. The result was an unfamiliar computer keyboard belonging only to us! Guess what would happen on the screen if I typed ‘I am Sam’?
+
+After that, we worked together to connect to the new keyboard to the computer for text input. My son kept typing and I used the shortcut keys to spontaneously change the font size and line spacing. The action and sound of continuous, quick keyboard tapping was very exciting. Finally, the completed text file was printed and hung on the wall as decoration. Let everyone appreciate the beauty of a picture full of patterns and meaningless, irregular symbol orders.
+
+</div>

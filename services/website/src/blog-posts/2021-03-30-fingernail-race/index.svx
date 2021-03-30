@@ -1,0 +1,46 @@
+---
+title_hk: "指甲賽跑"
+title_en: "Fingernail Race"
+intro_title_hk: "不同的起跑缐"
+intro_title_en: "Different starting lines"
+artist_name_hk: "曾德平"
+artist_name_en: "Kith Tsang Tak Ping"
+artist_bio_hk: "曾德平，生活行者，有一女一子。"
+artist_bio_en: "Kith Tsang Tak Ping, life walker, with a daughter and a son."
+record_no: "30"
+slug: "fingernail-race"
+createdAt: 2021-03-30
+category: ["metabolism"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+家人在指甲上塗上三角箭咀，箭咀隨著指甲增長，向前移動。
+新陳代謝因人而異，箭咀的「前進」速度不同。
+透過觀察比較，接受人與人之間的自然差異。
+
+遊戲規則：
+1.個人為參賽單位；
+2.參賽者在最少一隻手指甲上塗上三角形；
+3.一個月為時限，看誰的三角「跑」得最前，或者「跑」得最慢；
+4.參賽者定時交流三角的「進展」；
+5.如果不便把箭咀展現人前，可用醫藥膠布遮蓋。
+6.長者新陳代謝速度慢，兒童和青少年會贏在起跑線上。可考慮不同年齡不同起跑線。
+
+</div>
+
+<div class="en">
+Family members paint triangular arrows on their fingernails. The arrows will move forward as the nails grew. 
+Metabolism varies from person to person and the ‘advancing’ speed of the arrows is different. Through observation and comparison, accept the natural differences among individuals.
+
+Game Rules:
+1.Everyone takes part in his personal capacity;
+2.Participants have to paint a triangle on at least one fingernail;
+3.The time limit is one month; we observe whose triangle ‘runs’ the fastest or ‘runs’ the slowest;
+4.Participants regularly exchange the ‘progress’ of the triangles;
+5.If participants prefer not to show the arrow to others, they can cover it with a band-aid.
+6.The metabolism of the elderly is slow, whereas children and adolescents will win at the starting line. Setting different starting lines for participants of different ages can be considered.
+</div>

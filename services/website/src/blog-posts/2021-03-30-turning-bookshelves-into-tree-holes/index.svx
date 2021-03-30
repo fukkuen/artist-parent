@@ -1,0 +1,34 @@
+---
+title_hk: "把書櫃變成樹窿"
+title_en: "Turning Bookshelves into Tree Holes"
+intro_title_hk: "想知對方心事，便要多看書"
+intro_title_en: "Want to know the other person’s secrets? Read more! "
+artist_name_hk: "黃照達"
+artist_name_en: "Justin Wong Chiu Tat"
+artist_bio_hk: "黃照達，政治漫畫家，有個十一歲的兒子和六歲的女兒。"
+artist_bio_en: "Justin Wong Chiu Tat, political comic artist, with a 11-year-old son and a 6-year-old daughter."
+record_no: "43"
+slug: "turning-bookshelves-into-tree-holes"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+1.從今天開始，每天寫下一個秘密在紙條上。
+2.在書櫃裏隨便選一本書，把紙條放進其中一頁裡。
+3.不要告訴父母/子女字條的位置，若我們想知對方的心事，便要多看書啊！
+4.製作一張紀錄紙，記下大家發現了多少秘密。
+5.活動為期一個月。
+</div>
+
+<div class="en">
+1.Starting today, write down a secret on a piece of paper every day. 
+2.Pick any book on the bookshelves and put the paper between the pages. 
+3.Don’t tell your parents/children where the paper is. If you want to know the other person’s secrets, you have to read more! 
+4.Make a log paper and record the number of secrets everyone has discovered. 
+5.The activity lasts for one month.
+</div>

@@ -1,0 +1,51 @@
+---
+title_hk: "相隔在一起"
+title_en: "Together Apart"
+intro_title_hk: "在封城這段日子裡，你好嗎？"
+intro_title_en: "How are you during this time of lockdown"
+artist_name_hk: "龔志成"
+artist_name_en: "Kung Chi Shing"
+artist_bio_hk: "龔瑞祺（電影工作者及攝影師）是任卓華（策展人）和龔志成（音樂文化推廣人）的女兒"
+artist_bio_en: "Chiara Kung (filmmaker &amp; photographer) is the daughter of Valerie Doran (curator) and Kung Chi Shing (music activist)."
+record_no: "40"
+slug: "together-apart"
+createdAt: 2021-03-30
+category: ["story"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+我最親愛的 Chiara：
+自從上次在紐約與你見面，已經九個月了。遺憾你五月的畢業典禮因為新冠肺炎要取消，而我亦無法到波士頓慶祝你的大日子和生日。封城這段時間，你過得怎麼樣？你怎樣應付？ 
+想念你。 
+愛你。
+金色的光芒！
+爹爹
+________________
+
+嗨，爹爹：
+過去幾個月，我花了很多時間在安靜的街道上閒逛、在無人的公園裡坐，但我最喜歡逗留的地方是屋頂。當我在室內感到侷促和孤零零，我喜歡走上去，在城市和迷失的行人之上，與太陽並排。這是與我和剛認識的人第二次約會的合照。我們身處五層樓高，相距六呎，正在彼此了解。
+想念你，愛你，金色的光芒，希望很快和你見面。
+Chiara
+</div>
+
+<div class="en">
+My dearest Chiara,
+It has been 9 months since I last saw you in New York. I’m sorry that your graduation ceremony was cancelled in May due to COVID-19 and I couldn’t travel to Boston to celebrate your big day and your birthday. How are you during this time of lockdown? How do you cope with it?
+Miss you. 
+Love you. 
+Golden light! 
+Dada
+________________
+
+Hi Dada,
+I’ve spent a lot of my time over the past few months walking around quiet streets and sitting in empty parks, but my favourite place to be is on a rooftop. When I feel too confined and isolated indoors, I like to go up there, above the city and stray pedestrians, at level with the sun. This photo was taken on a second date with someone I just met. Getting to know each other from 5 stories up and 6 feet apart.
+Miss you, love you, golden light, hope to see you soon.
+Chiara
+
+After that, we worked together to connect to the new keyboard to the computer for text input. My son kept typing and I used the shortcut keys to spontaneously change the font size and line spacing. The action and sound of continuous, quick keyboard tapping was very exciting. Finally, the completed text file was printed and hung on the wall as decoration. Let everyone appreciate the beauty of a picture full of patterns and meaningless, irregular symbol orders.
+
+</div>

@@ -1,0 +1,28 @@
+---
+title_hk: "父母的標題"
+title_en: "Parents’ Caption  "
+intro_title_hk: "忘記他們啊"
+intro_title_en: "Forget them!"
+artist_name_hk: "林東鵬"
+artist_name_en: "Lam Tung Pang"
+artist_bio_hk: "林東鵬，藝術家，雙kids&#x27; Father。"
+artist_bio_en: "Lam Tung Pang, artist, father of two kids."
+record_no: "47"
+slug: "parents-caption"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+在學習忘記他們啊⋯⋯甚麼也記不起了⋯⋯
+
+</div>
+
+<div class="en">
+Learning to forget them... Can’t recall anything...
+
+</div>

@@ -1,0 +1,28 @@
+---
+title_hk: "翻新潮物"
+title_en: "Chic Revamp"
+intro_title_hk: "只要為他們準備環境"
+intro_title_en: "To provide the environment for them only"
+artist_name_hk: "李碧慧"
+artist_name_en: "Louise Lee Pik Wai"
+artist_bio_hk: "李碧慧，視覺藝術家及藝術教育工作者。單親媽媽，有兩個兒子。"
+artist_bio_en: "Louise Lee Pik Wai, visual artist and art education practitioner, single mother with two sons."
+record_no: "32"
+slug: "chic-revamp"
+createdAt: 2021-03-30
+category: ["metabolism"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+我向來鼓勵孩子冒險，發掘喜愛的事物。這次十五歲的哥哥發現網紅運用hydro-dripping渲染球鞋，提議跟十歲的弟弟一起染鞋，並「吩咐」我去買五顏六色的噴漆。我任由兩兄弟做染鞋實驗，也不怕弄污家居，自己只是旁觀協助，並誘導他們接納而非埋怨噴漆的氣味。染第三雙鞋時，哥哥已掌握了時間的竅門，成功把球鞋染成「潮物」，並且清晰地指導弟弟何時收放，讓他也製成一雙「潮鞋」。孩子自有彼此溝通、學習和教導的能力，我只需為他們準備環境就足夠了。
+
+</div>
+
+<div class="en">
+I have always encouraged children to be adventurous and explore what they love. This time, the 15-year-old brother discovered that an influencer used hydro-dripping to dye trainers. He proposed to dye trainers with his 10-year-old brother and ‘instructed’ me to buy spray paints of multiple colours. I let the two brothers do the shoe-dyeing experiments, not minding making the home dirty. I just observed and offered help on the side, while inducing them to accept the smell of spray paints, instead of complaining. When dyeing the third pair of trainers, the elder brother had mastered the timing and successfully turned the trainers into a ‘chic product’. He also clearly instructed his brother on when to control and when to release the spray so that he could make a pair of ‘chic product’ too. Children have their own ways of communicating with each other, learning and teaching. I only have to provide the environment for them.
+
+</div>

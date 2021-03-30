@@ -1,0 +1,27 @@
+---
+title_hk: "繪畫想念"
+title_en: "Drawing You, Missing You"
+intro_title_hk: "想念"
+intro_title_en: "Missing you"
+artist_name_hk: "王天仁"
+artist_name_en: "Wong Tin Yan"
+artist_bio_hk: "王天仁，藝術家兼區議員，育有一四歲半女兒。"
+artist_bio_en: "Wong Tin Yan, artist-cum-councillor, with a 4.5-year-old daughter."
+record_no: "41"
+slug: "drawing-you-missing-you"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+香港父母有時難免因工作未能陪伴子女，女兒表示想念需要加班晚歸的媽媽時，可提供顏料，讓孩子一邊畫出媽媽，一邊談談與媽媽的各種生活點滴，圖畫是否漂亮不重要，重要是畫中有愛。
+</div>
+
+<div class="en">
+It’s rather inevitable that Hong Kong parents sometimes fail to keep their children company due to work. When our daughter expresses that she misses her mother, who is working overtime and returning late, I give her paints to draw her mother, while talking about the miscellaneous daily interactions with her. Whether the drawings look good or not doesn’t matter. What matters is the presence of love in them.
+
+</div>

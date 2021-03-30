@@ -1,0 +1,36 @@
+---
+title_hk: "不知道，你覺得呢"
+title_en: "I don’t know. What do you think?"
+intro_title_hk: "湊女和返工很攰的爸媽，不用太努力"
+intro_title_en: "Needy daughters and difficult bosses; tired parents, don&#x27;t work too hard!"
+artist_name_hk: "葉建邦"
+artist_name_en: "Elvis Yip Kin Bon"
+artist_bio_hk: "葉建邦，藝術家，三十一歲，有兩個女。長女兩歲九個月大，次女一歲四個月大。長女跟我同月同日生，每年望著女兒的生日蛋糕時，我都是亞視的岩布仙尼。"
+artist_bio_en: "Elvis Yip Kin Bon, artist, 31 years old, with two daughters (2 years and 9 months &amp; 1 year and 4 months respectively); my elder daughter’s birthday is the same as mine and every year, I look at my daughter’s birthday cake like Ambrosini on ATV (sing ‘happy birthday to me’)."
+record_no: "46"
+slug: "i-don-t-know-what-do-you-think"
+createdAt: 2021-03-30
+category: ["emotion"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+讓小朋友讀一本父母的書，然後女兒問甚麼我也回答：「 不知道，你覺得呢？ 」
+
+晚飯後，我拿了一本《娃娃看天下》（西班牙語：Mafalda）是剛去世的阿根廷漫畫家季諾（Quino）筆下的一輯漫畫。跟長女讀了幾個故事後，她走到飯枱拿了本林志明的《複多與張力：論攝影史與攝影肖像》， 她指著書中的相片問我：「這是甚麼？」然後我不斷答：「不知道，你覺得呢？」
+
+湊女和返工很攰的爸媽 ， 不用太努力，好好享受小朋友的解讀。
+
+</div>
+
+<div class="en">
+Ask your child to read a parent’s book. Whatever my daughter asks questions, I answer, ‘I don’t know. What do you think?’ 
+
+After dinner, I took a copy of Mafalda, a comic series by Quino, Argentine cartoonist who has just passed away. After reading a few stories with my elder daughter, she went to the dining table and picked up Lin Chi-ming’s Multiple & Tension: On History of Photography and Photographic Portrait. She pointed to a photo in the book and asked me, ‘What is this?’ I then kept answering, ‘I don't know. What do you think?’
+
+Parents who are tired from looking after daughters and working need not work too hard. Sit back and enjoy your children’s interpretations.
+
+</div>

@@ -1,0 +1,28 @@
+---
+title_hk: "蔬菜花紙"
+title_en: "Organic Block-Printed Papar "
+intro_title_hk: "感恩每天有美好的食物"
+intro_title_en: "To show gratitude to the lovely food every day"
+artist_name_hk: "黃淑琪"
+artist_name_en: "Wong Suk Ki"
+artist_bio_hk: "黃淑琪，藝術家，家中有丈夫一女一子。"
+artist_bio_en: "Wong Suk Ki, artist, with a husband, a daughter and a son in the family."
+record_no: "22"
+slug: "organic-block-printed-papar"
+createdAt: 2021-03-30
+category: ["love-fear"]
+---
+
+<script>
+  const assetsBasePath = `blog-posts/2021-03-30-${slug}`;
+</script>
+
+<div class="hk">
+打開雪櫃，有甚麼跳出來？看看食物的形狀顏色，今天我們來改變它們，讓紅蘿蔔扭扭身、將芥蘭變方塊，這次是七歲女兒用餐刀及牙籤雕花，我來印。用水彩、廣告彩或印臺為食物的新形象上色，並排列有序地在一張白紙上印出不同的花樣，視乎畫紙大小及蔬菜印章的大小，隔行重複圖案。過程需要大家的耐性及思緒清晰，慢慢地完成一整張紙。印得不工整也不打緊，重點是過程愉快及不執著。完成後待乾，乾了可裝裱一下，貼在牆身或飯枱上一起欣賞，並感恩每天有美好的食物。
+
+</div>
+
+<div class="en">
+Open the refrigerator, what pops out? Look at the shape and colour of the food. Now, we are going to change them. Let the carrots twist and turn the kale into cubes. This time, my seven-year-old daughter carved with a dining knife and toothpicks and I made the print. Use watercolours, poster colours or stamp pads to colour the food’s new looks. Then, print different patterns neatly on a piece of blank paper. Depending on the size of the drawing paper and the vegetable stamps, repeat the patterns on alternate lines. It requires everyone’s patience and mental clarity to slowly complete a whole piece of paper. It doesn’t matter if the printing is not very neat; the key is to enjoy the process and let go of perfectionism. Upon completion, dry it and then put it on the wall or dining table. Appreciate it together and show gratitude to the lovely food every day.
+
+</div>
