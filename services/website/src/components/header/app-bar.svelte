@@ -38,7 +38,7 @@
 					<button on:click={() => {locale.set(l.key)}} class:bg-orange-300={l.key === $locale} class="rounded bg-gray-200 text-center py-1 text-sm">{l.label}</button>
 				{/each}
 			</div>
-			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300">
+			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300 text-sm">
 				<a href="/preface">前言</a>
 			</div>
 		</div>

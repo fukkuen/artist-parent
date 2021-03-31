@@ -8,14 +8,13 @@
 <script>
 	import loadMoreHandler from "../../../../../helpers/load-more-handler";
 	import range from "../../../../../helpers/range";
-	import {locale} from 'svelte-i18n'
+	import {locale, t} from 'svelte-i18n'
 	import TopBar from '../../../../../components/header/top-bar.svelte'
 
 	export let posts
 	export let page_number
 	export let is_last
 	export let total_page_count
-	console.log(posts)
 
 	import { stores } from '@sapper/app';
 	import {categories} from "../../../../../taxonomy";
@@ -46,7 +45,7 @@
 {#if entity}
 	<TopBar/>
 	<div class="bg-orange-700 text-white px-6 py-10">
-		<div class="mb-2 flex items-center">分類: <span class="mono text-t1 ml-2">{entity.num}</span></div>
+		<div class="mb-2 flex items-center">{$t('work_category')}: <span class="mono text-t1 ml-2">{entity.num}</span></div>
 		<h1 class="text-p3 leading-tight">{entity.name_hk}</h1>
 	</div>
 {:else}
