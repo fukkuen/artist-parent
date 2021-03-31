@@ -7,15 +7,42 @@
 
 <script>
 	import range from "../../../../../helpers/range";
-	import {locale, t} from 'svelte-i18n'
-	import TopBar from '../../../../../components/header/top-bar.svelte'
-	import Preview from '../../../../../components/blog-post/previews/index.svelte'
-
-	export let posts
-
 	import { stores } from '@sapper/app';
 	import {categories} from "../../../../../taxonomy";
 	const { page } = stores();
+	import {locale, t} from 'svelte-i18n'
+	import TopBar from '../../../../../components/header/top-bar.svelte'
+	import Preview from '../../../../../components/blog-post/previews/index.svelte'
+	import CatPreview from '../../../../../components/blog-post/previews/category-preview.svelte'
+
+	function shuffle(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+
+		// While there remain elements to shuffle...
+		while (0 !== currentIndex) {
+
+			// Pick a remaining element...
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+
+			// And swap it with the current element.
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+
+		return array;
+	}
+
+	export let posts
+	posts = shuffle(posts)
+	let cat_previews = categories.map((c,i) => ({
+		slug: c.slug,
+		pos: (i + 1) * 5
+	}))
+	cat_previews.forEach(p => {
+		posts.splice(p.pos, 0, p.slug)
+	})
 
 	$: type = $page.params.type
 	$: slug = $page.params.slug
@@ -49,7 +76,11 @@
 	{#if posts && posts.length}
 		<div class="grid gap-2">
 			{#each posts as post, i}
-				<Preview {post}/>
+				{#if typeof post === 'string'}
+					<CatPreview slug={post}/>
+				{:else}
+					<Preview {post}/>
+				{/if}
 			{/each}
 		</div>
 	{:else}
