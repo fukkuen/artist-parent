@@ -1,3 +1,4 @@
 export default {
-	work_category: 'Category'
+	work_category: 'Category',
+	other_works: 'Other works'
 }

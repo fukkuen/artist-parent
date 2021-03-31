@@ -4,7 +4,7 @@
   import SeoHeadPost from "../seo/head-post.svelte";
   import Topbar from '../../components/header/top-bar.svelte'
   import Icon from '../../components/ui-elements/icon.svelte'
-  import {locale} from 'svelte-i18n'
+  import {locale, t} from 'svelte-i18n'
   import ShareButton from './_share_button.svelte'
   import {fade, fly} from 'svelte/transition'
   import {onMount} from 'svelte'
@@ -81,8 +81,8 @@
           </div>
           <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
             <div class="flex items-center leading-none">
-              <p>收藏於</p>
-              <p class="text-t1 mono ml-2">02</p>
+              <p>{$t('work_category')}</p>
+              <p class="text-t1 mono ml-2">{this_post.metadata.category[0].num}</p>
             </div>
             <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
           </a>
@@ -97,10 +97,11 @@
   <div class="bg-orange-300 bg-opacity-50">
     {#if related_posts_visible}
     <div transition:fade class="max-w-screen-lg mx-auto p-4">
-      <h3 class="text-center mb-4 text-orange-500 font-bold">其他作品</h3>
+      <h3 class="text-center mb-4 text-orange-500 font-bold">{$t('other_works')}</h3>
       <div class="grid grid-cols-2 gap-2 sm:gap-2">
         {#each related_posts as p}
           <a href="/blog/{p.metadata.slug}" class="block bg-orange-400 text-orange-500 text-p3 rounded py-4 px-2">
+            <p class="mono text-sm">{p.metadata.category[0].num}</p>
             <h3 class="text font-bold mb-4 leading-tight">{p.metadata[`intro_title_${$locale}`]}</h3>
             <p class="text-xs">{p.metadata[`artist_name_${$locale}`]}</p>
           </a>
