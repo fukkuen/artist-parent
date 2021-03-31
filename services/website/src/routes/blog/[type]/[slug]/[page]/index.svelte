@@ -10,6 +10,7 @@
 	import range from "../../../../../helpers/range";
 	import {locale, t} from 'svelte-i18n'
 	import TopBar from '../../../../../components/header/top-bar.svelte'
+	import Preview from '../../../../../components/blog-post/previews/index.svelte'
 
 	export let posts
 	export let page_number
@@ -63,21 +64,7 @@
 	{#if posts && posts.length}
 		<div class="grid gap-2">
 			{#each posts as post, i}
-				<a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
-					<div class="relative">
-						<img src={getPostPreviewImage(post)} alt={post.metadata.title} class="w-full" loading="lazy">
-					</div>
-					<div class="bg-orange-400 px-2 py-4">
-
-						<h3 class="text-white text-p2 leading-tight">{post.metadata[`intro_title_${$locale}`]}</h3>
-						<div class="flex items-center">
-							<p class="text-sm flex-1 font-bold text-orange-500">{post.metadata[`artist_name_${$locale}`]}</p>
-							<div class="ml-4 flex-shrink-0 text-white">
-								<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36" class="w-4 fill-current"><path d="M31.48 19.244l-8.38 8.383 1.638 1.697L36 18.064 24.61 6.675l-1.64 1.697 8.512 8.51L0 16.886v2.36"></path></svg>
-							</div>
-						</div>
-					</div>
-				</a>
+				<Preview {post}/>
 			{/each}
 		</div>
 		{#if !is_last}

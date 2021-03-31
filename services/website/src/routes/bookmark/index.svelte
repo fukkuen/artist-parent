@@ -8,6 +8,8 @@
 <script>
 	export let posts
 	import {bookmarkStore} from "../../stores";
+	import Preview from '../../components/blog-post/previews/index.svelte'
+	import {t} from 'svelte-i18n'
 
 	let saved = $bookmarkStore
 	console.log(saved)
@@ -16,14 +18,20 @@
 	})
 </script>
 
-{#if saved_posts.length}
-	{#each saved_posts as p}
-		<a href="blog/{p.metadata.slug}" class="overflow-hidden rounded">
-			<div class="bg-orange-400 px-2 py-4">
-				<h3 class="text-white text-p2 leading-tight">{p.metadata[`intro_title_hk`]}</h3>
-			</div>
-		</a>
-	{/each}
-{:else}
-	no saved posts
-{/if}
+<div class="bg-orange-500 text-white">
+	<div class="max-w-screen-lg mx-auto px-8 py-16">
+		<h1 class="text-p3 font-bold">{$t('bookmark_page_title')}</h1>
+	</div>
+</div>
+
+<div class="max-w-screen-lg mx-auto mx-2">
+	{#if saved_posts.length}
+		{#each saved_posts as post}
+			<Preview {post}/>
+		{/each}
+	{:else}
+		<div class="text-center py-16">
+			{$t('bookmark_page_no_record')}
+		</div>
+	{/if}
+</div>
