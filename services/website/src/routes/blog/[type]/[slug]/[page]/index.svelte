@@ -6,16 +6,12 @@
 </script>
 
 <script>
-	import loadMoreHandler from "../../../../../helpers/load-more-handler";
 	import range from "../../../../../helpers/range";
 	import {locale, t} from 'svelte-i18n'
 	import TopBar from '../../../../../components/header/top-bar.svelte'
 	import Preview from '../../../../../components/blog-post/previews/index.svelte'
 
 	export let posts
-	export let page_number
-	export let is_last
-	export let total_page_count
 
 	import { stores } from '@sapper/app';
 	import {categories} from "../../../../../taxonomy";
@@ -29,17 +25,6 @@
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
 	}-${post.metadata.slug}/cover.jpg`
-
-	const loadMore = async () => {
-		try {
-			page_number = Number(page_number) + 1
-			const res = await fetch(`blog/${type}/${slug}/${page_number}.json`)
-			const data = await res.json()
-			const new_posts = data.posts
-			is_last = data.is_last
-			posts = [...posts, ...new_posts]
-		} catch (e) {}
-	}
 </script>
 
 <div class="mb-4">
@@ -67,14 +52,9 @@
 				<Preview {post}/>
 			{/each}
 		</div>
-		{#if !is_last}
-			<div use:loadMoreHandler={loadMore} class="text-center my-4">更多...</div>
-		{/if}
 	{:else}
 		Not found
 	{/if}
 
-	{#each range(0,total_page_count) as i}
-		<a href="blog/{type}/{slug}/{i}" class="w-4 h-4">{i}</a>
-	{/each}
+	<a href="blog/category/{slug}/1" class="w-4 h-4">link</a>
 </div>
