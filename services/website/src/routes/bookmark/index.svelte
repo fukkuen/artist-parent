@@ -7,17 +7,23 @@
 
 <script>
 	export let posts
+	import {bookmarkStore} from "../../stores";
 
-	let saved = ['23','17']
+	let saved = $bookmarkStore
+	console.log(saved)
 	let saved_posts = posts.filter(p => {
 		return saved.includes(p.metadata.record_no)
 	})
 </script>
 
-{#each saved_posts as p}
-	<a href="blog/{p.metadata.slug}" class="overflow-hidden rounded">
-		<div class="bg-orange-400 px-2 py-4">
-			<h3 class="text-white text-p2 leading-tight">{p.metadata[`intro_title_hk`]}</h3>
-		</div>
-	</a>
-{/each}
+{#if saved_posts.length}
+	{#each saved_posts as p}
+		<a href="blog/{p.metadata.slug}" class="overflow-hidden rounded">
+			<div class="bg-orange-400 px-2 py-4">
+				<h3 class="text-white text-p2 leading-tight">{p.metadata[`intro_title_hk`]}</h3>
+			</div>
+		</a>
+	{/each}
+{:else}
+	no saved posts
+{/if}

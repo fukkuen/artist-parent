@@ -18,8 +18,14 @@
 <script>
   import AppBar from "../components/header/app-bar.svelte";
   import TailwindCSS from "../components/tailwindcss.svelte";
+  import {bookmarkStore} from '../stores'
+  import {onMount} from 'svelte'
 
   export let segment;
+
+  onMount(() => {
+	  bookmarkStore.getBookmarkFromLocalstorage()
+  })
 </script>
 
 <TailwindCSS />

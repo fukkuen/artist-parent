@@ -8,7 +8,7 @@
   import ShareButton from './_share_button.svelte'
   import {fade, fly} from 'svelte/transition'
   import {onMount} from 'svelte'
-  import header from "../../stores/header";
+  import {bookmarkStore} from "../../stores";
 
   export let post;
   let this_post = post.post
@@ -21,12 +21,17 @@
     console.log($locale)
     if (body_el) show_post_body(body_el)
   }
+  $: bookmarked = $bookmarkStore.includes(this_post.metadata.record_no)
 
   const show_post_body = (node) => {
     const hk_node = node.querySelector('.hk')
     const en_node = node.querySelector('.en')
     hk_node.style.display = $locale === 'hk' ? 'block' : 'none'
     en_node.style.display = $locale === 'en' ? 'block' : 'none'
+  }
+
+  const onToggleBookmark = () => {
+    bookmarkStore.toggleBookmark(this_post.metadata.record_no)
   }
 
   onMount(() => {
@@ -69,27 +74,33 @@
   <div class="bg-orange-300 pt-8 md:pt-16">
     <div class="max-w-screen-lg mx-auto px-4 py-12">
       {#if body_visible}
-      <div class="block sm:flex" transition:fly={{y:100, duration: 600}}>
-
-        <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
-          <slot/>
-        </div>
-        <div class="my-4 sm:my-0 sm:w-60 flex-shrink-0 text-orange-500 sm:ml-8">
-          <div class="mb-8">
-            <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
-            <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
+        <div class="block sm:flex" transition:fly={{y:100, duration: 600}}>
+          <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
+            <slot/>
           </div>
-          <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
-            <div class="flex items-center leading-none">
-              <p>{$t('work_category')}</p>
-              <p class="text-t1 mono ml-2">{this_post.metadata.category[0].num}</p>
+          <div class="my-4 sm:my-0 sm:w-60 flex-shrink-0 text-orange-500 sm:ml-8">
+            <div class="mb-8">
+              <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
+              <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
             </div>
-            <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
-          </a>
+            <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
+              <div class="flex items-center leading-none">
+                <p>{$t('work_category')}</p>
+                <p class="text-t1 mono ml-2">{this_post.metadata.category[0].num}</p>
+              </div>
+              <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
+            </a>
+          </div>
         </div>
-      </div>
 
-      <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
+          <button class="bg-white bg-opacity-80 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
+                  class:bg-orange-500={bookmarked}
+                  on:click={onToggleBookmark}>
+            {bookmarked ? 'bookmarked' : 'bookmark' }
+          </button>
+        </div>
       {/if}
     </div>
   </div>
