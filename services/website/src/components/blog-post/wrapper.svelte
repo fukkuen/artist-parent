@@ -81,7 +81,7 @@
           <div class="my-4 sm:my-0 sm:w-60 flex-shrink-0 text-orange-500 sm:ml-8">
             <div class="mb-8">
               <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
-              <p>{this_post.metadata[`artist_bio_${$locale}`]}</p>
+              <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
             </div>
             <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
               <div class="flex items-center leading-none">
@@ -98,7 +98,10 @@
           <button class="bg-white bg-opacity-80 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
                   class:bg-orange-500={bookmarked}
                   on:click={onToggleBookmark}>
-            {bookmarked ? 'bookmarked' : 'bookmark' }
+            <Icon name="love" className="w-4"/>
+            <span class="ml-2">
+              {$t(bookmarked ? 'bookmarked' : 'bookmark')}
+            </span>
           </button>
         </div>
       {/if}

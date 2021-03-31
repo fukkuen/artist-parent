@@ -6,7 +6,7 @@
 		register('hk', () => import('../locales/hk.js'))
 		let lang_query = page.query.lang
 		if (!['en', 'hk'].includes(lang_query)) lang_query = null
-		const initialLocale = lang_query || 'en'
+		const initialLocale = lang_query || 'hk'
 		init({
 			fallbackLocale: 'en',
 			initialLocale
