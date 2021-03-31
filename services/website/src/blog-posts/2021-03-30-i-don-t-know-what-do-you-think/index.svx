@@ -2,11 +2,11 @@
 title_hk: "不知道，你覺得呢"
 title_en: "I don’t know. What do you think?"
 intro_title_hk: "湊女和返工很攰的爸媽，不用太努力"
-intro_title_en: "Needy daughters and difficult bosses; tired parents, don&#x27;t work too hard!"
+intro_title_en: "Needy daughters and difficult bosses; tired parents, don't work too hard!"
 artist_name_hk: "葉建邦"
 artist_name_en: "Elvis Yip Kin Bon"
 artist_bio_hk: "葉建邦，藝術家，三十一歲，有兩個女。長女兩歲九個月大，次女一歲四個月大。長女跟我同月同日生，每年望著女兒的生日蛋糕時，我都是亞視的岩布仙尼。"
-artist_bio_en: "Elvis Yip Kin Bon, artist, 31 years old, with two daughters (2 years and 9 months &amp; 1 year and 4 months respectively); my elder daughter’s birthday is the same as mine and every year, I look at my daughter’s birthday cake like Ambrosini on ATV (sing ‘happy birthday to me’)."
+artist_bio_en: "Elvis Yip Kin Bon, artist, 31 years old, with two daughters (2 years and 9 months & 1 year and 4 months respectively); my elder daughter’s birthday is the same as mine and every year, I look at my daughter’s birthday cake like Ambrosini on ATV (sing ‘happy birthday to me’)."
 record_no: "46"
 slug: "i-don-t-know-what-do-you-think"
 createdAt: 2021-03-30

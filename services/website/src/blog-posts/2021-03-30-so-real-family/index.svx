@@ -2,7 +2,7 @@
 title_hk: "至「真」呢家人"
 title_en: "So-Real Family"
 intro_title_hk: "當你真係咁做，就知咩嘢料"
-intro_title_en: "When you actually do this, you&#x27;ll know what&#x27;s going on "
+intro_title_en: "When you actually do this, you'll know what's going on "
 artist_name_hk: "鄭怡敏 (阿金)"
 artist_name_en: "Cheng Yee Man (Gum)"
 artist_bio_hk: "鄭怡敏 (阿金)，男，香港出生，已婚，有兩女，係藝術家、係策劃人、又係藝術老師、仲係註冊社工。"

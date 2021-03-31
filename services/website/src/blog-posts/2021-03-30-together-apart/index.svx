@@ -6,7 +6,7 @@ intro_title_en: "How are you during this time of lockdown"
 artist_name_hk: "龔志成"
 artist_name_en: "Kung Chi Shing"
 artist_bio_hk: "龔瑞祺（電影工作者及攝影師）是任卓華（策展人）和龔志成（音樂文化推廣人）的女兒"
-artist_bio_en: "Chiara Kung (filmmaker &amp; photographer) is the daughter of Valerie Doran (curator) and Kung Chi Shing (music activist)."
+artist_bio_en: "Chiara Kung (filmmaker & photographer) is the daughter of Valerie Doran (curator) and Kung Chi Shing (music activist)."
 record_no: "40"
 slug: "together-apart"
 createdAt: 2021-03-30
