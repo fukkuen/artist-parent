@@ -1,9 +1,54 @@
 <script>
-	import {slide} from 'svelte/transition'
+	import {slide, fade} from 'svelte/transition'
 	import {categories} from '../../taxonomy'
 	let menu_on = false
 	import {t, locale} from 'svelte-i18n'
 	import Icon from '../ui-elements/icon.svelte'
+	import {stores} from '@sapper/app'
+	const {page} = stores()
+
+	const menu = [
+		{
+			label: 'work_category',
+			opened: true,
+			children: categories.map(c => ({
+				href: `/blog/category/${c.slug}/1`,
+				name_hk: c.name_hk,
+				name_en: c.name_en,
+				num: c.num
+			}))
+		},
+		{
+			label: 'artist_page_title',
+			href: '/artists'
+		},
+		{
+			label: 'about',
+			opened: false,
+			children: [
+				{
+					href: '/about/preface',
+					name_hk: '前言(一)',
+					name_en: 'Preface #1'
+				},
+				{
+					href: '/about/preface',
+					name_hk: '前言(二)',
+					name_en: 'Preface #2'
+				},
+				{
+					href: '/about/rooftop',
+					name_hk: '關於 rooftop',
+					name_en: 'About rooftop'
+				},
+				{
+					href: '/about/how-to-use',
+					name_hk: '如可使用',
+					name_en: 'How to use'
+				}
+			]
+		}
+	]
 
 	const languages = [
 		{
@@ -21,26 +66,41 @@
 
 <div class="fixed inset-x-0 bottom-0 bg-white shadow z-40">
 	{#if menu_on}
-		<div transition:slide>
-			<div class="p-4 border-b border-gray-300">
-				<p class="font-bold mb-2">{$t('work_category')}</p>
-				<div class="grid grid-cols-2 gap-4">
-					{#each categories as c, i}
-						<a href="/blog/category/{c.slug}/1">
-							<p class="font-bold mono">{c.num}</p>
-							<p class="text-xs">{c[`name_${$locale}`]}</p>
-						</a>
-					{/each}
-				</div>
-			</div>
-			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300">
+		<div in:fade>
+			{#each menu as m}
+				{#if m.children}
+					<div class="cursor-pointer hover:text-orange-500 h-12 px-4 flex items-center text-orange-700 text-sm" on:click|stopPropagation={() => {m.opened = !m.opened}}>
+						<div class="flex-1">{$t(m.label)}</div>
+						<Icon name="right" className="w-4 transform transition {m.opened ? 'rotate-90' : 'rotate-0'}"/>
+					</div>
+					{#if m.opened}
+						<div transition:slide class="bg-orange-300 bg-opacity-30">
+							{#each m.children as c}
+								<a href={c.href} class="relative h-10 px-4 flex items-center text-orange-500 hover:text-orange-700">
+									{#if c.href === $page.path}
+										<span class="absolute inset-y-0 left-1 bg-orange-500 w-1"></span>
+									{/if}
+									{#if c.num}
+										<p class="mono font-bold text-xs w-8 flex-shrink-0">{c.num}</p>
+									{/if}
+									<p class="text-xs leading-tight">{c[`name_${$locale}`]}</p>
+									<Icon name="right" className="flex-shrink-0 w-3 opacity-50 ml-2"/>
+								</a>
+							{/each}
+						</div>
+					{/if}
+				{:else}
+					<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500">
+						<p>{$t(m.label)}</p>
+					</a>
+				{/if}
+			{/each}
+			<div class="h-12 px-4 flex items-center text-orange-700 text-sm">
+				<div class="flex-1">{$t('language')}</div>
 				{#each languages as l}
-					<button on:click={() => {locale.set(l.key)}} class:bg-orange-300={l.key === $locale} class="rounded bg-gray-200 text-center py-1 text-sm">{l.label}</button>
+					<button on:click={() => {locale.set(l.key)}} class:bg-orange-300={l.key === $locale}
+					        class="text-xs flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center">{l.label}</button>
 				{/each}
-			</div>
-			<div class="p-4 grid grid-cols-2 gap-8 border-gray-300">
-				<a class="text-xs" href="/preface">前言</a>
-				<a class="text-xs" href="/artists">{$t('artist_page_title')}</a>
 			</div>
 		</div>
 	{/if}

@@ -57,9 +57,14 @@
 
 {#if entity}
 	<TopBar/>
-	<div class="bg-orange-700 text-white px-6 py-10">
-		<div class="mb-2 flex items-center">{$t('work_category')}: <span class="mono text-t1 ml-2">{entity.num}</span></div>
-		<h1 class="text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
+	<div class="bg-orange-700 text-white">
+		<div class="max-w-screen-xl mx-auto px-4 py-10 md:px-6 md:py-10">
+			<div class="mb-2 flex items-center">
+				<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
+				<span class="mono text-t1 ml-2">{entity.num}</span>
+			</div>
+			<h1 class="text-p2 sm:text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
+		</div>
 	</div>
 {:else}
 	<div class="bg-orange-500 text-white">
@@ -69,7 +74,7 @@
 	</div>
 {/if}
 
-<div class="max-w-screen-lg mx-auto px-2 py-4 sm:px-4 sm:py-8">
+<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
 	{#if posts && posts.length}
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
 			{#each posts as post, i}
