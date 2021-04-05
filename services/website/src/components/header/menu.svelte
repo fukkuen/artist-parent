@@ -22,6 +22,11 @@
 			href: '/artists'
 		},
 		{
+			label: 'bookmark_page_title',
+			href: '/bookmark',
+			desktop_only: true
+		},
+		{
 			label: 'about',
 			opened: false,
 			children: [
@@ -84,7 +89,7 @@
 			</div>
 		{/if}
 	{:else}
-		<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500">
+		<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500 hidden" class:sm:flex={!m.desktop_only}>
 			<p>{$t(m.label)}</p>
 		</a>
 	{/if}
