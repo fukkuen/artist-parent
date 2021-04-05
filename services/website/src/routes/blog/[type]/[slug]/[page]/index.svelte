@@ -35,13 +35,14 @@
 	}
 
 	export let posts
-	posts = shuffle(posts)
+	// posts = shuffle(posts)
+
 	let cat_previews = categories.map((c,i) => ({
 		slug: c.slug,
 		pos: (i + 1) * 5
 	}))
 	cat_previews.forEach(p => {
-		posts.splice(p.pos, 0, p.slug)
+		//posts.splice(p.pos, 0, p.slug)
 	})
 
 	$: type = $page.params.type
@@ -54,7 +55,6 @@
 	}-${post.metadata.slug}/cover.jpg`
 </script>
 
-<div class="mb-4">
 {#if entity}
 	<TopBar/>
 	<div class="bg-orange-700 text-white px-6 py-10">
@@ -62,19 +62,16 @@
 		<h1 class="text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
 	</div>
 {:else}
-	<div class="h-48 bg-orange-500 text-white">
-		<div class="max-w-screen-lg mx-auto">
-			<div class="self-center p-8 text-t1">
-				<p>HOME</p>
-			</div>
+	<div class="bg-orange-500 text-white">
+		<div class="max-w-screen-lg mx-auto px-8 py-16">
+			<p class="text-p3">HOME</p>
 		</div>
 	</div>
 {/if}
-</div>
 
-<div class="px-2">
+<div class="max-w-screen-lg mx-auto px-2 py-4 sm:px-4 sm:py-8">
 	{#if posts && posts.length}
-		<div class="grid gap-2">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
 			{#each posts as post, i}
 				{#if typeof post === 'string'}
 					<CatPreview slug={post}/>
@@ -86,6 +83,6 @@
 	{:else}
 		Not found
 	{/if}
-
-	<a href="blog/category/{slug}/1" class="w-4 h-4">link</a>
 </div>
+
+<div class="h-16"></div>

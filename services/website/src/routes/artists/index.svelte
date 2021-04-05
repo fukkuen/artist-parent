@@ -20,8 +20,9 @@
 	<div class="max-w-screen-lg mx-auto py-8 px-4">
 		<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
 			{#each posts as p}
-				<a href="blog/{p.metadata.slug}" class="text-orange-500">
-					{p.metadata.record_no} {p.metadata[`artist_name_${$locale}`]}
+				<a href="blog/{p.metadata.slug}" class="text-orange-500 flex items-center hover:text-orange-700">
+					<span class="w-6 flex-shrink-0 text-sm">{p.metadata.record_no}.</span>
+					<span>{p.metadata[`artist_name_${$locale}`]}</span>
 				</a>
 			{/each}
 		</div>

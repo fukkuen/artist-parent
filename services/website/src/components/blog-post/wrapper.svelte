@@ -73,19 +73,19 @@
   <div class="bg-orange-300 pt-8 md:pt-16">
     <div class="max-w-screen-lg mx-auto px-4 py-12">
       {#if body_visible}
-        <div class="block sm:flex" in:fly={{y:100, duration: 600}}>
-          <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
+        <div class="block sm:flex mb-4 sm:mb-12" in:fly={{y:100, duration: 600}}>
+          <div class="lg:col-span-4 text-orange-700 _prose leading-loose text sm:text-p2" bind:this={body_el} use:show_post_body>
             <slot/>
           </div>
-          <div class="my-4 sm:my-0 sm:w-60 flex-shrink-0 text-orange-500 sm:ml-8">
+          <div class="mt-4 sm:mt-0 sm:ml-8 sm:w-60 flex-shrink-0 text-orange-500">
             <div class="mb-8">
               <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
               <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
             </div>
-            <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 rounded text-white p-4">
-              <div class="flex items-center leading-none">
-                <p>{$t('work_category')}</p>
-                <p class="text-t1 mono ml-2">{this_post.metadata.category[0].num}</p>
+            <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 hover:bg-orange-700 rounded text-white p-4">
+              <div class="flex items-center leading-none mb-2">
+                <p class="text-sm mt-2">{$t('work_category')}</p>
+                <p class="text-t1 mono ml-2 leading-none">{this_post.metadata.category[0].num}</p>
               </div>
               <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
             </a>
@@ -94,7 +94,7 @@
 
         <div class="grid sm:grid-cols-2 gap-4">
           <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
-          <button class="bg-white bg-opacity-80 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
+          <button class="bg-white bg-opacity-70 hover:bg-opacity-100 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
                   class:bg-orange-500={bookmarked}
                   on:click={onToggleBookmark}>
             <Icon name="love" className="w-4"/>
@@ -109,14 +109,14 @@
 
   <div class="bg-orange-300 bg-opacity-50">
     {#if related_posts_visible}
-    <div in:fade class="max-w-screen-lg mx-auto p-4">
-      <h3 class="text-center mb-4 text-orange-500 font-bold">{$t('other_works')}</h3>
+    <div in:fade class="max-w-screen-lg mx-auto px-4 py-8 sm:py-8">
+      <h3 class="text-center mb-4 sm:mb-8 text sm:text-p3 text-orange-500 font-bold">{$t('other_works')}</h3>
       <div class="grid grid-cols-2 gap-2 sm:gap-2">
         {#each related_posts as p}
-          <a href="/blog/{p.metadata.slug}" class="block bg-orange-400 text-orange-500 text-p3 rounded py-4 px-2">
+          <a href="/blog/{p.metadata.slug}" class="block bg-orange-400 hover:bg-orange-500 hover:text-white text-orange-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
             <p class="mono text-sm">{p.metadata.category[0].num}</p>
-            <h3 class="text font-bold mb-4 leading-tight">{p.metadata[`title_${$locale}`]}</h3>
-            <p class="text-xs">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
+            <h3 class="text sm:text-p3 font-bold mb-4 leading-tight">{p.metadata[`title_${$locale}`]}</h3>
+            <p class="text-xs sm:text">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
           </a>
         {/each}
       </div>

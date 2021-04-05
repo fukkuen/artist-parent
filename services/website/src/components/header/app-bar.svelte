@@ -19,7 +19,7 @@
 
 <svelte:window on:click={() => {menu_on = false}}/>
 
-<div class="fixed inset-x-0 bottom-0 bg-white shadow">
+<div class="fixed inset-x-0 bottom-0 bg-white shadow z-40">
 	{#if menu_on}
 		<div transition:slide>
 			<div class="p-4 border-b border-gray-300">

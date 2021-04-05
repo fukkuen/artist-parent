@@ -17,7 +17,7 @@
 </script>
 
 <div class="pb-12">
-	<div class="bg-orange-500 text-white mb-1">
+	<div class="bg-orange-500 text-white mb-1 sm:mb-4">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
 			<h1 class="text-p3 font-bold">{$t('bookmark_page_title')}</h1>
 		</div>
@@ -25,7 +25,7 @@
 
 	<div class="max-w-screen-lg mx-auto mx-2">
 		{#if saved_posts.length}
-			<div class="grid gap-1">
+			<div class="grid gap-1 sm:gap-2">
 				{#each saved_posts as post}
 					<Preview {post}/>
 				{/each}

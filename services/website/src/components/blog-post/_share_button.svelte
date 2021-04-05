@@ -31,7 +31,7 @@
 	})
 </script>
 
-<button on:click={onShare} class="bg-white bg-opacity-80 text-orange-500 font-bold w-full rounded h-10 flex items-center justify-center">
+<button on:click={onShare} class="bg-white bg-opacity-70 hover:bg-opacity-100 text-orange-500 font-bold w-full rounded h-10 flex items-center justify-center">
 	{#if is_native_share_available}
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
