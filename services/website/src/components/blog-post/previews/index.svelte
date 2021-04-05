@@ -1,5 +1,7 @@
 <script>
   import {locale} from 'svelte-i18n'
+  import Img from '../../ui-elements/bg-image.svelte'
+
   export let post;
 
   const coverImageBasePath = `blog-posts/${
@@ -9,7 +11,7 @@
 
 <a href="blog/{post.metadata.slug}" class="overflow-hidden rounded">
   <div class="relative">
-    <img src={coverImageBasePath} alt={post.metadata.title} class="w-full" loading="lazy">
+    <Img src={coverImageBasePath} alt={post.metadata.title} class="w-full" loading="lazy"/>
   </div>
   <div class="bg-orange-400 px-2 py-4">
     <h3 class="text-white text-p2 leading-tight">{post.metadata[`title_${$locale}`]}</h3>

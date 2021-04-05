@@ -2,8 +2,6 @@
 	export let src
 	export let pt = 3/4*100
 
-	let image_el
-
 	const onLazyLoad = node => {
 		const observer = new IntersectionObserver((entries, observer) => {
 			entries.forEach(entry => {
@@ -24,4 +22,13 @@
 	}
 </script>
 
-<div bind:this={image_el} use:onLazyLoad class="bg-contain bg-no-repeat bg-center" style="padding-top: {pt}%;"></div>
+<div style="padding-top:{pt}%;" class="relative overflow-hidden">
+	<div class="absolute inset-0 bg-cover bg-no-repeat bg-center z-0 blur" use:onLazyLoad></div>
+	<div class="absolute inset-0 bg-contain bg-no-repeat bg-center z-10"  use:onLazyLoad></div>
+</div>
+
+<style>
+	.blur {
+		filter: blur(10px);
+	}
+</style>
