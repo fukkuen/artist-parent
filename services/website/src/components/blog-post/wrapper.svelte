@@ -60,9 +60,8 @@
     <div class="max-w-screen-md mx-auto px-4 pt-16">
       {#if header_visible}
         <div in:fly={{y:100, duration: 600}} class="mb-8 lg:text-center">
-          <p class="text-orange-300 font-bold mb-2 text-p2">{this_post.metadata[`intro_title_${$locale}`]}</p>
           <h1 class="font-bold text-white text-t1 mb-4">{this_post.metadata[`title_${$locale}`]}</h1>
-          <p class="text-orange-300 font-bold mb-2 text-sm">{this_post.metadata[`artist_name_${$locale}`]}</p>
+          <p class="text-orange-300 font-bold mb-2 text-sm">{this_post.metadata.record_no}. {this_post.metadata[`artist_name_${$locale}`]}</p>
         </div>
         <img src="blog-posts/{this_post.metadata.createdAt.split('T')[0]}-{this_post.metadata.slug}/cover.jpg"
              class="max-w-sm lg:max-w-md mx-auto w-full rounded-lg -mb-16"
@@ -116,8 +115,8 @@
         {#each related_posts as p}
           <a href="/blog/{p.metadata.slug}" class="block bg-orange-400 text-orange-500 text-p3 rounded py-4 px-2">
             <p class="mono text-sm">{p.metadata.category[0].num}</p>
-            <h3 class="text font-bold mb-4 leading-tight">{p.metadata[`intro_title_${$locale}`]}</h3>
-            <p class="text-xs">{p.metadata[`artist_name_${$locale}`]}</p>
+            <h3 class="text font-bold mb-4 leading-tight">{p.metadata[`title_${$locale}`]}</h3>
+            <p class="text-xs">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
           </a>
         {/each}
       </div>

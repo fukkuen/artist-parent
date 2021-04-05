@@ -27,7 +27,7 @@
 				<div class="grid grid-cols-2 gap-4">
 					{#each categories as c, i}
 						<a href="/blog/category/{c.slug}/1">
-							<p class="font-bold mono">{i}</p>
+							<p class="font-bold mono">{c.num}</p>
 							<p class="text-xs">{c[`name_${$locale}`]}</p>
 						</a>
 					{/each}
