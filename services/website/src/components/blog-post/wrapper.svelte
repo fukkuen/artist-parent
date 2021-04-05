@@ -59,7 +59,7 @@
   <div class="bg-orange-500">
     <div class="max-w-screen-md mx-auto px-4 pt-16">
       {#if header_visible}
-        <div transition:fly={{y:100, duration: 600}} class="mb-8 lg:text-center">
+        <div in:fly={{y:100, duration: 600}} class="mb-8 lg:text-center">
           <p class="text-orange-300 font-bold mb-2 text-p2">{this_post.metadata[`intro_title_${$locale}`]}</p>
           <h1 class="font-bold text-white text-t1 mb-4">{this_post.metadata[`title_${$locale}`]}</h1>
           <p class="text-orange-300 font-bold mb-2 text-sm">{this_post.metadata[`artist_name_${$locale}`]}</p>
@@ -74,7 +74,7 @@
   <div class="bg-orange-300 pt-8 md:pt-16">
     <div class="max-w-screen-lg mx-auto px-4 py-12">
       {#if body_visible}
-        <div class="block sm:flex" transition:fly={{y:100, duration: 600}}>
+        <div class="block sm:flex" in:fly={{y:100, duration: 600}}>
           <div class="lg:col-span-4 text-orange-700 _prose" bind:this={body_el} use:show_post_body>
             <slot/>
           </div>
@@ -110,7 +110,7 @@
 
   <div class="bg-orange-300 bg-opacity-50">
     {#if related_posts_visible}
-    <div transition:fade class="max-w-screen-lg mx-auto p-4">
+    <div in:fade class="max-w-screen-lg mx-auto p-4">
       <h3 class="text-center mb-4 text-orange-500 font-bold">{$t('other_works')}</h3>
       <div class="grid grid-cols-2 gap-2 sm:gap-2">
         {#each related_posts as p}

@@ -22,6 +22,9 @@ export const get = (req, res) => {
       return p.metadata.category.map(c => c.slug).indexOf(category) > -1
     }
   })
+  posts.sort((a,b) => {
+    return Number(a.metadata.record_no) < Number(b.metadata.record_no) ? 1 : -1
+  })
   page = page || 1
   const size = 100
   const result = getPaginatedPosts(filtered_posts, page, size)
