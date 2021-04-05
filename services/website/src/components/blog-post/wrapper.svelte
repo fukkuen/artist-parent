@@ -1,6 +1,5 @@
 <script>
   import Footer from "../footer.svelte";
-  import ImageZoom from "./image-zoom.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
   import Topbar from '../../components/header/top-bar.svelte'
   import Icon from '../../components/ui-elements/icon.svelte'
@@ -15,8 +14,6 @@
   let related_posts = post.related_posts
   let body_el
   let header_visible = false
-  let body_visible = false
-  let related_posts_visible = false
   $: {
     console.log($locale)
     if (body_el) show_post_body(body_el)
@@ -36,10 +33,6 @@
 
   onMount(() => {
     header_visible = true
-    setTimeout(() => {
-      body_visible = true
-      related_posts_visible = true
-    }, 500)
   })
 </script>
 
@@ -63,7 +56,7 @@
           <h1 class="font-bold text-white text-t1 mb-4">{this_post.metadata[`title_${$locale}`]}</h1>
           <p class="text-orange-300 font-bold mb-2 text-sm">{this_post.metadata.record_no}. {this_post.metadata[`artist_name_${$locale}`]}</p>
         </div>
-        <img src="blog-posts/{this_post.metadata.createdAt.split('T')[0]}-{this_post.metadata.slug}/cover.jpg"
+        <img in:fade={{duration: 600}} src="blog-posts/{this_post.metadata.createdAt.split('T')[0]}-{this_post.metadata.slug}/cover.jpg"
              class="max-w-sm lg:max-w-md mx-auto w-full rounded-lg -mb-16"
              alt="cover"/>
       {/if}
@@ -72,44 +65,41 @@
 
   <div class="bg-orange-300 pt-8 md:pt-16">
     <div class="max-w-screen-lg mx-auto px-4 py-12">
-      {#if body_visible}
-        <div class="block sm:flex mb-4 sm:mb-12" in:fly={{y:100, duration: 600}}>
-          <div class="lg:col-span-4 text-orange-700 _prose leading-loose text sm:text-p2" bind:this={body_el} use:show_post_body>
-            <slot/>
+      <div class="block sm:flex mb-4 sm:mb-12">
+        <div class="lg:col-span-4 text-orange-700 _prose leading-loose text sm:text-p2 w-full" bind:this={body_el} use:show_post_body>
+          <slot/>
+        </div>
+        <div class="mt-4 sm:mt-0 sm:ml-8 sm:w-60 flex-shrink-0 text-orange-500">
+          <div class="mb-8">
+            <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
+            <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
           </div>
-          <div class="mt-4 sm:mt-0 sm:ml-8 sm:w-60 flex-shrink-0 text-orange-500">
-            <div class="mb-8">
-              <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
-              <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
+          <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 hover:bg-orange-700 rounded text-white p-4">
+            <div class="flex items-center leading-none mb-2">
+              <p class="text-sm mt-2">{$t('work_category')}</p>
+              <p class="text-t1 mono ml-2 leading-none">{this_post.metadata.category[0].num}</p>
             </div>
-            <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-orange-500 hover:bg-orange-700 rounded text-white p-4">
-              <div class="flex items-center leading-none mb-2">
-                <p class="text-sm mt-2">{$t('work_category')}</p>
-                <p class="text-t1 mono ml-2 leading-none">{this_post.metadata.category[0].num}</p>
-              </div>
-              <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
-            </a>
-          </div>
+            <p class="text-xs">{this_post.metadata.category[0][`name_${$locale}`]}</p>
+          </a>
         </div>
+      </div>
 
-        <div class="grid sm:grid-cols-2 gap-4">
-          <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
-          <button class="bg-white bg-opacity-70 hover:bg-opacity-100 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
-                  class:bg-orange-500={bookmarked}
-                  on:click={onToggleBookmark}>
-            <Icon name="love" className="w-4"/>
-            <span class="ml-2">
-              {$t(bookmarked ? 'bookmarked' : 'bookmark')}
-            </span>
-          </button>
-        </div>
-      {/if}
+      <div class="grid sm:grid-cols-2 gap-4">
+        <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
+        <button class="bg-white bg-opacity-70 hover:bg-opacity-100 {bookmarked ? 'text-white' : 'text-orange-500'} font-bold w-full rounded h-10 flex items-center justify-center"
+                class:bg-orange-500={bookmarked}
+                on:click={onToggleBookmark}>
+          <Icon name="love" className="w-4"/>
+          <span class="ml-2">
+            {$t(bookmarked ? 'bookmarked' : 'bookmark')}
+          </span>
+        </button>
+      </div>
     </div>
   </div>
 
   <div class="bg-orange-300 bg-opacity-50">
-    {#if related_posts_visible}
-    <div in:fade class="max-w-screen-lg mx-auto px-4 py-8 sm:py-8">
+    <div class="max-w-screen-lg mx-auto px-4 py-8 sm:py-8">
       <h3 class="text-center mb-4 sm:mb-8 text sm:text-p3 text-orange-500 font-bold">{$t('other_works')}</h3>
       <div class="grid grid-cols-2 gap-2 sm:gap-2">
         {#each related_posts as p}
@@ -121,6 +111,5 @@
         {/each}
       </div>
     </div>
-    {/if}
   </div>
 </div>
