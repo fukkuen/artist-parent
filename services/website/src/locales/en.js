@@ -5,5 +5,6 @@ export default {
 	bookmarked: 'Bookmarked',
 	bookmark_page_title: 'My bookmarks',
 	bookmark_page_no_record: 'You have no bookmarked works',
-	share: 'Share'
+	share: 'Share',
+	artist_page_title: 'Archive by Artists'
 }

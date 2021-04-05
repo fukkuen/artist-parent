@@ -5,5 +5,6 @@ export default {
 	bookmarked: '已收藏',
 	bookmark_page_title: '收藏了的作品',
 	bookmark_page_no_record: '你還未有收藏作品',
-	share: '分享給朋友'
+	share: '分享給朋友',
+	artist_page_title: '藝術家總覽'
 }
