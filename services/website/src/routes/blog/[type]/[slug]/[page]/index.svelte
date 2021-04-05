@@ -59,7 +59,7 @@
 	<TopBar/>
 	<div class="bg-orange-700 text-white px-6 py-10">
 		<div class="mb-2 flex items-center">{$t('work_category')}: <span class="mono text-t1 ml-2">{entity.num}</span></div>
-		<h1 class="text-p3 leading-tight">{entity.name_hk}</h1>
+		<h1 class="text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
 	</div>
 {:else}
 	<div class="h-48 bg-orange-500 text-white">
