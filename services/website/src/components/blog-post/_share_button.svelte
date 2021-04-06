@@ -36,10 +36,20 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<div class="fb-share-button" data-href="{$page.host + $page.path}" data-layout="button" data-size="large">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-			   class="fb-xfbml-parse-ignore">{$t('share')}
-			</a>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your share button code -->
+<!--		https:// + $page.host + $page.path-->
+		<div class="fb-share-button"
+		     data-href="https://artist-parent.vercel.app/blog/instructionology"
+		     data-layout="button_count">
 		</div>
 	{/if}
 </button>
