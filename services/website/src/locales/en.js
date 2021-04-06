@@ -8,5 +8,7 @@ export default {
 	share: 'Share',
 	artist_page_title: 'Archive by Artists',
 	about: 'About',
-	language: 'Language'
+	language: 'Language',
+	how_to_use_title: 'How to use',
+	preface_title: 'Preface'
 }

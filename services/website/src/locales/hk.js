@@ -8,5 +8,7 @@ export default {
 	share: '分享',
 	artist_page_title: '藝術家總覽',
 	about: '關於',
-	language: '語言'
+	language: '語言',
+	how_to_use_title: '使用指引',
+	preface_title: '前言'
 }

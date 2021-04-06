@@ -10,7 +10,7 @@
 <svelte:window on:click={() => {menu_on = false}}/>
 
 <div class="fixed inset-x-0 bottom-0 bg-white shadow z-40 block sm:hidden">
-	<div class="absolute inset-x-0 bottom-full bg-white transition transform {menu_on ? 'translate-y-0' : 'translate-y-full'}">
+	<div style="max-height: 80vh" class="overflow-y-scroll absolute inset-x-0 bottom-full bg-white transition transform {menu_on ? 'translate-y-0' : 'translate-y-full'}">
 		<Menu/>
 	</div>
 	<div class="grid grid-cols-3 relative z-10 bg-white">

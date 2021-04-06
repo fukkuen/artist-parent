@@ -36,7 +36,7 @@
 					name_en: 'Preface #1'
 				},
 				{
-					href: '/about/preface',
+					href: '/about/preface2',
 					name_hk: '前言(二)',
 					name_en: 'Preface #2'
 				},
@@ -89,7 +89,7 @@
 			</div>
 		{/if}
 	{:else}
-		<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500 hidden" class:sm:flex={!m.desktop_only}>
+		<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500 {m.desktop_only ? 'hidden sm:flex' : ''}">
 			<p>{$t(m.label)}</p>
 		</a>
 	{/if}
