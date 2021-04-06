@@ -8,6 +8,11 @@
 
 	const menu = [
 		{
+			label: 'home_title',
+			href: '/',
+			desktop_only: true
+		},
+		{
 			label: 'work_category',
 			opened: true,
 			children: categories.map(c => ({

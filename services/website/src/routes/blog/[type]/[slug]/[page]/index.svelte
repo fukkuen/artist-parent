@@ -69,7 +69,7 @@
 {:else}
 	<div class="bg-orange-500 text-white">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
-			<p class="text-p3">HOME</p>
+			<p class="text-p3">{$t('home_title')}</p>
 		</div>
 	</div>
 {/if}

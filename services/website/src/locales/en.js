@@ -10,5 +10,6 @@ export default {
 	about: 'About',
 	language: 'Language',
 	how_to_use_title: 'How to use',
-	preface_title: 'Preface'
+	preface_title: 'Preface',
+	home_title: 'Home'
 }

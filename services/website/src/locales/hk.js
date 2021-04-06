@@ -10,5 +10,6 @@ export default {
 	about: '關於',
 	language: '語言',
 	how_to_use_title: '使用指引',
-	preface_title: '前言'
+	preface_title: '前言',
+	home_title: '主頁'
 }
