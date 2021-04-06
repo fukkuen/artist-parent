@@ -8,6 +8,7 @@
 	export let title
 	export let text
 	export let url
+	console.log($page)
 
 	let is_native_share_available = false
 
@@ -36,7 +37,7 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<a href="https://www.facebook.com/sharer/sharer.php?u={$page.domain + $page.path}" target="_blank">
+		<a href="https://www.facebook.com/sharer/sharer.php?u={$page.host + $page.path}" target="_blank">
 			Share on Facebook
 		</a>
 	{/if}
