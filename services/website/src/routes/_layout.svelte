@@ -21,11 +21,14 @@
   import TailwindCSS from "../components/tailwindcss.svelte";
   import {bookmarkStore} from '../stores'
   import {onMount} from 'svelte'
+  import {locale} from 'svelte-i18n'
 
   export let segment;
 
   onMount(() => {
 	  bookmarkStore.getBookmarkFromLocalstorage()
+	  let lang = localStorage.getItem('lang')
+	  if (lang) locale.set(lang)
   })
 </script>
 

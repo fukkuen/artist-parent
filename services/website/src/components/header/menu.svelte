@@ -64,6 +64,11 @@
 			label: 'ENG'
 		}
 	]
+
+	const setLanguage = (key) => {
+		locale.set(key)
+		localStorage.setItem('lang', key)
+	}
 </script>
 
 {#each menu as m}
@@ -97,7 +102,7 @@
 <div class="h-12 px-4 flex items-center text-orange-700 text-sm">
 	<div class="flex-1">{$t('language')}</div>
 	{#each languages as l}
-		<button on:click={() => {locale.set(l.key)}} class:bg-orange-300={l.key === $locale}
+		<button on:click={() => {setLanguage(l.key)}} class:bg-orange-300={l.key === $locale}
 		        class="text-xs flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center">{l.label}</button>
 	{/each}
 </div>
