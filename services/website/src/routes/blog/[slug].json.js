@@ -19,7 +19,6 @@ export const get = (req, res) => {
 		let prev = posts[idx-1]
 		let related_posts = [next, prev]
 		related_posts = related_posts.filter(p => !!p)
-		console.log(current)
 
 		const result = {
 			post: current,

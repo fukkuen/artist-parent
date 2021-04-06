@@ -36,7 +36,10 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<Icon name="share"/>
-		<span class="ml-2">{$t('share')}</span>
+		<div class="fb-share-button" data-href="{$page.host + $page.path}" data-layout="button" data-size="large">
+			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+			   class="fb-xfbml-parse-ignore">{$t('share')}
+			</a>
+		</div>
 	{/if}
 </button>

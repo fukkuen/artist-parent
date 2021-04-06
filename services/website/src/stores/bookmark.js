@@ -12,13 +12,11 @@ const createStore = () => {
 	}
 	const toggleBookmark = (id) => {
 		if (isBookmarked(id)) {
-			console.log('remove')
 			store.update(v => {
 				v.splice(v.indexOf(id), 1)
 				return v
 			})
 		} else {
-			console.log('add')
 			store.update(v => {
 				return [...v, id]
 			})
