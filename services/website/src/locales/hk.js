@@ -6,6 +6,7 @@ export default {
 	bookmark_page_title: '你的收藏',
 	bookmark_page_no_record: '你還未有收藏作品',
 	share: '分享',
+	share_fb: '分享到 Facebook',
 	artist_page_title: '藝術家總覽',
 	about: '關於',
 	language: '語言',

@@ -6,6 +6,7 @@ export default {
 	bookmark_page_title: 'My bookmarks',
 	bookmark_page_no_record: 'You have no bookmarked works',
 	share: 'Share',
+	share_fb: 'Share to Facebook',
 	artist_page_title: 'Archive by Artists',
 	about: 'About',
 	language: 'Language',

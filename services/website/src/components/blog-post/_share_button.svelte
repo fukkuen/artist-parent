@@ -37,8 +37,8 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<a href="https://www.facebook.com/sharer/sharer.php?u={$page.host + $page.path}" target="_blank">
-			Share on Facebook
+		<a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/sharer/sharer.php?u={$page.host + $page.path}" target="_blank">
+			{$t('share_fb')}
 		</a>
 	{/if}
 </button>
