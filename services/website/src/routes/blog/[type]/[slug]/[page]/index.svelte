@@ -49,6 +49,15 @@
 	$: slug = $page.params.slug
 	$: category = $page.params.type === 'category' && $page.params.slug
 	$: entity = !!category ? categories.find(cat => cat.slug === category) : ''
+	$: {
+		console.log(category)
+		reload = true
+		setTimeout(() => {
+			reload = false
+		}, 1)
+	}
+
+	let reload = false
 
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
@@ -75,7 +84,7 @@
 {/if}
 
 <div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
-	{#if posts && posts.length}
+	{#if posts && posts.length && !reload}
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
 			{#each posts as post, i}
 				{#if typeof post === 'string'}
@@ -91,3 +100,8 @@
 </div>
 
 <div class="h-16"></div>
+
+<svelte:head>
+	<title>{$t('site_title')}</title>
+	<meta name="description" content={$t('site_desc')}>
+</svelte:head>

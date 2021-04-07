@@ -12,5 +12,7 @@ export default {
 	language: '語言',
 	how_to_use_title: '使用指引',
 	preface_title: '前言',
-	home_title: '主頁'
+	home_title: '主頁',
+	site_title: '又係藝術家又係呀爸呀媽',
+	site_desc: '指令藝術'
 }
