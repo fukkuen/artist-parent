@@ -36,17 +36,7 @@
   })
 </script>
 
-<style>
-  div.content :global(img) {
-    cursor: zoom-in;
-  }
-</style>
-
-<svelte:head>
-  <title>{this_post.metadata.title_hk} | {this_post.metadata.title_en}</title>
-  <meta name="description" content={this_post.metadata.artist_name_hk + ' | ' + this_post.metadata.artist_name_en}>
-  <meta property="og:image" content="https://artist-parent.vercel.app/blog-posts/{this_post.metadata.createdAt.split('T')[0]}-{this_post.metadata.slug}/cover.jpg">
-</svelte:head>
+<SeoHeadPost post={this_post}/>
 
 <Topbar/>
 

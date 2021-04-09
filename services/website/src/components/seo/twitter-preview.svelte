@@ -10,9 +10,8 @@
 </script>
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@mikenikles" />
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="{image}">
 <meta name="twitter:image:alt" content="{imageAlt}">
 <meta name="twitter:title" content="{title}">
-<meta name="twitter:url" content="https://empower.hk{$page.path}">
+<meta name="twitter:url" content="https://artist-parent.vercel.app{$page.path}">

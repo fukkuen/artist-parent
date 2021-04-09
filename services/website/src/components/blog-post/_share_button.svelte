@@ -7,13 +7,12 @@
 
 	export let title
 	export let text
-	export let url
-	console.log($page)
+	let url = $page.host + $page.path
 
 	let is_native_share_available = false
 
 	const shareLinkByNative = () => {
-		navigator.share({title, text, url: $page.path})
+		navigator.share({title, text, url})
 				.then(() => console.log('Successful share'))
 				.catch((error) => console.log('Error sharing', error));
 	}
@@ -37,8 +36,10 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/sharer/sharer.php?u={$page.host + $page.path}" target="_blank">
+		<a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/sharer/sharer.php?u={url}" target="_blank">
 			{$t('share_fb')}
 		</a>
 	{/if}
 </button>
+
+<a href="https://twitter.com/share?url={url}&text={title}!">Twitter share</a>
