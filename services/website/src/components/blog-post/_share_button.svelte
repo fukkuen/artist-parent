@@ -4,10 +4,14 @@
 	import Icon from '../ui-elements/icon.svelte'
 	import {t} from 'svelte-i18n'
 	const {page} = stores()
+	import {fade, fly} from 'svelte/transition'
 
 	export let title
 	export let text
 	let url = 'https://'+ $page.host + $page.path
+	let opened = false
+	let input_el
+	let copied = false
 
 	let is_native_share_available = false
 
@@ -26,6 +30,17 @@
 		}
 	}
 
+	const copyLink = () => {
+		input_el.select()
+		document.execCommand("copy")
+		copied = true
+	}
+
+	const onClose = () => {
+		opened = false
+		copied = false
+	}
+
 	onMount(() => {
 		if (navigator.share) is_native_share_available = true
 	})
@@ -36,10 +51,34 @@
 		<Icon name="share"/>
 		<span class="ml-2">{$t('share')}</span>
 	{:else}
-		<a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/sharer/sharer.php?u={url}" target="_blank">
-			{$t('share_fb')}
-		</a>
+		<div class="w-full" on:click={() => {opened = true}}>
+			{$t('share')}
+		</div>
 	{/if}
 </button>
 
-<a target="_blank" href="https://twitter.com/share?url={url}&text={title}!">Twitter share</a>
+{#if opened}
+	<div transition:fade on:click={onClose} class="fixed inset-0 bg-black bg-opacity-30 z-10"></div>
+
+	<div transition:fly={{y: 20}} class="p-8 fixed inset-x-0 top-8 max-w-xs mx-auto mt-24 bg-white z-20 rounded">
+		<div class="mb-4 flex justify-between">
+			<p class="text-center">{$t('share')}</p>
+			<button on:click={onClose} class="w-8 h-8 flex items-center justify-center"><Icon name="close" className="w-3"/></button>
+		</div>
+		<div class="grid grid-cols-2 text-center">
+			<a href="https://www.facebook.com/sharer/sharer.php?u={url}" target="_blank">
+				<svg style="color: #3C5997" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36.25 36.014" class="fill-current w-12 mx-auto"><path d="M18.076 0C8.092 0 0 8.092 0 18.074c0 8.686 6.126 15.932 14.29 17.672l.467-14.918-2.757.008v-4.822h2.29s-.025-4.012-.025-4.797c0-.78-.16-6.203 6.61-6.203H26v5h-3.86c-.698 0-1.4 1.123-1.4 1.66 0 .533.106 4.34.106 4.34h4.71c-.194 2-.67 5-.67 5H21v14.902c9-1.336 15.23-8.803 15.23-17.842C36.23 8.092 28.06 0 18.075 0z"></path></svg>
+				<span class="mt-3 text-xs">Facebook</span>
+			</a>
+			<a target="_blank" href="https://twitter.com/share?url={url}&text={title}!">
+				<svg style="color: #1EA1F1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 36 36.057" class="fill-current w-12 mx-auto"><path d="M18 0C8.06 0 0 8.06 0 18s8.06 18 18 18 18-8.06 18-18S27.94 0 18 0zm10.275 12.73c.01.23.014.457.014.688 0 7.006-5.33 15.082-15.08 15.082-2.993 0-5.778-.877-8.126-2.38.416.048.842.073 1.27.073 2.484 0 4.783-.848 6.596-2.27-2.32-.044-4.254-1.575-4.93-3.68.324.062.7.093 1.04.093.485 0 .81-.064 1.253-.186C7.885 19.662 6 17.52 6 14.955v-.068c0 .396 1.594.635 2.46.662-1.42-.952-2.415-2.575-2.415-4.413 0-.973.323-1.883.776-2.666 2.618 3.208 6.55 5.317 10.955 5.542-.088-.39-.122-.795-.122-1.21 0-2.93 2.38-5.302 5.31-5.302 1.522 0 2.905.646 3.872 1.674 1.207-.236 2.344-.678 3.367-1.285-.396 1.237-1.236 2.274-2.33 2.933 1.072-.13 2.094-.416 3.045-.834-.708 1.06-1.606 1.992-2.642 2.74z"></path></svg>
+				<span class="mt-3 text-xs">Twitter</span>
+			</a>
+		</div>
+		<div class="mt-4" on:click={copyLink}>
+			<input bind:this={input_el} value="{url}" readonly class="{copied ? 'text-white bg-orange-400' : 'bg-gray-200 text-orange-500'} w-full cursor-pointer px-4 py-2 overflow-hidden text-overflow-ellipsis whitespace-nowrap text-sm rounded">
+			<p class="text-xs text-center mt-1 opacity-80">{$t(copied ? 'link_copied' : 'tap_to_copy_link')}</p>
+		</div>
+</div>
+{/if}
+

@@ -14,5 +14,7 @@ export default {
 	preface_title: 'Preface',
 	home_title: 'Home',
 	site_title: 'Artist parent',
-	site_desc: 'Instruction art'
+	site_desc: 'Instruction art',
+	tap_to_copy_link: 'Tap to copy link',
+	link_copied: 'Link copied'
 }

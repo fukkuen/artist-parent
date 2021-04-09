@@ -14,5 +14,7 @@ export default {
 	preface_title: '前言',
 	home_title: '主頁',
 	site_title: '又係藝術家又係呀爸呀媽',
-	site_desc: '指令藝術'
+	site_desc: '指令藝術',
+	tap_to_copy_link: '點擊複製連結',
+	link_copied: '連結已複製'
 }
