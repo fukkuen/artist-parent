@@ -7,7 +7,7 @@
 
 	export let title
 	export let text
-	let url = $page.host + $page.path
+	let url = 'https://'+ $page.host + $page.path
 
 	let is_native_share_available = false
 
@@ -42,4 +42,4 @@
 	{/if}
 </button>
 
-<a href="https://twitter.com/share?url={url}&text={title}!">Twitter share</a>
+<a target="_blank" href="https://twitter.com/share?url={url}&text={title}!">Twitter share</a>
