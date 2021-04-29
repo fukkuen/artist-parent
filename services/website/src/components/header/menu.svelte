@@ -3,6 +3,7 @@
 	import {categories} from '../../taxonomy'
 	import {t, locale} from 'svelte-i18n'
 	import Icon from '../ui-elements/icon.svelte'
+	import {preface_store} from "../../stores";
 	import {stores} from '@sapper/app'
 	const {page} = stores()
 
@@ -34,28 +35,15 @@
 		{
 			label: 'about',
 			opened: false,
-			children: [
-				{
-					href: '/about/preface',
-					name_hk: '前言(一)',
-					name_en: 'Preface #1'
-				},
-				{
-					href: '/about/preface2',
-					name_hk: '前言(二)',
-					name_en: 'Preface #2'
-				},
-				{
-					href: '/about/rooftop',
-					name_hk: '關於 rooftop',
-					name_en: 'About rooftop'
-				},
-				{
-					href: '/about/how-to-use',
-					name_hk: '如可使用',
-					name_en: 'How to use'
-				}
-			]
+			children: $preface_store
+		},
+		{
+			label: 'about_rooftop_title',
+			href: '/about-rooftop'
+		},
+		{
+			label: 'how_to_use_title',
+			href: '/how-to-use'
 		}
 	]
 

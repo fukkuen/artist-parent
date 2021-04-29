@@ -11,6 +11,7 @@ export default {
 	about: '關於',
 	language: '語言',
 	how_to_use_title: '使用指引',
+	about_rooftop_title: '關於 rooftop',
 	preface_title: '前言',
 	home_title: '主頁',
 	site_title: '又係藝術家又係呀爸呀媽',

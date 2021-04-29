@@ -37,7 +37,7 @@
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    @apply bg-orange-500
+    @apply bg-gray-500
   }
 
   .hamburger-box {

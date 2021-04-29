@@ -11,6 +11,7 @@ export default {
 	about: 'About',
 	language: 'Language',
 	how_to_use_title: 'How to use',
+	about_rooftop_title: 'About rooftop',
 	preface_title: 'Preface',
 	home_title: 'Home',
 	site_title: 'Artist parent',
