@@ -13,26 +13,7 @@
 	import {locale, t} from 'svelte-i18n'
 	import TopBar from '../../../../../components/header/top-bar.svelte'
 	import Preview from '../../../../../components/blog-post/previews/index.svelte'
-	import CatPreview from '../../../../../components/blog-post/previews/category-preview.svelte'
 
-	function shuffle(array) {
-		var currentIndex = array.length, temporaryValue, randomIndex;
-
-		// While there remain elements to shuffle...
-		while (0 !== currentIndex) {
-
-			// Pick a remaining element...
-			randomIndex = Math.floor(Math.random() * currentIndex);
-			currentIndex -= 1;
-
-			// And swap it with the current element.
-			temporaryValue = array[currentIndex];
-			array[currentIndex] = array[randomIndex];
-			array[randomIndex] = temporaryValue;
-		}
-
-		return array;
-	}
 
 	export let posts
 	// posts = shuffle(posts)
@@ -64,44 +45,41 @@
 	}-${post.metadata.slug}/cover.jpg`
 </script>
 
-{#if entity}
-	<TopBar/>
-	<div class="bg-orange-700 text-white">
-		<div class="max-w-screen-xl mx-auto px-4 py-10 md:px-6 md:py-10">
-			<div class="mb-2 flex items-center">
-				<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
-				<span class="mono text-t1 ml-2">{entity.num}</span>
+<div class="bg-gray-200">
+	{#if entity}
+		<TopBar/>
+		<div class="bg-gray-500 text-white">
+			<div class="max-w-screen-xl mx-auto px-4 py-10 md:px-6 md:py-10">
+				<div class="mb-2 flex items-center">
+					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
+					<span class="mono text-t1 ml-2">{entity.num}</span>
+				</div>
+				<h1 class="text-p2 sm:text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
 			</div>
-			<h1 class="text-p2 sm:text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
 		</div>
-	</div>
-{:else}
-	<div class="bg-orange-500 text-white">
-		<div class="max-w-screen-lg mx-auto px-8 py-16">
-			<p class="text-p3">{$t('home_title')}</p>
-		</div>
-	</div>
-{/if}
-
-<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
-	{#if posts && posts.length}
-		{#if !reload}
-			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-				{#each posts as post, i}
-					{#if typeof post === 'string'}
-						<CatPreview slug={post}/>
-					{:else}
-						<Preview {post}/>
-					{/if}
-				{/each}
-			</div>
-		{/if}
 	{:else}
-		Not found
+		<div class="bg-cover bg-center md:h-72" style="background-image: url('/images/banner_1024.png')">
+			<div class="block sm:hidden" style="padding-top: 75%"></div>
+			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
+		</div>
 	{/if}
-</div>
 
-<div class="h-16"></div>
+	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
+		{#if posts && posts.length}
+			{#if !reload}
+				<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+					{#each posts as post, i}
+						<Preview {post}/>
+					{/each}
+				</div>
+			{/if}
+		{:else}
+			Not found
+		{/if}
+	</div>
+
+	<div class="h-16"></div>
+</div>
 
 <svelte:head>
 	<title>{$t('site_title')}</title>
