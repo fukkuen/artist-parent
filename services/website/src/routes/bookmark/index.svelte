@@ -16,8 +16,8 @@
 	})
 </script>
 
-<div class="pb-12">
-	<div class="bg-orange-500 text-white mb-1 sm:mb-4">
+<div class="pb-12 bg-gray-200">
+	<div class="bg-cover bg-center mb-1" style="background-image: url('/images/pattern.jpg')">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
 			<h1 class="text-p3 font-bold">{$t('bookmark_page_title')}</h1>
 		</div>

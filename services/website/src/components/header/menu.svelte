@@ -78,16 +78,16 @@
 
 {#each menu as m}
 	{#if m.children}
-		<div class="cursor-pointer hover:text-orange-500 h-12 px-4 flex items-center text-orange-700 text-sm" on:click|stopPropagation={() => {m.opened = !m.opened}}>
+		<div class="cursor-pointer hover:text-gray-500 h-12 px-4 flex items-center text-gray-700 text-sm" on:click|stopPropagation={() => {m.opened = !m.opened}}>
 			<div class="flex-1">{$t(m.label)}</div>
 			<Icon name="right" className="w-4 transform transition {m.opened ? 'rotate-90' : 'rotate-0'}"/>
 		</div>
 		{#if m.opened}
-			<div transition:slide class="bg-orange-300 bg-opacity-30">
+			<div transition:slide class="bg-gray-200">
 				{#each m.children as c}
-					<a href={c.href} class="relative h-10 px-4 flex items-center text-orange-500 hover:text-orange-700">
+					<a href={c.href} class="relative h-10 px-4 flex items-center text-gray-500 hover:text-gray-700">
 						{#if c.href === $page.path}
-							<span class="absolute inset-y-0 left-1 bg-orange-500 w-1"></span>
+							<span class="absolute inset-y-0 left-1 bg-gray-500 w-1"></span>
 						{/if}
 						{#if c.num}
 							<p class="mono font-bold text-xs w-8 flex-shrink-0">{c.num}</p>
@@ -99,15 +99,15 @@
 			</div>
 		{/if}
 	{:else}
-		<a href={m.href} class="h-12 px-4 flex items-center text-orange-700 text-sm hover:text-orange-500 {m.desktop_only ? 'hidden sm:flex' : ''}">
+		<a href={m.href} class="h-12 px-4 flex items-center text-gray-700 text-sm hover:text-gray-500 {m.desktop_only ? 'hidden sm:flex' : ''}">
 			<p>{$t(m.label)}</p>
 		</a>
 	{/if}
 {/each}
-<div class="h-12 px-4 flex items-center text-orange-700 text-sm">
+<div class="h-12 px-4 flex items-center text-gray-700 text-sm">
 	<div class="flex-1">{$t('language')}</div>
 	{#each languages as l}
-		<button on:click={() => {setLanguage(l.key)}} class:bg-orange-300={l.key === $locale}
+		<button on:click={() => {setLanguage(l.key)}} class:bg-gray-300={l.key === $locale}
 		        class="text-xs flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center">{l.label}</button>
 	{/each}
 </div>

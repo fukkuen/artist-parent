@@ -11,7 +11,7 @@
 <a href="blog/{post.metadata.slug}" class="overflow-hidden rounded group bg-white shadow-lg">
   <div class="relative overflow-hidden bg-orange-300">
     <div style="padding-top: 56%"></div>
-    <img src={coverImageBasePath} alt={post.metadata.title} class="w-full absolute left-0 top-0" loading="lazy"/>
+    <img src={coverImageBasePath} alt={post.metadata.title} class="w-full absolute left-0 top-0 black-and-white" loading="lazy"/>
   </div>
   <div class="bg-white px-2 py-4">
     <h3 class="text-gray-700 text-p2 mb-1 md:text-p3 md:mb-2 leading-tight ">{post.metadata[`title_${$locale}`]}</h3>
@@ -23,3 +23,9 @@
     </div>
   </div>
 </a>
+
+<style>
+  .black-and-white {
+    filter: grayscale(50%);
+  }
+</style>

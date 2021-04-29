@@ -11,7 +11,7 @@
 </script>
 
 <div class="pb-12">
-	<div class="bg-orange-500 text-white mb-1">
+	<div class="bg-cover bg-center mb-1" style="background-image: url('/images/pattern.jpg')">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
 			<h1 class="text-p3 font-bold">{$t('artist_page_title')}</h1>
 		</div>
@@ -20,7 +20,7 @@
 	<div class="max-w-screen-lg mx-auto py-8 px-4">
 		<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
 			{#each posts as p}
-				<a href="blog/{p.metadata.slug}" class="text-orange-500 flex items-center hover:text-orange-700">
+				<a href="blog/{p.metadata.slug}" class="text-gray-500 flex items-center hover:text-gray-700">
 					<span class="w-6 flex-shrink-0 text-sm">{p.metadata.record_no}.</span>
 					<span>{p.metadata[`artist_name_${$locale}`]}</span>
 				</a>
