@@ -17,5 +17,6 @@ export default {
 	site_title: 'Artist parent',
 	site_desc: 'Instruction art',
 	tap_to_copy_link: 'Tap to copy link',
-	link_copied: 'Link copied'
+	link_copied: 'Link copied',
+	contact:  'Contact'
 }

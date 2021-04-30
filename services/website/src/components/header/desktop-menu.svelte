@@ -26,7 +26,7 @@
 
 <svelte:window on:click={() => {menu_on = false}}/>
 
-<nav class="hidden sm:block fixed inset-x-0 top-0 z-50 transition-colors h-12 flex items-center {!floated ? 'text-white' : 'text-orange-500'}">
+<nav class="hidden sm:block fixed inset-x-0 top-0 z-50 transition-colors h-12 flex items-center">
 	<div on:click|stopPropagation={() => {menu_on = !menu_on}}>
 		<Ham open={menu_on}/>
 	</div>
