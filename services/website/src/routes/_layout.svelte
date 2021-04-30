@@ -17,6 +17,7 @@
 
 <script>
   import AppBar from "../components/header/app-bar.svelte";
+  import Footer from "../components/header/footer.svelte";
   import DesktopMenu from "../components/header/desktop-menu.svelte";
   import TailwindCSS from "../components/tailwindcss.svelte";
   import {bookmarkStore} from '../stores'
@@ -37,6 +38,8 @@
 <main>
 	<slot></slot>
 </main>
+
+<Footer/>
 
 <DesktopMenu/>
 <AppBar/>

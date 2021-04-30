@@ -3,7 +3,7 @@
 	import {categories} from '../../taxonomy'
 	import {t, locale} from 'svelte-i18n'
 	import Icon from '../ui-elements/icon.svelte'
-	import {preface_store} from "../../stores";
+	import {preface_store, languages_store} from "../../stores";
 	import {stores} from '@sapper/app'
 	const {page} = stores()
 
@@ -46,22 +46,6 @@
 			href: '/how-to-use'
 		}
 	]
-
-	const languages = [
-		{
-			key: 'hk',
-			label: '中'
-		},
-		{
-			key: 'en',
-			label: 'ENG'
-		}
-	]
-
-	const setLanguage = (key) => {
-		locale.set(key)
-		localStorage.setItem('lang', key)
-	}
 </script>
 
 {#each menu as m}
@@ -94,8 +78,8 @@
 {/each}
 <div class="h-12 px-4 flex items-center text-gray-700 text-sm">
 	<div class="flex-1">{$t('language')}</div>
-	{#each languages as l}
-		<button on:click={() => {setLanguage(l.key)}} class:bg-gray-300={l.key === $locale}
+	{#each $languages_store as l}
+		<button on:click={() => {languages_store.setLanguage(l.key)}} class:bg-gray-300={l.key === $locale}
 		        class="text-xs flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center">{l.label}</button>
 	{/each}
 </div>
