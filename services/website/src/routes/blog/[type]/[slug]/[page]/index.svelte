@@ -66,13 +66,11 @@
 
 	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
 		{#if posts && posts.length}
-			{#if !reload}
-				<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-					{#each posts as post, i}
-						<Preview {post}/>
-					{/each}
-				</div>
-			{/if}
+			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+				{#each posts as post, i}
+					<Preview {post}/>
+				{/each}
+			</div>
 		{:else}
 			Not found
 		{/if}

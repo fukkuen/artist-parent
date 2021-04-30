@@ -2,7 +2,7 @@
 	export let open
 </script>
 
-<button class="hamburger hamburger--spin" class:is-active={open} type="button">
+<button class="flex hamburger hamburger--spin" class:is-active={open} type="button">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
   </span>

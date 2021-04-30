@@ -44,8 +44,9 @@
 					<a href="https://www.facebook.com/artist.parents" target="_blank">
 						<Icon name="facebook" className="w-4"/>
 					</a>
-
-					<Icon name="ig" className="w-4 ml-2"/>
+					<a href="https://instagram.com/artist.parents?igshid=zjcp9iyk46h0" target="_blank">
+						<Icon name="ig" className="w-4 ml-2"/>
+					</a>
 					<div class="px-2 font-bold">
 						@artist.parents
 					</div>
