@@ -14,7 +14,7 @@
     <img src={coverImageBasePath} alt={post.metadata.title} class="w-full absolute left-0 top-0 black-and-white" loading="lazy"/>
   </div>
   <div class="bg-white px-2 py-4">
-    <h3 class="text-gray-700 text-p2 mb-1 md:text-p3 md:mb-2 leading-tight ">{post.metadata[`title_${$locale}`]}</h3>
+    <h3 class="text-gray-700 group-hover:text-red-500 text-p2 mb-1 leading-tight ">{post.metadata[`title_${$locale}`]}</h3>
     <div class="flex items-center">
       <p class="text-sm flex-1 font-bold text-gray-400">{post.metadata.record_no}. {post.metadata[`artist_name_${$locale}`]}</p>
       <div class="ml-4 flex-shrink-0 text-white">

@@ -26,7 +26,7 @@
 			<h3 class="font-bold mb-2">{$t('about')}</h3>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
 				{#each about_menu as m}
-					<a href={m.href}>{$t(m.label)}</a>
+					<a class="hover:text-red-500" href={m.href}>{$t(m.label)}</a>
 				{/each}
 			</div>
 		</div>
@@ -34,14 +34,17 @@
 			<h3 class="font-bold mb-2">{$t('work_category')}</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 				{#each categories as c}
-					<a href="/blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
+					<a class="hover:text-red-500" href="/blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
 				{/each}
 			</div>
 		</div>
 		<div class="py-4">
 			<div class="flex justify-center items-center">
 				<div class="p-2 inline-flex items-center bg-white rounded-full border border-gray-400 shadow-inner overflow-hidden">
-					<Icon name="facebook" className="w-4"/>
+					<a href="https://www.facebook.com/artist.parents" target="_blank">
+						<Icon name="facebook" className="w-4"/>
+					</a>
+
 					<Icon name="ig" className="w-4 ml-2"/>
 					<div class="px-2 font-bold">
 						@artist.parents

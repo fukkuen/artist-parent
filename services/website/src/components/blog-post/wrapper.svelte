@@ -64,7 +64,7 @@
           <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
           <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
         </div>
-        <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-gray-400 hover:bg-gray-500 rounded text-white p-4">
+        <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-white border border-gray-300 hover:text-red-500 rounded p-4">
           <div class="flex items-center leading-none mb-2">
             <p class="text-sm mt-2">{$t('work_category')}</p>
             <p class="text-t1 mono ml-2 leading-none">{this_post.metadata.category[0].num}</p>
@@ -76,7 +76,7 @@
 
     <div class="grid sm:grid-cols-2 gap-4">
       <ShareButton title="{this_post.metadata[`title_${$locale}`]}" text="分享出去吧！"/>
-      <button class="shadow-inner border border-gray-300 {bookmarked ? 'text-white bg-gray-400' : 'bg-white text-gray-500'} font-bold w-full rounded h-10 flex items-center justify-center"
+      <button class="shadow-inner border border-gray-300 hover:border-red-500 {bookmarked ? 'text-red-500' : 'text-gray-500'} bg-white font-bold w-full rounded h-10 flex items-center justify-center"
               on:click={onToggleBookmark}>
         <Icon name="love" className="w-4"/>
         <span class="ml-2">
@@ -89,13 +89,13 @@
 
 <div class="bg-gray-200">
   <div class="max-w-screen-lg mx-auto px-4 py-8 sm:py-8">
-    <h3 class="text-center mb-4 sm:mb-8 text sm:text-p3 text-black font-bold">{$t('other_works')}</h3>
-    <div class="grid grid-cols-2 gap-2 sm:gap-2">
+    <h3 class="text-center mb-2 sm:mb-4 text sm:text-p2 text-gray-600 font-bold">{$t('other_works')}</h3>
+    <div class="grid grid-cols-2 gap-2 sm:gap-4">
       {#each related_posts as p}
-        <a href="/blog/{p.metadata.slug}" class="block bg-white hover:shadow text-gray-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
+        <a href="/blog/{p.metadata.slug}" class="group block bg-white hover:shadow text-gray-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
           <p class="mono text-sm">{p.metadata.category[0].num}</p>
-          <h3 class="text sm:text-p3 font-bold mb-4 leading-tight">{p.metadata[`title_${$locale}`]}</h3>
-          <p class="text-xs sm:text">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
+          <h3 class="text sm:text-p2 font-bold mb-4 leading-tight group-hover:text-red-500">{p.metadata[`title_${$locale}`]}</h3>
+          <p class="text-xs">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
         </a>
       {/each}
     </div>

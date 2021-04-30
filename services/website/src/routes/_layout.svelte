@@ -35,11 +35,10 @@
 
 <TailwindCSS />
 
+<DesktopMenu/>
 <main>
 	<slot></slot>
 </main>
 
 <Footer/>
-
-<DesktopMenu/>
 <AppBar/>

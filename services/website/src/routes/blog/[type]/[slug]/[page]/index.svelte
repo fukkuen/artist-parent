@@ -48,7 +48,7 @@
 <div class="bg-gray-200">
 	{#if entity}
 		<TopBar/>
-		<div class="bg-gray-500 text-white">
+		<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('/images/pattern.jpg')">
 			<div class="max-w-screen-xl mx-auto px-4 py-10 md:px-6 md:py-10">
 				<div class="mb-2 flex items-center">
 					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
@@ -77,8 +77,6 @@
 			Not found
 		{/if}
 	</div>
-
-	<div class="h-16"></div>
 </div>
 
 <svelte:head>

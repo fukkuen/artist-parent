@@ -26,7 +26,7 @@
 		if (is_native_share_available) {
 			shareLinkByNative()
 		} else {
-
+			opened = true
 		}
 	}
 
@@ -46,15 +46,9 @@
 	})
 </script>
 
-<button on:click={onShare} class="bg-white border border-gray-300 shadow-inner font-bold w-full rounded h-10 flex items-center justify-center">
-	{#if is_native_share_available}
-		<Icon name="share"/>
-		<span class="ml-2">{$t('share')}</span>
-	{:else}
-		<div class="w-full" on:click={() => {opened = true}}>
-			{$t('share')}
-		</div>
-	{/if}
+<button on:click={onShare} class="shadow-inner border border-gray-300 hover:border-red-500 bg-white font-bold w-full rounded h-10 flex items-center justify-center">
+	<Icon name="share"/>
+	<span class="ml-2">{$t('share')}</span>
 </button>
 
 {#if opened}
