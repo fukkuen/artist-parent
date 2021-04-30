@@ -1,5 +1,4 @@
 <script>
-  import Footer from "../components/footer.svelte";
   import Header from "../components/header/index.svelte";
 
   export let status;
@@ -47,5 +46,4 @@
       </div>
     </div>
   </section>
-  <Footer />
 </div>

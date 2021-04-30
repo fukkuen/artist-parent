@@ -1,7 +1,6 @@
 <script>
   import { fade } from "svelte/transition";
   import { headerStore } from "../../stores";
-  import Footer from "../footer.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
 
   export let post;

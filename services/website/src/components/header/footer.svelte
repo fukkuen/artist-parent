@@ -6,6 +6,10 @@
 
 	const about_menu = [
 		{
+			label: 'about',
+			href: '/about'
+		},
+		{
 			label: 'about_rooftop_title',
 			href: '/about-rooftop'
 		},
@@ -17,10 +21,10 @@
 </script>
 
 <div class="bg-gray-100 text-gray-500 border-t border-gray-300">
-	<div class="max-w-screen-lg mx-auto px-4 py-2 md:px-8 md:py-4 text-xs">
+	<div class="max-w-screen-lg mx-auto px-4 pt-2 md:px-8 md:pt-4 text-xs">
 		<div class="border-b border-gray-300 py-4">
 			<h3 class="font-bold mb-2">{$t('about')}</h3>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
 				{#each about_menu as m}
 					<a href={m.href}>{$t(m.label)}</a>
 				{/each}

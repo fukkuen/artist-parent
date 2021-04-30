@@ -1,5 +1,4 @@
 <script>
-  import Footer from "../footer.svelte";
   import SeoHeadPost from "../seo/head-post.svelte";
   import Topbar from '../../components/header/top-bar.svelte'
   import Icon from '../../components/ui-elements/icon.svelte'
