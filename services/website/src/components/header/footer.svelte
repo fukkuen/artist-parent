@@ -6,7 +6,7 @@
 
 	const about_menu = [
 		{
-			label: 'about',
+			label: 'about_the_project',
 			href: '/about'
 		},
 		{
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 			<div class="text-center mt-4">
-				© {new Date().getFullYear()} Rooftop.
+				© {new Date().getFullYear()} Rooftop Institute.
 			</div>
 		</div>
 	</div>

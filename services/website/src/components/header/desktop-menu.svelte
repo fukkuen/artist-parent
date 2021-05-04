@@ -31,7 +31,8 @@
 		<Ham open={menu_on}/>
 	</div>
 	<div class="flex justify-center">
-		<a href="/"><img src="/images/icon.png" class="w-10" alt="logo"></a>
+<!--	<a href="/"><img src="/images/icon.png" class="w-10" alt="logo"></a>	-->
+
 	</div>
 	<div></div>
 </nav>

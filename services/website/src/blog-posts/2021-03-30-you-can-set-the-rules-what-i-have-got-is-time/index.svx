@@ -1,6 +1,6 @@
 ---
 title_hk: "😊 規則你來訂，我有的是時間"
-title_en: "😊 You can set the rules, what I have got is time"
+title_en: "😊 You set the rules, and I've got time for you"
 intro_title_hk: "就讓時間流逝"
 intro_title_en: "Let time pass"
 artist_name_hk: "黃榮法"

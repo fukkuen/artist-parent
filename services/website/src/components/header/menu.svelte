@@ -9,6 +9,10 @@
 
 	const menu = [
 		{
+			label: 'home_title',
+			href: '/'
+		},
+		{
 			label: 'work_category',
 			opened: true,
 			children: categories.map(c => ({
@@ -28,7 +32,7 @@
 			desktop_only: true
 		},
 		{
-			label: 'about',
+			label: 'about_the_project',
 			opened: false,
 			children: $preface_store
 		},
@@ -38,7 +42,7 @@
 		},
 		{
 			label: 'how_to_use_title',
-			href: '/how-to-use'
+			href: '/user-guide'
 		}
 	]
 </script>
