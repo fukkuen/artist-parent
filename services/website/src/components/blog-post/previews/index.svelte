@@ -1,5 +1,6 @@
 <script>
   import {locale} from 'svelte-i18n'
+  import IMG from '../../ui-elements/bg-image.svelte'
 
   export let post;
 
@@ -9,10 +10,7 @@
 </script>
 
 <a href="blog/{post.metadata.slug}" class="overflow-hidden rounded-lg group bg-white shadow">
-  <div class="relative overflow-hidden bg-orange-300">
-    <div style="padding-top: 56%"></div>
-    <img src={coverImageBasePath} alt={post.metadata.title} class="w-full absolute left-0 top-0 black-and-white" loading="lazy"/>
-  </div>
+  <IMG src={coverImageBasePath} alt={post.metadata.title} class="w-full absolute left-0 top-0 black-and-white" loading="lazy"/>
   <div class="bg-white px-1 py-2 sm:px-2 sm:py-4">
     <h3 class="text-gray-700 group-hover:text-red-500 text-sm sm:text-p2 mb-1 leading-tight">{post.metadata.record_no}. {post.metadata[`title_${$locale}`]}</h3>
     <div class="flex items-center">

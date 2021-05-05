@@ -22,13 +22,6 @@
 	}
 </script>
 
-<div style="padding-top:{pt}%;" class="relative overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-no-repeat bg-center z-0 blur" use:onLazyLoad></div>
-	<div class="absolute inset-0 bg-contain bg-no-repeat bg-center z-10"  use:onLazyLoad></div>
+<div style="padding-top:56%;" class="relative overflow-hidden">
+	<div class="absolute inset-0 bg-cover bg-no-repeat bg-center" use:onLazyLoad></div>
 </div>
-
-<style>
-	.blur {
-		filter: blur(10px);
-	}
-</style>
