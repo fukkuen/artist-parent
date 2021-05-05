@@ -15,7 +15,7 @@
 		},
 		{
 			label: 'how_to_use_title',
-			href: '/how-to-use'
+			href: '/user-guide'
 		}
 	]
 </script>
