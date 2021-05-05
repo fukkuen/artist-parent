@@ -17,7 +17,6 @@
  * @link https://github.com/jonsuh/hamburgers
  */
   .hamburger {
-    padding: 15px 15px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -41,9 +40,11 @@
   }
 
   .hamburger-box {
-    width: 30px;
-    height: 24px;
-    display: inline-block;
+    width: 26px;
+    height: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     position: relative; }
 
   .hamburger-inner {
@@ -52,8 +53,8 @@
     top: 50%;
     margin-top: -2px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 30px;
-    height: 4px;
+    width: 26px;
+    height: 3px;
     background-color: currentColor;
     border-radius: 4px;
     position: absolute;
@@ -64,9 +65,9 @@
     content: "";
     display: block; }
   .hamburger-inner::before {
-    top: -10px; }
+    top: -9px; }
   .hamburger-inner::after {
-    bottom: -10px; }
+    bottom: -9px; }
 
   /*
 		 * Spin
