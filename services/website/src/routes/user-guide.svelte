@@ -9,50 +9,56 @@
 	</div>
 </div>
 
-<div class="max-w-screen-lg mx-auto py-16 px-4 sm:px-8">
+<div class="max-w-screen-lg mx-auto py-16 px-4 sm:px-8 prose">
 	{#if $locale === 'hk'}
 		<h2>如何用此PWA網頁</h2>
-		<p>你可以把此網站，在手機中儲存為APP書籤形式，方便隨時打開手機便用到。</p>
-		<p>方法如下：</p>
+		<p>你可以把此網站，在手機中儲存為APP書籤形式，方便隨時打開手機便用到。方法如下：</p>
 
-		iOS 用戶
-		 手機打開safari 瀏覽器
-		 輸入網址 rooftopinstitute.org/artistparents
-		 按分享
-		 往下拉，按「添加到主屏幕Add to Home Screen」
-		 完成
-		手機桌面會顯示 “LOGO”
-		示範短片：
+		<div class="mb-4">
+			<div class="border-b-2 border-gray-300 inline-block">iOS 用戶</div>
+			<ul>
+				<li>手機打開safari 瀏覽器</li>
+				<li>按分享</li>
+				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
+				<li>完成，手機桌面會顯示 “LOGO”</li>
+			</ul>
+			<div>(示範短片：)</div>
+		</div>
 
-		Android 用戶
-		 手機打開Chrome 瀏覽器
-		 按分享
-		 往下拉，按「添加到主屏幕Add to Home Screen」
-		 完成
-		手機桌面會顯示 “LOGO”
-		示範短片：
+		<div class="mb-4">
+			<div class="border-b-2 border-gray-300 inline-block">Android 用戶</div>
+			<ul>
+				<li>手機打開Chrome 瀏覽器</li>
+				<li>按分享</li>
+				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
+				<li>完成，手機桌面會顯示 “LOGO”</li>
+			</ul>
+			<div>示範短片：</div>
+		</div>
 	{:else}
+		<h2>How to use this PWA web page：</h2>
+		<p>You can save this website as an APP bookmark in your phone, so that you can easily access it
+			on your phone. Methods as below:</p>
+		<div class="mb-4">
+			<div class="inline-block border-b-2 border-gray-300">For iOS users</div>
+			<ul>
+				<li>Open the safari browser on the phone</li>
+				<li>Press “to share”</li>
+				<li>Scroll down and press &quot;Add to home screen”</li>
+				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
+			</ul>
+			<p>Demo video:</p>
+		</div>
+
+		<div class="mb-4">
+			<div class="inline-block border-b-2 border-gray-300">For Android users</div>
+			<ul>
+				<li>Open the Chrome browser on the phone</li>
+				<li>Press “to share”</li>
+				<li>Scroll down and press &quot;Add to home screen”</li>
+				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
+			</ul>
+			<p>Demo video:</p>
+		</div>
 	{/if}
-
-
-	How to use this PWA web page：
-	You can save this website as an APP bookmark in your phone, so that you can easily access it
-	on your phone.
-	Methods as below:
-	For iOS users
-	• Open the safari browser on the phone
-	• Press “to share”
-	• Scroll down and press &quot;Add to home screen”
-	• Done
-	The phone desktop will display &quot;LOGO&quot;
-	Demo video:
-
-	For Android users
-
-	• Open the Chrome browser on the phone
-	• Press “to share”
-	• Scroll down and press &quot;Add to home screen”
-	• Done
-	The phone desktop will display &quot;LOGO&quot;
-	Demo video:
 </div>
