@@ -39,7 +39,7 @@
 
 <Topbar/>
 
-<div class="bg-cover bg-center" style="background-image: url('/images/pattern.jpg')">
+<div class="bg-cover bg-center" style="background-image: url('/images/pattern-2.png')">
   <div class="max-w-screen-md mx-auto px-4 pt-16">
     {#if header_visible}
       <div in:fly={{y:100, duration: 600}} class="mb-8 lg:text-center">
