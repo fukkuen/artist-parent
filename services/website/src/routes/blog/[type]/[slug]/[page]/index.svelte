@@ -56,9 +56,12 @@
 			</div>
 		</div>
 	{:else}
-		<div class="bg-cover bg-center md:h-72" style="background-image: url('/images/banner_1024.png')">
+		<div class="bg-cover bg-center md:h-72 relative" style="background-image: url('/images/banner-bg.png')">
 			<div class="block sm:hidden" style="padding-top: 75%"></div>
 			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
+			<div class="absolute inset-0 flex items-center justify-center">
+				<img src="/images/banner-text.png" alt="banner-text" class="h-2/3 md:h-3/4 lg:h-5/6">
+			</div>
 		</div>
 	{/if}
 
