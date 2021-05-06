@@ -6,43 +6,41 @@
 </script>
 
 <script>
-	import range from "../../../../../helpers/range";
 	import { stores } from '@sapper/app';
 	import {categories} from "../../../../../taxonomy";
 	const { page } = stores();
 	import {locale, t} from 'svelte-i18n'
 	import TopBar from '../../../../../components/header/top-bar.svelte'
 	import Preview from '../../../../../components/blog-post/previews/index.svelte'
-
+	import {onMount} from 'svelte'
 
 	export let posts
-	// posts = shuffle(posts)
-
-	let cat_previews = categories.map((c,i) => ({
-		slug: c.slug,
-		pos: (i + 1) * 5
-	}))
-	cat_previews.forEach(p => {
-		//posts.splice(p.pos, 0, p.slug)
-	})
 
 	$: type = $page.params.type
 	$: slug = $page.params.slug
 	$: category = $page.params.type === 'category' && $page.params.slug
 	$: entity = !!category ? categories.find(cat => cat.slug === category) : ''
-	$: {
-		console.log(category)
-		reload = true
-		setTimeout(() => {
-			reload = false
-		}, 1)
-	}
 
-	let reload = false
+	let masonry_container_el
+	let all_image_loaded = false
 
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
 	}-${post.metadata.slug}/cover.jpg`
+
+	onMount(() => {
+		const msnry = new Masonry( masonry_container_el, {
+			itemSelector: '.masonry-item',
+			columnWidth: '.masonry-sizer',
+			percentPosition: true,
+			initLayout: false
+		})
+		new imagesLoaded( masonry_container_el, () => {
+			msnry.layout()
+			all_image_loaded = true
+			console.log('layout now')
+		} )
+	})
 </script>
 
 <div class="bg-white">
@@ -64,11 +62,14 @@
 		</div>
 	{/if}
 
-	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
+	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8" class:opacity-0={!all_image_loaded}>
 		{#if posts && posts.length}
-			<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-8">
+			<div bind:this={masonry_container_el} class="flex flex-wrap">
+				<div class="masonry-sizer"></div>
 				{#each posts as post, i}
-					<Preview {post}/>
+					<div class="masonry-item">
+						<Preview {post}/>
+					</div>
 				{/each}
 			</div>
 		{:else}
@@ -81,3 +82,31 @@
 	<title>{$t('site_title')}</title>
 	<meta name="description" content={$t('site_desc')}>
 </svelte:head>
+
+<style>
+	.masonry-sizer, .masonry-item {
+			width: 25%;
+			padding: 2%;
+	}
+
+  @media (max-width: 1024px) {
+      .masonry-sizer, .masonry-item {
+          width: 33%;
+          padding: 2%;
+      }
+  }
+
+	@media (max-width: 600px) {
+      .masonry-sizer, .masonry-item {
+          width: 50%;
+          padding: 2%;
+      }
+  }
+
+  @media (max-width: 400px) {
+      .masonry-sizer, .masonry-item {
+          width: 50%;
+          padding: 1%;
+      }
+  }
+</style>
