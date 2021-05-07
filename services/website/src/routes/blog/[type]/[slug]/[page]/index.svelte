@@ -23,23 +23,26 @@
 
 	let masonry_container_el
 	let all_image_loaded = false
+	let masonry_instance
 
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
 	}-${post.metadata.slug}/cover.jpg`
 
 	onMount(() => {
-		const msnry = new Masonry( masonry_container_el, {
+		masonry_instance = new Masonry( masonry_container_el, {
 			itemSelector: '.masonry-item',
 			columnWidth: '.masonry-sizer',
 			percentPosition: true,
 			initLayout: false
 		})
 		new imagesLoaded( masonry_container_el, () => {
-			msnry.layout()
+			masonry_instance.layout()
 			all_image_loaded = true
-			console.log('layout now')
 		} )
+		return () => {
+			masonry_instance.destroy()
+		}
 	})
 </script>
 
