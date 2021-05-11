@@ -2,7 +2,7 @@ import {readable} from "svelte/store";
 
 export default readable([
 	{
-		href: '/about/foreword',
+		href: 'about/foreword',
 		slug: 'foreword',
 		name_hk: '前言',
 		name_en: 'Foreword',
@@ -12,7 +12,7 @@ export default readable([
 		author_desc_en: 'an artist, a mum and an editor'
 	},
 	{
-		href: '/about/preface-ignorant-parents-and-tender-education',
+		href: 'about/preface-ignorant-parents-and-tender-education',
 		slug: 'preface-ignorant-parents-and-tender-education',
 		name_hk: '序:無知父母 有情教育',
 		name_en: 'Preface : Ignorant Parents and Tender Education',
@@ -22,7 +22,7 @@ export default readable([
 		author_desc_en: 'Adjunct Associate Professor of the Cultural Studies Department at Lingnan University, Executive Member of Mobile Co-Learning'
 	},
 	{
-		href: '/about/preface-the-best-learners',
+		href: 'about/preface-the-best-learners',
 		slug: 'preface-the-best-learners',
 		name_hk: '序:最好的學習者',
 		name_en: 'Preface : The Best Learners',

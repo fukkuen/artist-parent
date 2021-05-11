@@ -49,7 +49,7 @@
 <div class="bg-white">
 	{#if entity}
 		<TopBar/>
-		<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('/images/pattern.jpg')">
+		<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('images/pattern.jpg')">
 			<div class="max-w-screen-xl mx-auto px-4 py-16 md:px-6">
 				<div class="mb-4 flex items-center">
 					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
@@ -59,11 +59,11 @@
 			</div>
 		</div>
 	{:else}
-		<div class="bg-cover bg-center md:h-72 relative" style="background-image: url('/images/banner-bg.png')">
+		<div class="bg-cover bg-center md:h-72 relative" style="background-image: url('images/banner-bg.png')">
 			<div class="block sm:hidden" style="padding-top: 75%"></div>
 			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
 			<div class="absolute inset-0 flex items-center justify-center">
-				<img src="/images/banner-text.png" alt="banner-text" class="h-2/3 md:h-3/4 lg:h-5/6">
+				<img src="images/banner-text.png" alt="banner-text" class="h-2/3 md:h-3/4 lg:h-5/6">
 			</div>
 		</div>
 	{/if}

@@ -11,7 +11,7 @@
 </script>
 
 <div class="pb-12">
-	<div class="bg-cover bg-center mb-1" style="background-image: url('/images/pattern.jpg')">
+	<div class="bg-cover bg-center mb-1" style="background-image: url('images/pattern.jpg')">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
 			<h1 class="text-p3 font-bold">{$t('artist_page_title')}</h1>
 		</div>

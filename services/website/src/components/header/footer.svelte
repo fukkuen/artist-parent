@@ -7,15 +7,15 @@
 	const about_menu = [
 		{
 			label: 'about_the_project',
-			href: '/about'
+			href: 'about'
 		},
 		{
 			label: 'about_rooftop_title',
-			href: '/about-rooftop'
+			href: 'about-rooftop'
 		},
 		{
 			label: 'how_to_use_title',
-			href: '/user-guide'
+			href: 'user-guide'
 		}
 	]
 </script>
@@ -34,7 +34,7 @@
 			<h3 class="font-bold mb-2">{$t('work_category')}</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 				{#each categories as c}
-					<a class="hover:text-red-500" href="/blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
+					<a class="hover:text-red-500" href="blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
 				{/each}
 			</div>
 		</div>

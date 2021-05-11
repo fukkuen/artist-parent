@@ -39,7 +39,7 @@
 
 <Topbar/>
 
-<div class="bg-cover bg-center" style="background-image: url('/images/pattern-2.png')">
+<div class="bg-cover bg-center" style="background-image: url('images/pattern-2.png')">
   <div class="max-w-screen-md mx-auto px-4 pt-16">
     {#if header_visible}
       <div in:fly={{y:100, duration: 600}} class="mb-8 lg:text-center">
@@ -64,7 +64,7 @@
           <p class="font-bold">{this_post.metadata[`artist_name_${$locale}`]}</p>
           <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
         </div>
-        <a href="/blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-white border border-gray-300 hover:text-red-500 rounded p-4">
+        <a href="blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-white border border-gray-300 hover:text-red-500 rounded p-4">
           <div class="flex items-center leading-none mb-2">
             <p class="text-sm mt-2">{$t('work_category')}</p>
             <p class="text-t1 mono ml-2 leading-none">{this_post.metadata.category[0].num}</p>
@@ -92,7 +92,7 @@
     <h3 class="text-center mb-2 sm:mb-4 text sm:text-p2 text-gray-600 font-bold">{$t('other_works')}</h3>
     <div class="grid grid-cols-2 gap-2 sm:gap-4">
       {#each related_posts as p}
-        <a href="/blog/{p.metadata.slug}" class="group block bg-white hover:shadow text-gray-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
+        <a href="blog/{p.metadata.slug}" class="group block bg-white hover:shadow text-gray-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
           <p class="mono text-sm">{p.metadata.category[0].num}</p>
           <h3 class="text sm:text-p2 font-bold mb-4 leading-tight group-hover:text-red-500">{p.metadata[`title_${$locale}`]}</h3>
           <p class="text-xs">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>

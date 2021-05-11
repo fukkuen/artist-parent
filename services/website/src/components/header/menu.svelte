@@ -10,13 +10,13 @@
 	const menu = [
 		{
 			label: 'home_title',
-			href: '/'
+			href: ''
 		},
 		{
 			label: 'work_category',
 			opened: true,
 			children: categories.map(c => ({
-				href: `/blog/category/${c.slug}/1`,
+				href: `blog/category/${c.slug}/1`,
 				name_hk: c.name_hk,
 				name_en: c.name_en,
 				num: c.num
@@ -24,11 +24,11 @@
 		},
 		{
 			label: 'artist_page_title',
-			href: '/artists'
+			href: 'artists'
 		},
 		{
 			label: 'bookmark_page_title',
-			href: '/bookmark',
+			href: 'bookmark',
 			desktop_only: true
 		},
 		{
@@ -38,11 +38,11 @@
 		},
 		{
 			label: 'about_rooftop_title',
-			href: '/about-rooftop'
+			href: 'about-rooftop'
 		},
 		{
 			label: 'how_to_use_title',
-			href: '/user-guide'
+			href: 'user-guide'
 		}
 	]
 </script>
