@@ -18,9 +18,17 @@ category: ["what-is-instruction"]
 </script>
 
 <div class="hk">
-你出題，和我比賽，輸了，給我抱一抱，贏了，換我出題⋯⋯
+你出題，和我比賽，
+
+輸了，給我抱一抱，
+
+贏了，換我出題⋯⋯
 </div>
 
 <div class="en">
-You propose a topic to compete with me. You lose. You let me give you a hug. You win. My turn to propose a topic…
+You propose a topic to compete with me.
+
+When you lose, you let me give you a hug.
+
+When you win, my turn to propose a topic… 
 </div>

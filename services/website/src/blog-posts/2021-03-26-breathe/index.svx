@@ -18,15 +18,17 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-把手放在她/ 他的身體，
-把手放在你的身體，
-                                  呼吸。
+把手放在她 / 他的身體，
 
+把手放在你的身體，
+
+呼吸。
 </div>
 
 <div class="en">
-place a hand on their body 
-place a hand on your body 
-                                      breathe.
+place a hand on their body
 
+place a hand on your body
+
+breathe.
 </div>

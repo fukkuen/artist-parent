@@ -19,24 +19,33 @@ category: ["what-is-instruction"]
 
 <div class="hk">
 疫情期間，小朋友可愛舉動的視頻成為親友間聯絡問候的重要內容。
+
 此遊戲希望成年人能學習小朋友的可愛舉動，成為聯絡問候的重要內容。
 
 對象：兩至四歲的小朋友和成年人。
-1. 用鏡頭捕捉小朋友的可愛舉動。例如：在鏡頭前表演、教學或做點甚麼也可。
-2. 成年人消化小朋友的所作所為嘗試得出一些意義。
-3. 成年人重演一次，可以用成年人的方法消化重演。
-4. 把成年人重演的作品連同小朋友可愛的視頻傳給親友。
 
+1.用鏡頭捕捉小朋友的可愛舉動。例如：在鏡頭前表演、教學或做點甚麼也可。
+2.成年人消化小朋友的所作所為嘗試得出一些意義。
+3.成年人重演一次。
+4.把成年人重演的作品連同小朋友可愛的視頻傳給親友。
 </div>
 
 <div class="en">
-During the pandemic, videos of children’s cute actions have become an important part of greetings and communication with relatives and friends. 
-This game would like adults to learn the cute actions of children and make them into an important part of greetings and communication.
+During the pandemic, videos of children’s cute actions have become an important
+part of greetings and communication with relatives and friends.
 
-Target: Children aged between 2 and 4; adults
-1. Capture the cute actions of children with a camera, e.g. perform, teach or do whatever in front of the camera.
-2. Adults try to understand and get some meaning out of the children’s actions.
-3. Adults repeat them once; it can be understood and repeated the adult way.
-4. Send the adults’ restaged work, together with the children’s cute video, to relatives and friends.
+This game would like adults to learn the cute actions of children and make them into
+an important part of greetings and communication.
 
+Target: Children aged between 2 and 4, adults
+
+1.Capture the cute actions of children with a camera,
+e.g. perform, teach or do whatever in front of the camera.
+   
+2.Adults try to understand and get some meaning out of the children’s actions.
+   
+3.Adults re-interpret the children's action.
+   
+4.Send the adults’ restaged work, together with the children’s cute video,
+to relatives and friends.
 </div>

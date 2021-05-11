@@ -18,21 +18,25 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-1. 翻開世界地圖集或百科全書。
-2. 挑選一個世界級景點的建築物。
-3. 與孩子一起用身體去演繹建築物。
-4. 拍照記錄。
-5. 為這行為藝術作品命名。
+1.翻開世界地圖集或百科全書。
 
-圖片說明：走到埃及、巴黎、孟菲斯巿的雙人金字塔
+2.挑選一個世界級景點的建築物。
+
+3.與孩子一起用身體去演繹建築物。
+
+4.拍照記錄。
+
+5.為這行為藝術作品命名。
+
+圖片說明：走到埃及、巴黎、孟菲斯市的雙人金字塔
 </div>
 
 <div class="en">
-1. Flip through a world atlas or encyclopaedia.
-2. Choose a piece of architecture at a world-class tourist spot.
-3. Perform the architectural structure physically with your children.
-4. Document with photography.
-5. Give a title to this performance art piece.
+1.Flip through a world geography book or encyclopedia.
+2.Choose a piece of architecture at a world-class tourist site.
+3.Perform the architectural structure with children together.
+4.Document with photography.
+5.Write down the title for this performance art piece.
 
 Image: Visit the double pyramid in Egypt, Paris and Memphis
 </div>

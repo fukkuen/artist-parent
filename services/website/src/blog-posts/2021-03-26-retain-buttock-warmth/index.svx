@@ -18,11 +18,20 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-父母將身體扭曲成各種形態，例如一隻豬、馬、一架車、船、吊擘等⋯⋯各種型態載著孩子。以相片紀錄，從影像中勾出扭曲了身體線條作為孩子日後玩樂和創作素材。例如：利用積木重塑這些身體型態，或以這些線條設計一張張凳。將來讓孩子可以重溫從凳裡得到的溫暖、保護和支援，還有快樂和刺激。
-
+父母將身體扭曲成各種形態，例如一隻豬、一隻馬、一架
+車、一艘船、一架吊臂等⋯⋯各種形態載著孩子。以相片
+記錄，從影像中勾出扭曲了的身體線條，作為孩子日後玩
+樂和創作的素材。例如：利用積木重塑這些身體形態，或
+以這些線條設計一張凳。將來讓孩子可以重溫從凳裡得到
+的溫暖、保護和支援，還有快樂和刺激。
 </div>
 
 <div class="en">
-Parents twist their bodies into various forms, such as a pig, a horse, a car, a boat, a derrick, etc... to carry their child. Record it by taking photos. Trace the distorted body outline from the images as materials for your child to play with and create in the future. For instance, use building blocks to reshape these body shapes, or design a stool with these outlines. In the future, children can relive the warmth, protection, support, happiness and excitement from the stool.
-
+Parents twist their bodies into various forms, such as a pig, a horse, a car, a
+boat, a derrick, etc... to carry their child. Record it by taking photos. Trace
+the distorted body outline from the images as materials for your child
+to play with and create in the future. For instance, use building blocks to
+reshape these body shapes, or design a stool with these outlines. In the
+future, children can relive the warmth, protection, support, happiness and
+excitement from the stool.
 </div>
