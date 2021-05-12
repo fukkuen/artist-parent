@@ -18,11 +18,27 @@ category: ["story"]
 </script>
 
 <div class="hk">
-J，你一個人在德國已有一年了，在不同文化背景的地方學習和生活，應該有不少獨特的經歷甚或是文化衝擊。可以的話，每日發一張相片給我，是你的生活日記，尤其是能觸發你思考文化差異的種種人和事。相片最好附一、兩句文字解說，我建議你用德文書寫，並有中、英文翻譯。同時用幾種語文思考，更能令你比對不同文化的特質，我相信會是有趣的體驗。
+J，你一個人在德國已有一年了，在不同文化背
+景的地方學習和生活，應該有不少獨特的經歷
+甚或是文化衝擊。可以的話，每日發一張相片
+給我，是你的生活日記，尤其是能觸發你思考
+文化差異的種種人和事。相片最好附一、兩句
+文字解說，我建議你用德文書寫，並有中、英
+文翻譯。同時用幾種語文思考，更能令你比對
+不同文化的特質，我相信會是有趣的體驗。
 
 </div>
 
 <div class="en">
-J, you have been in Germany by yourself for already one year. Studying and living in a place with different cultural backgrounds should have given you many unique experiences or even a culture shock. If possible, send me a photo every day (as a diary of your life), especially about the people and things that can trigger you to reflect on cultural differences. It’s best to add one or two sentences to explain the photo. I suggest you write them in German and translate them in Chinese and English. Thinking in several languages simultaneously enables you to further compare the characteristics of different cultures. I believe it will be an interesting experience.
-
+J, you have been in Germany by yourself for already one
+year. Studying and living in a place with different cultural
+backgrounds should have given you many unique experiences
+or even a culture shock. If possible, send me a photo every day
+as a diary of your life, especially about the people and things
+that can trigger you to reflect on cultural differences. It’s best
+to add one or two sentences to explain the photo. I suggest
+you write them in German and translate them in Chinese
+and English. Thinking in several languages simultaneously
+enables you to further compare the characteristics of different
+cultures. I believe it will be an interesting experience.
 </div>

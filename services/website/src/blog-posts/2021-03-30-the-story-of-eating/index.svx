@@ -19,16 +19,20 @@ category: ["story"]
 
 <div class="hk">
 和小孩進餐，
-吃了大半或不想完成時，
-把吃剩的部份在食器上排列成「圖畫」。
-一邊講故事，一邊吃故事，把剩食吃完。
 
+吃了大半或不想完成時，
+
+把吃剩的部份在食器上排列成「圖畫」。
+
+一邊講故事，一邊吃故事，把剩食吃完。
 </div>
 
 <div class="en">
-A meal with my kid, 
-half-done or reluctant to finish; 
-arrange the uneaten food on the container like a ‘picture’. 
+A meal with kid,
+
+half-done or reluctant to finish;
+
+arrange the uneaten food on the container like a ‘picture’.
 
 Tell a story, eat the story, eat up the rest of the meal.
 </div>

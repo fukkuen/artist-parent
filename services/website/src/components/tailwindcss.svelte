@@ -17,6 +17,6 @@
   }
 
   ._prose p {
-		  @apply py-4 leading-loose
+		  @apply py-2.5
   }
 </style>

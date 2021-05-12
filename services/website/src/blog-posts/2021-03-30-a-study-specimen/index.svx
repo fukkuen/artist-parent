@@ -18,11 +18,27 @@ category: ["story"]
 </script>
 
 <div class="hk">
-每年學期終結時，李氏一家人都會翻開習作，細談當中點滴，然後製成藝術品。今年在疫情影響下，簇新的習作沒留下多少學習痕跡。兒女在有限資源下，以「引以自豪」、「喜上眉梢」、「觸目驚心」及「哭笑不得」這四種情境下尋找相關資料，再道出其意念。篩選的過程喚起他們的學習記憶，透過符號來分享交流。最後重組及編排字句，把記憶凍結成「學習標本」。藝術創作就是一種儀式祭禮，把經歷轉換成一種意念，最後藏在藝術品中。
-
+每年學期終結時，李氏一家人都會翻開習作，細談當中點
+滴，然後製成藝術品。今年在疫情影響下，簇新的習作沒
+留下多少學習痕跡。兒女在有限資源下，以「引以自豪」、
+ 「喜上眉梢」、「觸目驚心」及「哭笑不得」這四種情境下
+尋找相關資料，再道出其意念。篩選的過程喚起他們的學
+習記憶，透過符號來分享交流。最後重組及編排字句，把
+記憶凍結成「學習標本」。藝術創作就是一種儀式祭禮，
+把經歷轉換成一種意念，最後藏在藝術品中。
 </div>
 
 <div class="en">
-At the end of each school term, the Lee family looks through exercise books and talk about the little details within, before turning this into an artwork. Owing to the pandemic this year, the exercise books still look new with little traces of learning. With limited resources, the children looked for relevant information in four contexts, namely ‘taking pride in’, ‘radiant with joy’, ‘shocking and scary’ and ‘between laughter and tears’, before expressing the concepts behind. The screening process evoked their learning memory. They shared and communicated through symbols. Finally, they rearranged and organised the words and sentences to freeze their memory into ‘A Study Specimen’. Art creation is a type of ritual, which transforms experience into a kind of concept that is stored in the artwork.
-
+At the end of each school term, the Lee family looks through exercise
+books and talk about the little details within, before turning this into an
+artwork. Owing to the pandemic this year, the exercise books still look
+new with little traces of learning. With limited resources, the children
+looked for relevant information in four contexts, namely ‘taking pride
+in’, ‘radiant with joy’, ‘shocking and scary’ and ‘between laughter and
+tears’, before expressing the concepts behind. The screening process
+evoked their learning memory. They shared and communicated through
+symbols. Finally, they rearranged and organised the words and sentences
+to freeze their memory into ‘A Study Specimen’. Art creation is a type of
+ritual, which transforms experience into a kind of concept that is stored in
+the artwork.
 </div>
