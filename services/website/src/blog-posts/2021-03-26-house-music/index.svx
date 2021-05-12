@@ -18,49 +18,49 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-和你的小朋友一起
-在家裡找發聲物件
-利用現有工具
-突襲廚房櫥櫃
+和你的小朋友一起<br>
+在家裡找發聲物件<br>
+利用現有工具<br>
+突襲廚房櫥櫃<br>
 或自己動手製
 
-發掘
-響亮與柔和的聲音
-長和短的聲音
-高低音
-深淺色
-花時間與他們探索
-讓他們閉上眼睛
+發掘<br>
+響亮與柔和的聲音<br>
+長和短的聲音<br>
+高低音<br>
+深淺色<br>
+花時間與他們探索<br>
+讓他們閉上眼睛<br>
 聆聽共鳴
 
-一同創作自己的樂譜
-（沒有固定的規則）
-用多種顏色代表
-不同的元素
-讓小朋友帶領過程
+一同創作自己的樂譜<br>
+（沒有固定的規則）<br>
+用多種顏色代表<br>
+不同的元素<br>
+讓小朋友帶領過程<br>
 然後一起表演
 </div>
 
 <div class="en">
-Together with your children
-find sound-making objects in the home
-Use existing instruments
-Raid the kitchen cupboard
+Together with your children<br>
+find sound-making objects in the home<br>
+Use existing instruments<br>
+Raid the kitchen cupboard<br>
 or make your own.
 
-Discover
-loud and soft sounds
-long and short sounds
-high and low pitches
-bright and dark colours
-Spend time to explore them
-and make them close their eyes
+Discover<br>
+loud and soft sounds<br>
+long and short sounds<br>
+high and low pitches<br>
+bright and dark colours<br>
+Spend time to explore them<br>
+and make them close their eyes<br>
 to listen to the resonance.
 
-Make your own musical score together
-(there are no fixed rules)
-Use many colours to represent
-the different elements
-Let your child lead the process
+Make your own musical score together<br>
+(there are no fixed rules)<br>
+Use many colours to represent<br>
+the different elements<br>
+Let your child lead the process<br>
 Then perform it together.
 </div>
