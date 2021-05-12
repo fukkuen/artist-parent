@@ -18,15 +18,31 @@ category: ["love-fear"]
 </script>
 
 <div class="hk">
-兒子喜歡操控手機電腦，爸爸想到新玩法，讓父子一起先將鍵盤鍵拔出，放進小袋裡隨機抽出再重置。結果我們得到一個陌生、只屬於我倆的電腦鍵盤！大家猜如果輸入“I am Sam”時，熒幕會出現甚麼結果？
+兒子喜歡操控手機電腦，爸爸想到新玩法，讓父子一起先
+將鍵盤鍵拔出，放進小袋裡隨機抽出再重置。結果我們得
+到一個陌生、只屬於我倆的電腦鍵盤！大家猜如果輸入
+“I am Sam”時，熒幕會出現甚麼結果？
 
-然後大家合作用新鍵盤接駁電腦輸入文字。兒子不斷輸入，爸爸隨意用快速鍵轉換文字大小及行距等。不斷快速敲打鍵盤的動作及聲音很刺激，最後將完成的文件檔打印及貼在牆上裝飾。滿滿的圖案、無意義及不規則的符號排列，讓大家欣賞畫面的美感。
-
+然後大家合作用新鍵盤接駁電腦輸入文字。兒子不斷輸
+入，爸爸隨意用快速鍵轉換文字大小及行距等。不斷快速
+敲打鍵盤的動作及聲音很刺激，最後將完成的文件檔打印
+及貼在牆上裝飾。滿滿的圖案、無意義及不規則的符號排
+列，讓大家欣賞畫面的美感。
 </div>
 
 <div class="en">
-Spellbound by mobile phones and computers, the son likes to take control of them. The father thought of a new way to play. The father and the son first pulled out the keyboard keys. They then put them into the small bag and randomly drew them out before re-placing them. The result was an unfamiliar computer keyboard belonging only to us! Guess what would happen on the screen if I typed ‘I am Sam’?
+Spellbound by mobile phones and computers, the son likes to take control
+of them. The father thought of a new way to play. The father and the son
+first pulled out the keyboard keys. They then put them into the small bag
+and randomly drew them out before re-placing them. The result was an
+unfamiliar computer keyboard belonging only to us! Guess what would
+happen on the screen if I typed ‘I am Sam’?
 
-After that, we worked together to connect to the new keyboard to the computer for text input. My son kept typing and I used the shortcut keys to spontaneously change the font size and line spacing. The action and sound of continuous, quick keyboard tapping was very exciting. Finally, the completed text file was printed and hung on the wall as decoration. Let everyone appreciate the beauty of a picture full of patterns and meaningless, irregular symbol orders.
-
+After that, we worked together to connect to the new keyboard to the
+computer for text input. My son kept typing and I used the shortcut keys
+to spontaneously change the font size and line spacing. The action and
+sound of continuous, quick keyboard tapping was very exciting. Finally,
+the completed text file was printed and hung on the wall as decoration.
+Let everyone appreciate the beauty of a picture full of patterns and
+meaningless, irregular symbol orders.
 </div>

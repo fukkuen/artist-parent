@@ -18,11 +18,18 @@ category: ["metabolism"]
 </script>
 
 <div class="hk">
-父母與兒子在大自然尋找接近一模一樣的兩塊石頭或兩片落葉，然後由小朋友及大人各保存一份。通過尋找遊戲，用手及眼睛細緻地探索環境，嘗試發掘最相近的兩個大自然物件，並以收藏相互連繋。
+父母與兒子在大自然尋找接近一模一樣的兩塊石頭或兩片
+落葉，然後由小朋友及大人各保存一份。通過尋找遊戲，
+用手及眼睛細緻地探索環境，嘗試發掘最相近的兩個大自
+然物件，並以收藏相互連繋。
 
 </div>
 
 <div class="en">
-Parents and son look for two rocks or two fallen leaves in nature that look almost the same. The child and the grown-ups will then keep a copy each. Through the searching game, the son carefully explores the environment with hands and eyes in an attempt to discover two objects in nature with the closest appearances, before connecting them by collecting them.  
-
+Parents and son look for two rocks or two fallen leaves in
+nature that look almost the same. The child and the grown-ups
+will then keep a copy each. Through the searching game, the
+son carefully explores the environment with hands and eyes in
+an attempt to discover two objects in nature with the closest
+appearances, before connecting them by collecting them.
 </div>

@@ -19,14 +19,32 @@ category: ["emotion"]
 
 <div class="hk">
 影子的灰色，有許多調子和層次。
-如果有一天，你發現自己身處在憂鬱的影子中，你感到你的靈魂再沒有光芒，這時候，你必須離開，你要跑，盡最大的努力，離開。跑，一直跑，一定要離開這個影子，走到光明中。儘管，你一直跑才注意到，原來你仍跑在另一層的影子中。
-若然你覺得沒有遇到這一天，請你每天細看身邊之物。你要察看物件的投影。請你細看，以最遠和最近的距離，凝視物件之間的光影，嘗試分辨影子的色彩，追蹤影子的邊緣，用你的方式，描述和記下。
 
+如果有一天，你發現自己身處在憂鬱的影子中，你感到你
+的靈魂再沒有光芒，這時候，你必須離開，你要跑，盡最
+大的努力，離開。跑，一直跑，一定要離開這個影子，走
+到光明中。儘管，你一直跑才注意到，原來你仍跑在另一
+層的影子中。
+
+若然你覺得沒有遇到這一天，請你每天細看身邊之物。你
+要察看物件的投影。請你細看，以最遠和最近的距離，凝
+視物件之間的光影，嘗試分辨影子的色彩，追蹤影子的邊
+緣，用你的方式，描述和記下。
 </div>
 
 <div class="en">
-The greyness of a shadow consists of many tones and layers. 
-If one day, you find yourself in the shadow of melancholy and you feel that your soul no longer has light, you must leave at this moment. You must run. Try your best, leave. Run, keep running, you must leave this shadow and go into the light. Nevertheless, as you keep running, you notice you are actually still running within another layer of shadow. 
-If you think you haven’t encountered a day like this, please look closely at the things around you every day. You have to observe the projection of the object. Please take a closer look and stare at the light and shadow between objects at the furthest and closest distances. Try to distinguish the colours of the shadow. Trace the edge of the shadow, and describe and record in your own way. 
+The greyness of a shadow consists of many tones and layers.
 
+If one day, you find yourself in the shadow of melancholy and you feel that
+your soul no longer has light, you must leave at this moment. You must
+run. Try your best, leave. Run, keep running, you must leave this shadow
+and go into the light. Nevertheless, as you keep running, you notice you are
+actually still running within another layer of shadow.
+
+If you think you haven’t encountered a day like this, please look closely at
+the things around you everyday. You have to observe the projection of the
+object. Please take a closer look and stare at the light and shadow between
+objects at the furthest and closest distances. Try to distinguish the colours
+of the shadow. Trace the edge of the shadow, and describe and record in
+your own way. 
 </div>

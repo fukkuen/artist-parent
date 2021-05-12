@@ -19,10 +19,8 @@ category: ["emotion"]
 
 <div class="hk">
 在學習忘記他們啊⋯⋯甚麼也記不起了⋯⋯
-
 </div>
 
 <div class="en">
 Learning to forget them... Can’t recall anything...
-
 </div>

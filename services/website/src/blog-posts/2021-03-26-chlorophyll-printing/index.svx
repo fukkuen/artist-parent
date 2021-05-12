@@ -17,38 +17,22 @@ category: ["mouth-ears-legs-heads-eyes"]
   const assetsBasePath = `blog-posts/2021-03-26-${slug}`;
 </script>
 
-
-1. 到公園採集新鮮樹葉。
-
-2. 將樹葉清洗乾淨，印乾水備用。
-   
-3. 將不同種類的樹葉放在亞加力板 上，底下墊上紙巾吸水。
-   
-4. 在每塊樹葉上放上投影片。
-   
-5. 蓋上另一塊透明的亞加力板，四邊
-用夾子固定，確保投影片緊貼葉子。
-   
-6. 在猛烈太陽下曬六至十小時，待樹
-葉變黃。在等待的過程中，家長可
-向小朋友解釋光對樹葉和葉綠素的
-影響，亦可鼓勵小朋友觀察、記錄
-樹葉顏色的變化，讓小孩體驗最早
-期的照片複製過程，從而理解光對
-色素的關鍵影響。
-   
-7. 在葉子正反面均勻塗上一層蠟以作
-保存。
-
+<div class="hk">
+1. 到公園採集新鮮樹葉。<br>
+2. 將樹葉清洗乾淨，印乾水備用。<br>
+3. 將不同種類的樹葉放在亞加力板 上，底下墊上紙巾吸水。<br>
+4. 在每塊樹葉上放上投影片。<br>
+5. 蓋上另一塊透明的亞加力板，四邊用夾子固定，確保投影片緊貼葉子。<br>
+6. 在猛烈太陽下曬六至十小時，待樹葉變黃。在等待的過程中，家長可向小朋友解釋光對樹葉和葉綠素的影響，亦可鼓勵小朋友觀察、記錄樹葉顏色的變化，讓小孩體驗最早期的照片複製過程，從而理解光對色素的關鍵影響。<br>
+7. 在葉子正反面均勻塗上一層蠟以作 保存。
+</div>
 
 <div class="en">
-1.Collect fresh leaves in the park.
-2.Wash the leaves and dry them for later use.
-3.Put different kinds of leaves on an acrylic board and place a paper towel underneath to absorb water.
-4.Put a projector slide on each leaf.
-5.Cover the board with another transparent acrylic board and fix the four sides with clips to ensure the projection slides are pressing against the leaves tightly.
-6.Expose the leaf board to strong sunlight for six to ten hours until the leaves turn yellow. While waiting, parents can explain to children the effect of light on leaves and chlorophyll. You may also encourage them to observe and record the leaves’ colour changes. Let your children experience the earliest photo-copying process, so as to understand the key effects of light on pigments.  
-
+1.Collect fresh leaves in the park.<br>
+2.Wash the leaves and dry them for later use.<br>
+3.Put different kinds of leaves on an acrylic board and place a paper towel underneath to absorb water.<br>
+4.Put a projector slide on each leaf.<br>
+5.Cover the board with another transparent acrylic board and fix the four sides with clips to ensure the projection slides are pressing against the leaves tightly.<br>
+6.Expose the leaf board to strong sunlight for six to ten hours until the leaves turn yellow. While waiting, parents can explain to children the effect of light on leaves and chlorophyll. You may also encourage them to observe and record the leaves’ colour changes. Let your children experience the earliest photo-copying process, so as to understand the key effects of light on pigments.<br>
 7.Apply a layer of wax evenly on both sides of the leaves for preservation.
-
 </div>

@@ -18,29 +18,47 @@ category: ["metabolism"]
 </script>
 
 <div class="hk">
-家人在指甲上塗上三角箭咀，箭咀隨著指甲增長，向前移動。
-新陳代謝因人而異，箭咀的「前進」速度不同。
-透過觀察比較，接受人與人之間的自然差異。
+家人在指甲上塗上三角箭咀，箭咀隨
+著指甲增長，向前移動。新陳代謝因
+人而異，箭咀的「前進」速度不同。
+透過觀察比較，接受人與人之間的自
+然差異。
 
 遊戲規則：
-1.個人為參賽單位；
-2.參賽者在最少一隻手指甲上塗上三角形；
-3.一個月為時限，看誰的三角「跑」得最前，或者「跑」得最慢；
-4.參賽者定時交流三角的「進展」；
-5.如果不便把箭咀展現人前，可用醫藥膠布遮蓋。
-6.長者新陳代謝速度慢，兒童和青少年會贏在起跑線上。可考慮不同年齡不同起跑線。
 
+1.個人為參賽單位；<br>
+2.參賽者在最少一隻手指甲上塗上三角形；<br>
+3.一個月為時限，看誰的三角「跑」得最前，或者「跑」得最慢；<br>
+4.參賽者定時交流三角的「進展」；<br>
+5.如果不便把箭咀展現人前，可用醫藥膠布遮蓋。<br>
+6.長者新陳代謝速度慢，兒童和青少年會贏在起跑線上。可考慮不同年齡不同起跑線。
 </div>
 
 <div class="en">
-Family members paint triangular arrows on their fingernails. The arrows will move forward as the nails grew. 
-Metabolism varies from person to person and the ‘advancing’ speed of the arrows is different. Through observation and comparison, accept the natural differences among individuals.
+Family members paint triangular arrows on their
+fingernails. The arrows will move forward as the
+nails grew.
+
+Metabolism varies from person to person and
+the ‘advancing’ speed of the arrows is different.
+Through observation and comparison, accept
+the natural differences among individuals.
 
 Game Rules:
-1.Everyone takes part in his personal capacity;
-2.Participants have to paint a triangle on at least one fingernail;
-3.The time limit is one month; we observe whose triangle ‘runs’ the fastest or ‘runs’ the slowest;
-4.Participants regularly exchange the ‘progress’ of the triangles;
-5.If participants prefer not to show the arrow to others, they can cover it with a band-aid.
-6.The metabolism of the elderly is slow, whereas children and adolescents will win at the starting line. Setting different starting lines for participants of different ages can be considered.
+
+1.Everyone takes part in his personal capacity;<br>
+2.Participants have to paint a triangle on at
+least one fingernail;<br>
+3.The time limit is one month; we obser ve
+whose triangle ‘runs’ the fastest or ‘runs’ the
+slowest;<br>
+4.Participants regularly exchange the ‘progress’
+of the triangles;<br>
+5.If participants prefer not to show the arrow to
+others, they can cover it with a band-aid.<br>
+6.The metabolism of the elderly is slow,
+whereas children and adolescents will win at
+the starting line. Setting different starting
+lines for participants of different ages can be
+considered.
 </div>
