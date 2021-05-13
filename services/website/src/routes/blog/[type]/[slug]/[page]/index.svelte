@@ -22,7 +22,6 @@
 	$: entity = !!category ? categories.find(cat => cat.slug === category) : ''
 
 	let masonry_container_el
-	let all_image_loaded = false
 	let masonry_instance
 
 	const getPostPreviewImage = post => `blog-posts/${
@@ -36,14 +35,15 @@
 			percentPosition: true,
 			initLayout: false
 		})
-		new imagesLoaded( masonry_container_el, () => {
-			masonry_instance.layout()
-			all_image_loaded = true
-		} )
 		return () => {
 			masonry_instance.destroy()
 		}
 	})
+	
+	const onLoad = () => {
+		console.log('cliff: ', 'onload')
+		masonry_instance.layout()
+	}
 </script>
 
 <div class="bg-white">
@@ -68,13 +68,13 @@
 		</div>
 	{/if}
 
-	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8" class:opacity-0={!all_image_loaded}>
+	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
 		{#if posts && posts.length}
 			<div bind:this={masonry_container_el} class="flex flex-wrap">
 				<div class="masonry-sizer"></div>
 				{#each posts as post, i}
 					<div class="masonry-item">
-						<Preview {post}/>
+						<Preview on:load={onLoad} {post}/>
 					</div>
 				{/each}
 			</div>

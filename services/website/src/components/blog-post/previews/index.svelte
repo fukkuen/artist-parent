@@ -9,7 +9,7 @@
 </script>
 
 <a href="blog/{post.metadata.slug}" class="rounded-lg group bg-white shadow block overflow-hidden">
-  <img src={coverImageBasePath} alt={post.metadata.title} class="black-and-white" loading="lazy"/>
+  <img on:load src={coverImageBasePath} alt={post.metadata.title} class="black-and-white" loading="lazy"/>
   <div class="bg-white px-1 py-2 sm:px-2 sm:py-4">
     <h3 class="text-gray-700 group-hover:text-red-500 text-sm sm:text-p2 mb-1 leading-tight">{post.metadata.record_no}. {post.metadata[`title_${$locale}`]}</h3>
     <div class="flex items-center">
