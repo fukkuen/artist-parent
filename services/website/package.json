@@ -7,7 +7,7 @@
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "preexport": "run-s clean",
-    "export": "NODE_ENV=production sapper export --legacy --entry '/ /404' --basepath artistparents",
+    "export": "NODE_ENV=production sapper export --legacy --entry '/ /404'",
     "exportftp": "NODE_ENV=production sapper export --legacy --entry '/ /404' --basepath artistparents",
     "export:move404": "mv __sapper__/export/404/index.html __sapper__/export/404.html && rm -r __sapper__/export/404",
     "postexport": "node generate-sitemap.js",
