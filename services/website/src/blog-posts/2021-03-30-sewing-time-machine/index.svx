@@ -32,7 +32,7 @@ B<br>
 
 小背包結合三代人的足跡。
 
-<a href="https://youtu.be/i4Urvg-ObFc" target="_blank">製作過程連結</a>
+<a class="border-b-2 border-current" href="https://youtu.be/i4Urvg-ObFc" target="_blank">製作過程連結</a>
 </div>
 
 <div class="en">
@@ -65,5 +65,5 @@ clothes ④ onto the backpack.
 The small backpack combines the footprints of
 three generations.
 
-<a href="https://youtu.be/i4Urvg-ObFc" target="_blank">Production Process Link</a>
+<a class="border-b-2 border-current" href="https://youtu.be/i4Urvg-ObFc" target="_blank">Production Process Link</a>
 </div>
