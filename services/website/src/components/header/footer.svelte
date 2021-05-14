@@ -26,7 +26,7 @@
 			<h3 class="font-bold mb-2">{$t('about')}</h3>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
 				{#each about_menu as m}
-					<a class="hover:text-red-500" href={m.href}>{$t(m.label)}</a>
+					<a class="hover:text-gray-400" href={m.href}>{$t(m.label)}</a>
 				{/each}
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 			<h3 class="font-bold mb-2">{$t('work_category')}</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 				{#each categories as c}
-					<a class="hover:text-red-500" href="blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
+					<a class="hover:text-gray-400" href="blog/category/{c.slug}/1">{c.num}. {c[`name_${$locale}`]}</a>
 				{/each}
 			</div>
 		</div>

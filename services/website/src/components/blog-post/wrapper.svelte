@@ -63,7 +63,7 @@
         <div class="mb-8">
           <p class="text-sm">{this_post.metadata[`artist_bio_${$locale}`]}</p>
         </div>
-        <a href="blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-white border border-gray-300 hover:text-red-500 rounded p-4">
+        <a href="blog/category/{this_post.metadata.category[0].slug}/1" class="block bg-white border border-gray-300 hover:text-gray-400 rounded p-4">
           <div class="flex items-center leading-none mb-2">
             <p class="text-sm mt-2">{$t('work_category')}</p>
             <p class="text-t1 ml-2 leading-none">{this_post.metadata.category[0].num}</p>
@@ -93,7 +93,7 @@
       {#each related_posts as p}
         <a href="blog/{p.metadata.slug}" class="group block bg-white hover:shadow text-gray-500 text-p3 rounded py-4 px-2 sm:py-4 sm:px-4">
           <p class="text-sm">{p.metadata.category[0].num}</p>
-          <h3 class="text sm:text-p2 font-bold mb-4 leading-tight group-hover:text-red-500">{p.metadata[`title_${$locale}`]}</h3>
+          <h3 class="text sm:text-p2 font-bold mb-4 leading-tight group-hover:text-gray-400">{p.metadata[`title_${$locale}`]}</h3>
           <p class="text-xs">{p.metadata.record_no}. {p.metadata[`artist_name_${$locale}`]}</p>
         </a>
       {/each}

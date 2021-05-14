@@ -24,7 +24,7 @@
 			<Icon name="email" className="w-4 text-gray-400"/>
 			<div class="ml-2 text-sm">info@rooftopinstitute.org</div>
 		</div>
-		<a target="_blank" href="http://www.rooftopinstitute.org" class="inline-flex items-center hover:text-red-500">
+		<a target="_blank" href="http://www.rooftopinstitute.org" class="inline-flex items-center hover:text-gray-400">
 			<Icon name="website" className="w-4 text-gray-400"/>
 			<div class="ml-2 text-sm">http://www.rooftopinstitute.org</div>
 		</a>
