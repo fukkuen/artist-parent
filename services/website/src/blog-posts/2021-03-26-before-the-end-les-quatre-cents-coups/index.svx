@@ -6,7 +6,7 @@ intro_title_en: "I lied to him, 'run a race with me!'"
 artist_name_hk: "關尚智"
 artist_name_en: "Kwan Sheung Chi"
 artist_bio_hk: "關尚智，藝術家，有一個七歲的兒子。"
-artist_bio_en: "Kwan Sheung Chi, Artist, with a 7-year-old son"
+artist_bio_en: "Kwan Sheung Chi, Artist, with a 7-year-old son."
 record_no: "7"
 slug: "before-the-end-les-quatre-cents-coups"
 createdAt: 2021-03-26

@@ -6,7 +6,7 @@ intro_title_en: "It’s all up to him "
 artist_name_hk: "小克"
 artist_name_en: "Siu Hak"
 artist_bio_hk: "小克，香港漫畫家、填詞人。育有一子，六歲。"
-artist_bio_en: "Siu Hak, Hong Kong comic artist and lyricist, with a 6-year-old son"
+artist_bio_en: "Siu Hak, Hong Kong comic artist and lyricist, with a 6-year-old son."
 record_no: "3"
 slug: "father-and-son-relation-ship"
 createdAt: 2021-03-26
@@ -45,7 +45,7 @@ What national flag to be painted? It’s all up to him and we worked together. I
 creativity, aesthetic appreciation and agile Hong-Konger adaptability were cultivated, whereas
 environmental awareness could also be instilled.
 
-The project was concluded with the father ’s and the son’s signatures on the hull. It was
+The project was concluded with the father’s and the son’s signatures on the hull. It was
 completed within one day with a budget close to zero but that moment was priceless,
 unforgettable for a lifetime.
 </div>

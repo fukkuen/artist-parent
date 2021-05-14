@@ -6,7 +6,7 @@ intro_title_en: "Send me a photo every day, by the way "
 artist_name_hk: "何兆基"
 artist_name_en: "Ho Siu Kee"
 artist_bio_hk: "何兆基, 從事雕塑創作並在大學任教。十九歲的兒子何見山去年赴德國升學，大家已習慣用 WhatsApp 溝通。"
-artist_bio_en: "Ho Siu Kee, engaged in sculpture creation and teaching at university, his 19-year-old son Jasen Ho went to Germany for study last year; they have got used to communicating through WhatsApp. "
+artist_bio_en: "Ho Siu Kee, engaged in sculpture creation and teaching at university, his 19-year-old son Jasen Ho went to Germany for study last year; they have got used to communicating through WhatsApp."
 record_no: "39"
 slug: "whats-app-family-letters"
 createdAt: 2021-03-30

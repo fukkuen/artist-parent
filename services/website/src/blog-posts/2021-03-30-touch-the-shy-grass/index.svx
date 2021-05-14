@@ -6,7 +6,7 @@ intro_title_en: "Hello, not-shy grass"
 artist_name_hk: "潘蔚然"
 artist_name_en: "Vivian Poon"
 artist_bio_hk: "潘蔚然，從事不同藝術工作，有一個兩歲兒子。   "
-artist_bio_en: "Vivian Poon, engaged in different artistic pursuits, with a 2-year-old son. "
+artist_bio_en: "Vivian Poon, engaged in different artistic pursuits, with a 2-year-old son."
 record_no: "28"
 slug: "touch-the-shy-grass"
 createdAt: 2021-03-30

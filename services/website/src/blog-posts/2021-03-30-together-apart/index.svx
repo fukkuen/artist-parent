@@ -5,8 +5,8 @@ intro_title_hk: "在封城這段日子裡，你好嗎？"
 intro_title_en: "How are you during this time of lockdown"
 artist_name_hk: "龔志成"
 artist_name_en: "Kung Chi Shing"
-artist_bio_hk: "龔瑞祺（電影工作者及攝影師）是任卓華（策展人）和龔志成（音樂文化推廣人）的女兒"
-artist_bio_en: "Chiara Kung (filmmaker & photographer) is the daughter of Valerie Doran (curator) and Kung Chi Shing (music activist)."
+artist_bio_hk: "音樂文化推廣人。龔瑞祺是他和任卓華的女兒。"
+artist_bio_en: "Kung Chi Shing, music activist. Chiara Kung is the daughter of Valerie Doran and him."
 record_no: "40"
 slug: "together-apart"
 createdAt: 2021-03-30
@@ -31,7 +31,7 @@ category: ["story"]
 金色的光芒！<br>
 爹爹
 
----
+<div class="h-0.5 bg-gray-400 my-4"></div>
 
 嗨，爹爹：
 
@@ -65,7 +65,7 @@ Love you.<br>
 Golden light!<br>
 Dada
 
----
+<div class="h-0.5 bg-gray-400 my-4"></div> 
 
 Hi Dada,
 

@@ -6,7 +6,7 @@ intro_title_en: "The beauty of meaninglessness"
 artist_name_hk: "高文灝"
 artist_name_en: "Ahko"
 artist_bio_hk: "高文灝，漫畫故事創作者，有個有特殊學習需要（SEN）的兒子。"
-artist_bio_en: "Ahko, comic story creative, with a SEN son. "
+artist_bio_en: "Ahko, comic story creative, with a SEN son."
 record_no: "21"
 slug: "we-tap-tap-tap-tap-tap-tap-tap"
 createdAt: 2021-03-30

@@ -6,7 +6,7 @@ intro_title_en: "Expose leaves to strong sunlight until they turn yellow"
 artist_name_hk: "陳啟駿"
 artist_name_en: "MC"
 artist_bio_hk: "陳啟駿主要從事攝影相關創作，有兩個女兒，一個是四歲，另一個是六歲。"
-artist_bio_en: "MC, principally engaged in photography-related creative works, with two daughters (4-year-old and 6-year-old)"
+artist_bio_en: "MC, principally engaged in photography-related creative works, with two daughters (4-year-old and 6-year-old)."
 record_no: "19"
 slug: "chlorophyll-printing"
 createdAt: 2021-03-26

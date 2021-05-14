@@ -6,7 +6,7 @@ intro_title_en: "Breathe with your hands"
 artist_name_hk: "戴媛婷"
 artist_name_en: "Wun Ting Wendy Tai"
 artist_bio_hk: "戴媛婷，混合媒介藝術家，教育工作者，是八個月大的Pim的媽媽。"
-artist_bio_en: "Wun Ting Wendy Tai, mixed-media artist, educator and mother of 8-month-old Pim"
+artist_bio_en: "Wun Ting Wendy Tai, mixed-media artist, educator and mother of 8-month-old Pim."
 record_no: "15"
 slug: "breathe"
 createdAt: 2021-03-26

@@ -6,7 +6,7 @@ intro_title_en: "Looking at pictures like looking at yourself in the mirror"
 artist_name_hk: "尊子"
 artist_name_en: "Zunzi"
 artist_bio_hk: "尊子，畫漫畫的 ，有時不是。一子之父，暫時。教仔心得，基本過時。"
-artist_bio_en: "Zunzi, he draws comics, sometimes doesn’t; father of one son (so far); parenting insights, basic and outdated"
+artist_bio_en: "Zunzi, he draws comics, sometimes doesn’t; father of one son (so far); parenting insights, basic and outdated."
 record_no: "20"
 slug: "test-tube-father"
 createdAt: 2021-03-26

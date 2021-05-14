@@ -6,7 +6,7 @@ intro_title_en: "Collect the sounds at home; string together a story"
 artist_name_hk: "廖偉棠"
 artist_name_en: "Liu Waitong"
 artist_bio_hk: "廖偉棠，詩人，攝影家，有一個九歲兒子和一個四歲女兒。"
-artist_bio_en: "Liu Waitong, poet, photographer, with a 9-year-old son and a 4-year-old daughter"
+artist_bio_en: "Liu Waitong, poet, photographer, with a 9-year-old son and a 4-year-old daughter."
 record_no: "18"
 slug: "sound-theatre"
 createdAt: 2021-03-26

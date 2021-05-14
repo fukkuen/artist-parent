@@ -5,8 +5,8 @@ intro_title_hk: "叮咬，疹子，眾山相連"
 intro_title_en: "Connecting all his bites and rashes with mountains"
 artist_name_hk: "陳玉瓊"
 artist_name_en: "Tan Yuk King"
-artist_bio_hk: "陳玉瓊，藝術家，兩個少年的媽媽"
-artist_bio_en: "Tan Yuk King, artist, mother of two teenagers"
+artist_bio_hk: "陳玉瓊，藝術家，兩個少年的媽媽。"
+artist_bio_en: "Tan Yuk King, artist, mother of two teenagers."
 record_no: "16"
 slug: "the-journey-in-between"
 createdAt: 2021-03-26
@@ -18,12 +18,7 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-把他所有的叮咬和疹子與眾山相連：我用水彩沿著每顆紅
-疹或蚊子叮咬勾勒。為紀念最近一次散步，我以水彩筆觸
-轉化或「治癒」小抓痕和微細傷口，變成意想不到又稀奇
-的生動景觀。目的是尋找方法協助孩子們在參與度高又充
-滿勉勵的調解中討論他們的想法。與你的孩子和家人分享
-你的愛好。在創意和與年輕人共度時光之間並沒有分野。
+把他所有的叮咬和疹子與眾山相連：我用水彩沿著每顆紅疹或蚊子叮咬勾勒。為紀念最近一次散步，我以水彩筆觸轉化或「治癒」小抓痕和微細傷口，變成意想不到又稀奇的生動景觀。目的是尋找方法協助孩子們在參與度高又充滿勉勵的調解中討論他們的想法。與你的孩子和家人分享你的愛好。在創意和與年輕人共度時光之間並沒有分野。
 </div>
 
 <div class="en">

@@ -6,7 +6,7 @@ intro_title_en: "Explore the sounds at home; name them with colours "
 artist_name_hk: "凌藝廉"
 artist_name_en: "William Lane"
 artist_bio_hk: "凌藝廉，音樂家，一個四歲兒子和一個11個月大的女兒的爸爸"
-artist_bio_en: "William Lane, musician, father of a 4-year-old son and a 11-month-old daughter"
+artist_bio_en: "William Lane, musician, father of a 4-year-old son and a 11-month-old daughter."
 record_no: "17"
 slug: "house-music"
 createdAt: 2021-03-26

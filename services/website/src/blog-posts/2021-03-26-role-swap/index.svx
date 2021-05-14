@@ -6,7 +6,7 @@ intro_title_en: "The real game: identity swap and role reversal"
 artist_name_hk: "梁思鳴"
 artist_name_en: "Gabriel Leung"
 artist_bio_hk: "梁思鳴，藝術家與攝影師，育有一個五歲女兒。"
-artist_bio_en: "Gabriel Leung, artist and photographer, with a 5-year-old daughter "
+artist_bio_en: "Gabriel Leung, artist and photographer, with a 5-year-old daughter."
 record_no: "10"
 slug: "role-swap"
 createdAt: 2021-03-26
@@ -18,18 +18,11 @@ category: ["what-is-instruction"]
 </script>
 
 <div class="hk">
-「準備，一、二、三，笑！」這是永遠捕捉不到孩子自然
-的笑容，因為沒有甚麼比聽父母指令更悶的了。
+「準備，一、二、三，笑！」這是永遠捕捉不到孩子自然的笑容，因為沒有甚麼比聽父母指令更悶的了。
 
-留在家中女兒經常呼叫 :「好悶呀！」這時她便會邀請我
-玩尋蛋遊戲：一人三隻蛋，分別在客廳或房間收放好，然
-後到對方的空間尋找，最快找到便勝出，然後重複十次，
-玩足一年。
+留在家中女兒經常呼叫 :「好悶呀！」這時她便會邀請我玩尋蛋遊戲：一人三隻蛋，分別在客廳或房間收放好，然後到對方的空間尋找，最快找到便勝出，然後重複十次，玩足一年。
 
-遊戲中我們都有機會決定別人今次用哪個空間，例如「不
-要太難」或是「少少難」的地方。當有一方未能找到時，
-可要求綫索，但她總會反過來叫我不要說話。我想，其實
-身份和發指令的角色對調才是真正的遊戲。
+遊戲中我們都有機會決定別人今次用哪個空間，例如「不要太難」或是「少少難」的地方。當有一方未能找到時，可要求綫索，但她總會反過來叫我不要說話。我想，其實身份和發指令的角色對調才是真正的遊戲。
 </div>
 
 <div class="en">

@@ -1,12 +1,12 @@
 ---
 title_hk: "我教你教我教你教我"
-title_en: "I Teach You Teach Me Teach You Teach Me"
+title_en: "I Teach to You Teach Me to Teach You to Teach Me"
 intro_title_hk: "爸爸我教你畫畫"
 intro_title_en: "Dad, I teach you to paint!"
 artist_name_hk: "徐沛之"
 artist_name_en: "Chui Pui Chee"
 artist_bio_hk: "徐沛之，水墨藝術家，傻爸爸，有一個三歲半的女兒。"
-artist_bio_en: "Chui Pui Chee, ink artist, a silly dad with a 3.5-year-old daughter "
+artist_bio_en: "Chui Pui Chee, ink artist, a silly dad with a 3.5-year-old daughter."
 record_no: "5"
 slug: "i-teach-you-teach-me-teach-you-teach-me"
 createdAt: 2021-03-26
@@ -38,6 +38,6 @@ of a grid, leaving a grid between the two colours to mix the paints. She
 then happily drew some lines at will. To her, the brush-washing water was
 more attractive. She used the brush-washing water for lighter colours and
 water drops. I asked her to use thick colour dots on the water drops to see
-the Haboku (splashing) effect and the flow of colours. She was excited for
+the <i>Haboku</i> (splashing) effect and the flow of colours. She was excited for
 a while. After that, she confidently said to me, ‘Dad, I teach you to paint!’
 </div>

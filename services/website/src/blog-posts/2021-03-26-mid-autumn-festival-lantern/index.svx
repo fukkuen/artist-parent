@@ -6,7 +6,7 @@ intro_title_en: "Doraemon with teeth? Absence of judgment &#x3D; Best support"
 artist_name_hk: "蕭偉恒"
 artist_name_en: "Siu Wai Hang"
 artist_bio_hk: "蕭偉恒，半職藝術家、半職教書、半職家庭煮夫，有兩名年齡差三歲的女兒。"
-artist_bio_en: "Siu Wai Hang, part-time artist, part-time teacher, part-time househusband, with two daughters three years apart"
+artist_bio_en: "Siu Wai Hang, part-time artist, part-time teacher, part-time househusband, with two daughters three years apart."
 record_no: "4"
 slug: "mid-autumn-festival-lantern"
 createdAt: 2021-03-26

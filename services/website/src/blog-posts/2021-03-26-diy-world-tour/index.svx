@@ -6,7 +6,7 @@ intro_title_en: "Travel around the world via your body "
 artist_name_hk: "張嘉莉"
 artist_name_en: "Clara Cheung"
 artist_bio_hk: "張嘉莉，藝術工作者、灣仔區議員。喜歡寫生、以身體創作，有兩名女兒。"
-artist_bio_en: "Clara Cheung, artist, Wan Chai district councillor; mother of two daughters; she enjoys outdoor painting and art-making with her body"
+artist_bio_en: "Clara Cheung, artist, Wan Chai district councillor; mother of two daughters; she enjoys outdoor painting and art-making with her body."
 record_no: "13"
 slug: "diy-world-tour"
 createdAt: 2021-03-26
@@ -32,10 +32,10 @@ category: ["mouth-ears-legs-heads-eyes"]
 </div>
 
 <div class="en">
-1.Flip through a world geography book or encyclopedia.
-2.Choose a piece of architecture at a world-class tourist site.
-3.Perform the architectural structure with children together.
-4.Document with photography.
+1.Flip through a world geography book or encyclopedia.<br>
+2.Choose a piece of architecture at a world-class tourist site.<br>
+3.Perform the architectural structure with children together.<br>
+4.Document with photography.<br>
 5.Write down the title for this performance art piece.
 
 Image: Visit the double pyramid in Egypt, Paris and Memphis

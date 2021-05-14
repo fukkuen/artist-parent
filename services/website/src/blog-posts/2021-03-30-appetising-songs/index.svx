@@ -6,7 +6,7 @@ intro_title_en: "The meaning of crying "
 artist_name_hk: "嚴瑞芳"
 artist_name_en: "Yim Sui Fong"
 artist_bio_hk: "嚴瑞芳，藝術家，女兒生於2020年春天，由她出生起才學識規律之美妙。"
-artist_bio_en: "Yim Sui Fong, artist, her daughter was born in the spring of 2020; she hasn’t learned the wonder of routine until her daughter was born."
+artist_bio_en: "Yim Sui Fong, artist, her daughter was born in the spring of 2020."
 record_no: "45"
 slug: "appetising-songs"
 createdAt: 2021-03-30
@@ -26,9 +26,9 @@ BB 的聖經，緊張非常！除了嚴謹記錄，我覺得最難是單向對�
 
 把 BB 每天的奶量，對應成簡譜，發明你可高歌訴說的日記式音樂吧！
 
-*其他的奶量可設計成 #/b 升降音
-*親餵的可按時間來配對簡譜
-*可把數字填入簡譜 APP 播放來唱 (QR code)
+\* 其他的奶量可設計成 #/b 升降音<br>
+\* 親餵的可按時間來配對簡譜<br>
+\* 可把數字填入簡譜 APP 播放來唱 (QR code)
 </div>
 
 <div class="en">
@@ -44,7 +44,7 @@ daughter to de-stress.
 Correspond your baby’s daily milk volumes to a numbered musical notation. Compose
 diary-like music that you can sing and express!
 
-*Other milk volumes can be composed in #/b sharp or flat key
-*Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
-*You can fill the numbers in the numbered musical notation App to play and sing along, 
+\* Other milk volumes can be composed in #/b sharp or flat key
+\* Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
+\* You can fill the numbers in the numbered musical notation App to play and sing along, 
 </div>

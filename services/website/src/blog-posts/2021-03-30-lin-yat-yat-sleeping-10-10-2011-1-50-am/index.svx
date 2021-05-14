@@ -1,6 +1,6 @@
 ---
 title_hk: "連一一睡覺，10/10/2011， 1:50AM"
-title_en: "Lin Yat Yat Sleeping, 10/10/2011, 1:50AM"
+title_en: "Draw Your Child While He/She Is Asleep"
 intro_title_hk: "太過具體就像把秘密説溜了嘴"
 intro_title_en: "Too definite, like exposing a secret by a slip of the tongue"
 artist_name_hk: "連安洋"
@@ -25,5 +25,5 @@ category: ["story"]
 
 <div class="en">
 I recall that night now, thanks to this sketch. 
-I don’t remember the things that happened before and after it. Just that on seeing this sketch, I feel as if I had returned to that moment, for I am spending actual time to gaze attentively at the sketch and have thrown myself into sketching it. A baby, being rarely quiet to allow me to observe and sketch for a long time. I transformed the impression and recorded it on paper. After this process, my feelings and memories are sealed in the painting a memory owned and decipherable only by me. Perhaps, photos and videos can’t compare with it because they are too definite, like exposing a secret by a slip of the tongue.
+I don’t remember the things that happened before and after it. Just that on seeing this sketch, I feel as if I had returned to that moment, for I am spending actual time to gaze attentively at the sketch and have thrown myself into sketching it. A baby, being rarely quiet to allow me to observe and sketch for a long time. I transformed the impression and recorded it on paper. After this process, my feelings and memories are sealed in the painting, the memory owned and decipherable only by me. Perhaps, photos and videos can’t compare with it because they are too definite, like exposing a secret by a slip of the tongue.
 </div>

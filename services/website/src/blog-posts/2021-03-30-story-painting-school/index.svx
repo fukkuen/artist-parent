@@ -6,7 +6,7 @@ intro_title_en: "Draw and tell"
 artist_name_hk: "杜煥"
 artist_name_en: "To Wun"
 artist_bio_hk: "杜煥，多媒體藝術家，女兒十歲，兒子六歲。"
-artist_bio_en: "To Wun, multimedia artist, with a 10-year-old daughter and a 6-year-old son. "
+artist_bio_en: "To Wun, multimedia artist, with a 10-year-old daughter and a 6-year-old son."
 record_no: "38"
 slug: "story-painting-school"
 createdAt: 2021-03-30

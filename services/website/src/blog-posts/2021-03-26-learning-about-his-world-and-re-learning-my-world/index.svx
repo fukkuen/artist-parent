@@ -6,7 +6,7 @@ intro_title_en: "Accept what children love "
 artist_name_hk: "張志偉"
 artist_name_en: "Cheung Chi Wai"
 artist_bio_hk: "張志偉，攝影師。"
-artist_bio_en: "Cheung Chi Wai, photographer"
+artist_bio_en: "Cheung Chi Wai, photographer."
 record_no: "2"
 slug: "learning-about-his-world-and-re-learning-my-world"
 createdAt: 2021-03-26
@@ -25,9 +25,9 @@ category: ["what-is-instruction"]
 
 由淺入深的方法：
 
-1.接受小孩喜愛的事物，放棄由成人教導小孩的心情。
-2.只陪伴觀察，不要從成人角度評論太多。
-3.遠距離拍下他看的角度。
+1.接受小孩喜愛的事物，放棄由成人教導小孩的心情。<br>
+2.只陪伴觀察，不要從成人角度評論太多。<br>
+3.遠距離拍下他看的角度。<br>
 4.深入找尋有關事物的資料。
 </div>
 
@@ -40,8 +40,8 @@ cars, so we would pay attention to the details.
 
 Step-by-step approach:
 
-1.Accept what children love and give up the frame of mind to instruct them as an adult.
-2.Just accompany and observe them; do not comment too much from an adult’s perspective.
-3.Take photos of their viewing angle from a distance.
+1.Accept what children love and give up the frame of mind to instruct them as an adult.<br>
+2.Just accompany and observe them; do not comment too much from an adult’s perspective.<br>
+3.Take photos of their viewing angle from a distance.<br>
 4.Look for in-depth information related to those things.
 </div>

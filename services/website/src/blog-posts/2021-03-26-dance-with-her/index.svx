@@ -6,7 +6,7 @@ intro_title_en: "Let your child guide you, for example, dance with her"
 artist_name_hk: "鄧國騫"
 artist_name_en: "Tang Kwok Hin"
 artist_bio_hk: "鄧國騫，育有一個三歲半女兒，自女兒出生後每天的事務讓他看起來像個全職爸爸，兼職從事藝術工作。"
-artist_bio_en: "Tang Kwok Hin, fathering a 3.5-year-old daughter; ever since the birth of his daughter, his daily chores have made him look like a full-time father, engaging in his artistic pursuits only part-time"
+artist_bio_en: "Tang Kwok Hin, fathering a 3.5-year-old daughter; ever since the birth of his daughter, his daily chores have made him look like a full-time father, engaging in his artistic pursuits only part-time."
 record_no: "9"
 slug: "dance-with-her"
 createdAt: 2021-03-26
@@ -18,16 +18,9 @@ category: ["what-is-instruction"]
 </script>
 
 <div class="hk">
-觀察和陪伴你的子女，尤其在她年幼的時候。如果你在家
-躲藏，她會嘗試跟著；在有倒影的地方做鬼臉，她會發現
-自己的模樣，繼而與自己做戲；她觀察你的時候，你伸展
-肢幹，她開始嘗試展開雙臂如打開翅膀，從中感受身體拉
-扯間的愉悅。在千百種的引導與互動後，她會逐漸發現、
-組合、開創出自己喜愛的語言—身體、空間、倒影……
+觀察和陪伴你的子女，尤其在她年幼的時候。如果你在家躲藏，她會嘗試跟著；在有倒影的地方做鬼臉，她會發現自己的模樣，繼而與自己做戲；她觀察你的時候，你伸展肢幹，她開始嘗試展開雙臂如打開翅膀，從中感受身體拉扯間的愉悅。在千百種的引導與互動後，她會逐漸發現、組合、開創出自己喜愛的語言 ── 身體、空間、倒影……
 
-在你的子女前釋放自己，展現你的專長、喜好、弱點，一
-同學習耍樂，有一些事情，她會比你更優秀，屆時，讓子
-女指導你，譬如，與她共舞。
+在你的子女前釋放自己，展現你的專長、喜好、弱點，一同學習耍樂，有一些事情，她會比你更優秀，屆時，讓子 女指導你，譬如，與她共舞。
 </div>
 
 <div class="en">

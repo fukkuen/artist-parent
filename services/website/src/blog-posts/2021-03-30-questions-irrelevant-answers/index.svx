@@ -26,7 +26,7 @@ category: ["story"]
 日常行事，我們不是要鼓勵孩子創作嗎？事實上，大人也得益。
 
 把創作的問題寫下，裝訂成書，變成諾貝爾文學得獎者 Pablo Neruda
-的詩集 Book of Questions 的姊妹版。孩子也可跟朋友玩，我鼓勵用真
+的詩集 <i>Book of Questions</i> 的姊妹版。孩子也可跟朋友玩，我鼓勵用真
 實郵件。然後問：「郵差叔叔每天要送出幾多個問號？」
 </div>
 
@@ -41,7 +41,7 @@ convention-abiding day-to-day routine. Don’t we want to encourage
 children to create? In fact, grown-ups benefit from this too.
 
 Write down the questions created, bind them into a book and turn it into a
-sister edition of poetry collection Book of Questions by Nobel Prize winner
+sister edition of poetry collection <i>Book of Questions</i> by Nobel Prize winner
 Pablo Neruda. Children can also play with friends and I encourage using
 physical letters. Then ask, ‘How many question marks does Mr Postman
 deliver every day?’

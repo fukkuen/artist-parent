@@ -6,7 +6,7 @@ intro_title_en: "Adorable adults"
 artist_name_hk: "羅文樂"
 artist_name_en: "Law Man Lok"
 artist_bio_hk: "羅文樂，通常被叫作羅文或羅Sir，是兩個囡囡的爸爸。受益於普普藝術和概念藝術，同時熱愛次文化的他，最喜歡製造怪奇的雅俗共享風格。"
-artist_bio_en: "Law Man Lok, usually called Law Man or Law Sir, father of two daughters; benefited from pop art and conceptual art, he is passionate about subculture; he likes the most creating weird styles to be shared with connoisseurs and laymen "
+artist_bio_en: "Law Man Lok, usually called Law Man or Law Sir, father of two daughters; benefited from pop art and conceptual art, he is passionate about subculture; he likes the most creating weird styles to be shared with connoisseurs and laymen."
 record_no: "8"
 slug: "innocence-restaged"
 createdAt: 2021-03-26
@@ -24,9 +24,9 @@ category: ["what-is-instruction"]
 
 對象：兩至四歲的小朋友和成年人。
 
-1.用鏡頭捕捉小朋友的可愛舉動。例如：在鏡頭前表演、教學或做點甚麼也可。
-2.成年人消化小朋友的所作所為嘗試得出一些意義。
-3.成年人重演一次。
+1.用鏡頭捕捉小朋友的可愛舉動。例如：在鏡頭前表演、教學或做點甚麼也可。<br>
+2.成年人消化小朋友的所作所為嘗試得出一些意義。<br>
+3.成年人重演一次。<br>
 4.把成年人重演的作品連同小朋友可愛的視頻傳給親友。
 </div>
 
