@@ -35,6 +35,10 @@
 			percentPosition: true,
 			initLayout: false
 		})
+		setTimeout(() => {
+			masonry_instance.layout()
+			console.log('layout now')
+		}, 300)
 		return () => {
 			masonry_instance.destroy()
 		}
