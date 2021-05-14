@@ -53,7 +53,7 @@
 			<div class="max-w-screen-xl mx-auto px-4 py-16 md:px-6">
 				<div class="mb-4 flex items-center">
 					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
-					<span class="mono text-t1 ml-2">{entity.num}</span>
+					<span class="text-t1 ml-2">{entity.num}</span>
 				</div>
 				<h1 class="text-p2 sm:text-p3 leading-tight">{entity[`name_${$locale}`]}</h1>
 			</div>

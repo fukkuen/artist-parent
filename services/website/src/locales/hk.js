@@ -7,7 +7,7 @@ export default {
 	bookmark_page_no_record: '你還未有收藏作品',
 	share: '分享',
 	share_fb: '分享到 Facebook',
-	artist_page_title: '藝術家總覽',
+	artist_page_title: '參與 藝術家',
 	about: '關於',
 	about_the_project: '關於計劃',
 	language: '語言',

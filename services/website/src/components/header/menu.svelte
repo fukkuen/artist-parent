@@ -61,7 +61,7 @@
 							<span class="absolute inset-y-0 left-1 bg-gray-500 w-1"></span>
 						{/if}
 						{#if c.num}
-							<p class="mono font-bold text-xs w-8 flex-shrink-0">{c.num}</p>
+							<p class="font-bold text-xs w-8 flex-shrink-0">{c.num}</p>
 						{/if}
 						<p class="text-xs leading-tight">{c[`name_${$locale}`]}</p>
 						<Icon name="right" className="flex-shrink-0 w-3 opacity-50 ml-2"/>

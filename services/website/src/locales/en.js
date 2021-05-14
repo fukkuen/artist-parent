@@ -11,7 +11,7 @@ export default {
 	about: 'About',
 	about_the_project: 'About The Project',
 	language: 'Language',
-	how_to_use_title: 'Usr Guide',
+	how_to_use_title: 'User Guide',
 	about_rooftop_title: 'About Rooftop Institute',
 	preface_title: 'Preface',
 	home_title: 'Home',

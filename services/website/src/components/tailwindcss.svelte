@@ -12,10 +12,6 @@
       background: white;
   }
 
-  .mono {
-      font-family: Courier, sans-serif;
-  }
-
   ._prose p {
 		  @apply py-2.5
   }
