@@ -6,7 +6,7 @@ intro_title_en: "To shoot dead corners in the dark"
 artist_name_hk: "白雙全"
 artist_name_en: "Pak Sheung Chuen"
 artist_bio_hk: "白雙全，藝術家，一星期有兩日與兒子獨處，見住佢成長，睇住佢來學習。"
-artist_bio_en: "Pak Sheung Chuen, artist, he spends time alone with his son twice a week, seeing his son grow up and watching him learn."
+artist_bio_en: "Pak Sheung Chuen, artist, he spends time alone with his son twice a week, seeing his son grow up and learning from him."
 record_no: "23"
 slug: "shoot-the-dead-corners"
 createdAt: 2021-03-30
@@ -18,13 +18,7 @@ category: ["love-fear"]
 </script>
 
 <div class="hk">
-年頭突如其來的疫症改變了全世界。我觀察到孩子好怕外出，好怕
-接觸人。於是我幫他規劃空閒時間，每日加插小任務，被迫又好，
-誘導又好，我想帶他回到一個充滿可能和奇妙的世界去探索。例如
-一天我邀請他和我晚上去倒完垃圾後一起去：打死角。很簡單，手
-持一支電筒，對準鄰居村屋頂層死角，著燈射中有五分，多分者勝。
-他興奮到拿起電筒和玩具槍，我們在漆黑的村巷中繞了幾個圈打死
-角，他說好像「打喪屍」十分刺激。希望冇為鄰居帶來騷擾啦！
+年頭突如其來的疫症改變了全世界。我觀察到孩子好怕外出，好怕接觸人。於是我幫他規劃空閒時間，每日加插小任務，被迫又好，誘導又好，我想帶他回到一個充滿可能和奇妙的世界去探索。例如一天我邀請他和我晚上去倒完垃圾後一起去：打死角。很簡單，手持一支電筒，對準鄰居村屋頂層死角，著燈射中有五分，多分者勝。他興奮到拿起電筒和玩具槍，我們在漆黑的村巷中繞了幾個圈打死角，他說好像「打喪屍」十分刺激。希望冇為鄰居帶來騷擾啦！
 </div>
 
 <div class="en">

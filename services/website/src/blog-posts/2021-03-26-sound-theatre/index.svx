@@ -18,14 +18,7 @@ category: ["mouth-ears-legs-heads-eyes"]
 </script>
 
 <div class="hk">
-讓孩子用智能手機去錄取家裡的各種自然形成的聲音，再
-加上用小鼓棍敲擊那些不會發聲的物體的聲音，收集、歸
-類之後，孩子和父母一起用其中多個聲音元素，串連成一
-個在想像中的黑夜裡發生的故事。可以參考以前電台講故
-事配音效的形式，不過在這個遊戲裡聲音是先導的，故事
-是後來的。通過這個遊戲認識組成「家」的聲音要素，同
-時通過黑暗裡的故事帶出家庭成員內心的夢想，這最終能
-培養孩子的語言想像力和敘事能力。
+讓孩子用智能手機去錄取家裡的各種自然形成的聲音，再加上用小鼓棍敲擊那些不會發聲的物體的聲音，收集、歸類之後，孩子和父母一起用其中多個聲音元素，串連成一個在想像中的黑夜裡發生的故事。可以參考以前電台講故事配音效的形式，不過在這個遊戲裡聲音是先導的，故事是後來的。通過這個遊戲認識組成「家」的聲音要素，同時通過黑暗裡的故事帶出家庭成員內心的夢想，這最終能培養孩子的語言想像力和敘事能力。
 </div>
 
 <div class="en">
@@ -33,7 +26,7 @@ Let your children use your smartphone to record various natural sounds
 at home, in addition to tapping non-sound-generating objects with mini
 drumsticks. After collecting and categorising them, parents and children
 use some of the sound elements to string together an imaginary story
-that happens in a dark night. You can refer to the storytelling-withfolely on the radio in the past. Yet, this is a sound-oriented game; the
+that happens in a dark night. You can refer to the storytelling-with-folely on the radio in the past. Yet, this is a sound-oriented game; the
 story follows the sounds. Through this game, you can understand the
 sound elements that make up a ‘home’. At the same time, it brings out
 the dreams of the family members through the stories in the dark, which
