@@ -22,7 +22,7 @@
 				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
 				<li>完成，手機桌面會顯示 “LOGO”</li>
 			</ul>
-			<div>(示範短片：)</div>
+			<img src="images/ios-add-to-home-screen-hk.gif" alt="gif">
 		</div>
 
 		<div class="mb-4">
@@ -33,7 +33,7 @@
 				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
 				<li>完成，手機桌面會顯示 “LOGO”</li>
 			</ul>
-			<div>示範短片：</div>
+			<img src="images/android-add-to-home-screen-hk.gif" alt="gif">
 		</div>
 	{:else}
 		<h2>How to use this PWA web page：</h2>
@@ -47,7 +47,7 @@
 				<li>Scroll down and press &quot;Add to home screen”</li>
 				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
 			</ul>
-			<p>Demo video:</p>
+			<img src="images/ios-add-to-home-screen-en.gif" alt="gif">
 		</div>
 
 		<div class="mb-4">
@@ -58,7 +58,7 @@
 				<li>Scroll down and press &quot;Add to home screen”</li>
 				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
 			</ul>
-			<p>Demo video:</p>
+			<img src="images/android-add-to-home-screen-en.gif" alt="gif">
 		</div>
 	{/if}
 </div>
