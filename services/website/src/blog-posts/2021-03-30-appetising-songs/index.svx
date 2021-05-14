@@ -29,6 +29,8 @@ BB 的聖經，緊張非常！除了嚴謹記錄，我覺得最難是單向對�
 \* 其他的奶量可設計成 #/b 升降音<br>
 \* 親餵的可按時間來配對簡譜<br>
 \* 可把數字填入簡譜 APP 播放來唱 (QR code)
+
+<a href="https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164" target="_blank">示範連結</a>
 </div>
 
 <div class="en">
@@ -46,5 +48,7 @@ diary-like music that you can sing and express!
 
 \* Other milk volumes can be composed in #/b sharp or flat key
 \* Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
-\* You can fill the numbers in the numbered musical notation App to play and sing along, 
+\* You can fill the numbers in the numbered musical notation App to play and sing along,
+
+<a href="https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164" target="_blank">Demo Link</a>
 </div>
