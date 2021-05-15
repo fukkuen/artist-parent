@@ -17,10 +17,10 @@
 		<div class="mb-4">
 			<div class="border-b-2 border-gray-300 inline-block">iOS 用戶</div>
 			<ul>
-				<li>手機打開safari 瀏覽器</li>
+				<li>手機打開safari 瀏覽器，輸入網址 rooftopinstitute.org/artistparents</li>
 				<li>按分享</li>
-				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
-				<li>完成，手機桌面會顯示 “LOGO”</li>
+				<li>往下拉，按「添加到主屏幕」</li>
+				<li>完成</li>
 			</ul>
 			<img src="images/ios-add-to-home-screen-hk.gif" alt="gif">
 		</div>
@@ -28,10 +28,10 @@
 		<div class="mb-4">
 			<div class="border-b-2 border-gray-300 inline-block">Android 用戶</div>
 			<ul>
-				<li>手機打開Chrome 瀏覽器</li>
+				<li>手機打開Chrome 瀏覽器，輸入網址 rooftopinstitute.org/artistparents</li>
 				<li>按分享</li>
-				<li>往下拉，按「添加到主屏幕Add to Home Screen」</li>
-				<li>完成，手機桌面會顯示 “LOGO”</li>
+				<li>往下拉，按「新增至主螢幕 」</li>
+				<li>完成</li>
 			</ul>
 			<img src="images/android-add-to-home-screen-hk.gif" alt="gif">
 		</div>
@@ -42,10 +42,10 @@
 		<div class="mb-4">
 			<div class="inline-block border-b-2 border-gray-300">For iOS users</div>
 			<ul>
-				<li>Open the safari browser on the phone</li>
+				<li>Open the safari browser on the phone, and type “rooftopinstitute.org/artistparents”</li>
 				<li>Press “to share”</li>
-				<li>Scroll down and press &quot;Add to home screen”</li>
-				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
+				<li>Scroll down and press &quot;Add to Home Screen”</li>
+				<li>Done</li>
 			</ul>
 			<img src="images/ios-add-to-home-screen-en.gif" alt="gif">
 		</div>
@@ -53,10 +53,10 @@
 		<div class="mb-4">
 			<div class="inline-block border-b-2 border-gray-300">For Android users</div>
 			<ul>
-				<li>Open the Chrome browser on the phone</li>
+				<li>Open the Chrome browser on the phone, and type “rooftopinstitute.org/artistparents”</li>
 				<li>Press “to share”</li>
-				<li>Scroll down and press &quot;Add to home screen”</li>
-				<li>Done. The phone desktop will display &quot;LOGO&quot;</li>
+				<li>Scroll down and press "Add to Home Screen”</li>
+				<li>Done</li>
 			</ul>
 			<img src="images/android-add-to-home-screen-en.gif" alt="gif">
 		</div>

@@ -43,14 +43,14 @@
 			masonry_instance.destroy()
 		}
 	})
-	
+
 	const onLoad = () => {
 		console.log('cliff: ', 'onload')
 		masonry_instance.layout()
 	}
 </script>
 
-<div class="bg-white" style="background-image: url('images/pattern-2.png')">
+<div class="bg-white">
 	{#if entity}
 		<TopBar/>
 		<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('images/pattern.jpg')">
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 	{:else}
-		<div class="bg-cover bg-center md:h-72 relative">
+		<div class="bg-cover bg-center md:h-72 relative" style="background-image: url('images/banner-bg.png')">
 			<div class="block sm:hidden" style="padding-top: 75%"></div>
 			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
 			<div class="absolute inset-0 flex items-center justify-center">

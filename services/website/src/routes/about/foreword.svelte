@@ -36,7 +36,7 @@
 			<li>定價港幣一百八十元</li>
 		</ul>
 		<p>FB/IG @artist.parents</p>
-		<p>如欲購買歡迎到以下的零售商查詢：XXX</p>
+		<p>如欲購買歡迎到以下的零售商查詢：艺鵠，一拳書館</p>
 
 	{:else if $locale === 'en'}
 		<h2>Event Scores by Artist-Parents what’s up?</h2>
@@ -70,11 +70,10 @@
 			<li>500 copies, printed in Hong Kong</li>
 			<li>ISBN: 978-988-75731-0-4</li>
 			<li>Price: HK$180</li>
-			<li></li>
 		</ul>
 
 		<p>FB / IG @ artist.parents</p>
 
-		<p>Please visit the following retailers for purchase and inquiries: XXX</p>
+		<p>Please visit the following retailers for purchase and inquiries: ACO, Book Punch</p>
 	{/if}
 </Wrapper>
