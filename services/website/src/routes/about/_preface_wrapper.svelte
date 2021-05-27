@@ -11,7 +11,7 @@
 	$: other_pages = $preface_store.filter(p => p.slug !== slug)
 </script>
 
-<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('images/pattern.jpg')">
+<div class="bg-contain bg-center bg-no-repeat border-b border-gray-300" style="background-image: url('images/banner-bg.jpg')">
 	<div class="max-w-screen-lg mx-auto px-8 py-16">
 		<h1 class="text-p3 font-bold mb-4">
 			{current_page[`name_${$locale}`]}
