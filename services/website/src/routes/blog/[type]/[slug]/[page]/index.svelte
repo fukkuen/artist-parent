@@ -45,7 +45,6 @@
 	})
 
 	const onLoad = () => {
-		console.log('cliff: ', 'onload')
 		masonry_instance.layout()
 	}
 </script>
@@ -53,7 +52,7 @@
 <div class="relative z-20">
 	{#if entity}
 		<TopBar/>
-		<div class="bg-gradient-to-b from-white to-transparent">
+		<div class="bg-gradient-to-b from-white">
 			<div class="max-w-screen-xl mx-auto px-4 py-16 md:px-6">
 				<div class="mb-4 flex items-center">
 					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
