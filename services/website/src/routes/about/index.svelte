@@ -4,7 +4,7 @@
 	import Icon from '../../components/ui-elements/icon.svelte'
 </script>
 
-<div class="bg-contain bg-center bg-no-repeat border-b border-gray-300" style="background-image: url('images/banner-bg.jpg')">
+<div class="bg-contain bg-right bg-no-repeat border-b border-gray-300" style="background-image: url('images/banner-bg-2.jpg')">
 	<div class="max-w-screen-lg mx-auto px-4 sm:px-8 py-16">
 		<h1 class="text-p3 font-bold">{$t('about')}</h1>
 	</div>
