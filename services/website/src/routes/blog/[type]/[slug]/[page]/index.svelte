@@ -65,7 +65,7 @@
 		<div class="md:h-96 relative">
 			<div class="block sm:hidden" style="padding-top: 75%"></div>
 			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
-			<div class="absolute inset-0 flex items-center justify-center z-20 bg-gradient-to-b from-white to-transparent">
+			<div class="absolute inset-0 flex items-center justify-center z-20 bg-gradient-to-b from-white">
 				<img src="images/title.png" alt="banner-text" class="h-5/6">
 			</div>
 		</div>
