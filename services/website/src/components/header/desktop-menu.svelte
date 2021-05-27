@@ -42,5 +42,5 @@
 </div>
 
 {#if menu_on}
-	<div on:click={() => {menu_on = false}} class="fixed inset-0 z-10 bg-black bg-opacity-30"></div>
+	<div on:click={() => {menu_on = false}} class="fixed inset-0 z-40 bg-black bg-opacity-30"></div>
 {/if}

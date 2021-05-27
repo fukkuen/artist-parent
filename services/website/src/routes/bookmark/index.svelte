@@ -17,13 +17,13 @@
 </script>
 
 <div class="pb-12 bg-gray-200">
-	<div class="bg-contain bg-right bg-no-repeat border-b border-gray-300" style="background-image: url('images/banner-bg-2.jpg')">
+	<div class="bg-contain bg-right bg-no-repeat border-b border-gray-300 bg-white" style="background-image: url('images/banner-bg-2.jpg')">
 		<div class="max-w-screen-lg mx-auto px-8 py-16">
 			<h1 class="text-p3 font-bold">{$t('bookmark_page_title')}</h1>
 		</div>
 	</div>
 
-	<div class="max-w-screen-lg mx-auto mx-2">
+	<div class="max-w-screen-lg mx-auto mx-2 pt-4 md:pt-8">
 		{#if saved_posts.length}
 			<div class="grid gap-1 sm:gap-2">
 				{#each saved_posts as post}
