@@ -7,7 +7,7 @@ export default {
 	bookmark_page_no_record: 'You have no bookmarked works',
 	share: 'Share',
 	share_fb: 'Share to Facebook',
-	artist_page_title: 'Artist List',
+	artist_page_title: 'Participating Artists',
 	about: 'About',
 	about_the_project: 'About The Project',
 	language: 'Language',

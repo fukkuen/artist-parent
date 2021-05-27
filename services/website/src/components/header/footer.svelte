@@ -20,7 +20,7 @@
 	]
 </script>
 
-<div class="bg-gray-100 text-gray-500 border-t border-gray-300">
+<footer class="relative z-20 bg-gray-100 text-gray-500 border-t border-gray-300">
 	<div class="max-w-screen-lg mx-auto px-4 pt-2 md:px-8 md:pt-4 text-xs">
 		<div class="border-b border-gray-300 py-4">
 			<h3 class="font-bold mb-2">{$t('about')}</h3>
@@ -63,4 +63,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>

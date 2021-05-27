@@ -24,7 +24,7 @@
 			演、實驗音樂，又或者是動態雕塑。</p>
 
 		<p>除了網頁版，《事件譜之又係藝術家又係阿爸阿媽》更有限量發行的實體書：</p>
-		（image）
+		<img src="images/book.jpg" alt="jpg">
 		<ul>
 			<li>18 x 18 厘米，平裝</li>
 			<li>內文：128頁，彩色柯式印刷</li>
@@ -60,7 +60,7 @@
 			moving sculpture.</p>
 
 		<p>Besides web version, Event Scores by Artist-Parents has published book copies:</p>
-
+		<img src="images/book.jpg" alt="jpg">
 		<ul>
 			<li>18 x 18 cm, paperback</li>
 			<li>Text: 128 pages, color offset printing</li>

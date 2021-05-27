@@ -46,8 +46,8 @@ daughter to de-stress.
 Correspond your baby’s daily milk volumes to a numbered musical notation. Compose
 diary-like music that you can sing and express!
 
-\* Other milk volumes can be composed in #/b sharp or flat key
-\* Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time
+\* Other milk volumes can be composed in #/b sharp or flat key<br>
+\* Breastfeeding mums can use numbered musical notation based on the (breastfeeding) time<br>
 \* You can fill the numbers in the numbered musical notation App to play and sing along,
 
 <a class="border-b-2 border-current" href="https://jianpu.info/freesheet/a72f456f181e450f940bdd6716a4a164" target="_blank">Demo Link</a>

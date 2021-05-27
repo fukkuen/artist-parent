@@ -37,7 +37,7 @@
 	<div></div>
 </nav>
 
-<div style="width: 340px" class="hidden sm:block overflow-y-scroll pt-12 fixed z-20 top-0 bottom-0 left-0 bg-white transition transform {!menu_on ? '-translate-x-full' : 'translate-x-0'}">
+<div style="width: 340px" class="hidden sm:block overflow-y-scroll pt-12 fixed z-50 top-0 bottom-0 left-0 bg-white transition transform {!menu_on ? '-translate-x-full' : 'translate-x-0'}">
 	<Menu/>
 </div>
 

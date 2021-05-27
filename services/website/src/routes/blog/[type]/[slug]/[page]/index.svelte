@@ -49,11 +49,11 @@
 		masonry_instance.layout()
 	}
 </script>
-<div class="bg-white bg-no-repeat bg-cover fixed inset-0 z-10" style="background-image: url('images/bg-pattern-2.png')"></div>
+<div class="bg-white bg-no-repeat bg-cover fixed inset-0 z-10" style="background-image: url('images/bg-pattern.jpg')"></div>
 <div class="relative z-20">
 	{#if entity}
 		<TopBar/>
-		<div class="bg-cover bg-center border-b border-gray-300" style="background-image: url('images/pattern.jpg')">
+		<div class="bg-gradient-to-b from-white to-transparent">
 			<div class="max-w-screen-xl mx-auto px-4 py-16 md:px-6">
 				<div class="mb-4 flex items-center">
 					<span class="text-sm sm:text mt-2">{$t('work_category')}</span>
@@ -63,16 +63,16 @@
 			</div>
 		</div>
 	{:else}
-		<div class="bg-cover bg-center md:h-72 relative">
+		<div class="md:h-96 relative">
 			<div class="block sm:hidden" style="padding-top: 75%"></div>
 			<div class="hidden sm:block md:hidden" style="padding-top: 56%"></div>
-			<div class="absolute inset-0 flex items-center justify-center z-20">
-				<img src="images/title_transparent.png" alt="banner-text" class="h-2/3 md:h-3/4 lg:h-5/6">
+			<div class="absolute inset-0 flex items-center justify-center z-20 bg-gradient-to-b from-white to-transparent">
+				<img src="images/title.png" alt="banner-text" class="h-5/6">
 			</div>
 		</div>
 	{/if}
 
-	<div class="max-w-screen-xl mx-auto px-2 py-4 sm:px-4 sm:py-8">
+	<div class="max-w-screen-xl mx-auto px-2 pb-4 sm:px-4 sm:pb-8">
 		{#if posts && posts.length}
 			<div bind:this={masonry_container_el} class="flex flex-wrap">
 				<div class="masonry-sizer"></div>
