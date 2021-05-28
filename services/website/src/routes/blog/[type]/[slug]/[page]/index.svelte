@@ -23,18 +23,31 @@
 
 	let masonry_container_el
 	let masonry_instance
+	let is_mounted
+
+	$: {
+		if (category && is_mounted) {
+			init_masonry()
+			masonry_instance.layout()
+		}
+	}
 
 	const getPostPreviewImage = post => `blog-posts/${
 			post.metadata.createdAt.split("T")[0]
 	}-${post.metadata.slug}/cover.jpg`
 
-	onMount(() => {
+	const init_masonry = () => {
 		masonry_instance = new Masonry( masonry_container_el, {
 			itemSelector: '.masonry-item',
 			columnWidth: '.masonry-sizer',
 			percentPosition: true,
 			initLayout: false
 		})
+	}
+
+	onMount(() => {
+		is_mounted = true
+		init_masonry()
 		masonry_instance.layout()
 		setTimeout(() => {
 			masonry_instance.layout()
@@ -48,7 +61,7 @@
 		masonry_instance.layout()
 	}
 </script>
-<div class="bg-white bg-no-repeat bg-cover fixed inset-0 z-10" style="background-image: url('images/bg-pattern.jpg')"></div>
+<div class="bg-white bg-no-repeat bg-cover fixed inset-0 z-10 opacity-40" style="background-image: url('images/bg-pattern.jpg')"></div>
 <div class="relative z-20">
 	{#if entity}
 		<TopBar/>
