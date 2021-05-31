@@ -8,7 +8,7 @@
 
 	export let title
 	export let text
-	let url = 'https://'+ $page.host + '/artistparents' + $page.path
+	let url = 'https://'+ $page.host + $page.path
 	let opened = false
 	let input_el
 	let copied = false
