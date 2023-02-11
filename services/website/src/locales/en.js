@@ -19,5 +19,6 @@ export default {
 	site_desc: 'Instruction art',
 	tap_to_copy_link: 'Tap to copy link',
 	link_copied: 'Link copied',
-	contact:  'Contact'
+	contact:  'Contact',
+	related_articles: 'Related Articles'
 }

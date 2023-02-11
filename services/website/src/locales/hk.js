@@ -19,5 +19,6 @@ export default {
 	site_desc: '指令藝術',
 	tap_to_copy_link: '點擊複製連結',
 	link_copied: '連結已複製',
-	contact:  '聯絡我們'
+	contact:  '聯絡我們',
+	related_articles: '相關文章'
 }

@@ -24,8 +24,11 @@
     "images:convert:jpgtojp2": "find ./static/blog-posts/ -type f -iname \"*.jpg\" -exec bash -c '[ ! -f \"$(dirname \"$0\")/$(basename \"$0\" .jpg).jp2\" ] && convert \"$0\" -quiet -quality 0 \"$(dirname \"$0\")/$(basename \"$0\" .jpg).jp2\"' {} \\;"
   },
   "dependencies": {
+    "@sentry/browser": "^6.14.3",
+    "@sentry/tracing": "^6.14.3",
     "autoprefixer": "^10.2.3",
     "compression": "^1.7.1",
+    "dayjs": "^1.11.7",
     "polka": "next",
     "sirv": "^0.4.0",
     "waterfall.js": "1.0.2"

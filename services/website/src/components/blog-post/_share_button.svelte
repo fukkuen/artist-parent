@@ -1,8 +1,8 @@
 <script>
 	import {onMount} from 'svelte'
-	import {stores} from '@sapper/app'
 	import Icon from '../ui-elements/icon.svelte'
 	import {t} from 'svelte-i18n'
+	import {stores} from '@sapper/app'
 	const {page} = stores()
 	import {fade, fly} from 'svelte/transition'
 

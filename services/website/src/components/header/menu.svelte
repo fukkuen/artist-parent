@@ -27,9 +27,9 @@
 			href: 'artists'
 		},
 		{
-			label: 'bookmark_page_title',
-			href: 'bookmark',
-			desktop_only: true
+			label: 'related_articles',
+			href: 'related_articles',
+			desktop_only: false
 		},
 		{
 			label: 'about_the_project',
@@ -43,6 +43,11 @@
 		{
 			label: 'how_to_use_title',
 			href: 'user-guide'
+		},
+		{
+			label: 'bookmark_page_title',
+			href: 'bookmark',
+			desktop_only: true
 		}
 	]
 </script>

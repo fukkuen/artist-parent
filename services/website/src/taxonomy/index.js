@@ -36,3 +36,42 @@ export const categories = [
 		num: 'VI'
 	}
 ]
+
+export const media_list = [
+	{
+		slug: 'pipi-family-tour',
+		name_hk: '嚴瑞芳，〈「大館家庭日」的一種參與式學習〉',
+		name_en: 'Article by Yim Sui Fong on Tai Kwun Family Day',
+		date: '2022-10-05'
+	},
+	{
+		slug: 'marina-watt',
+		name_hk: '屈家妍，〈妍習共享｜將逛藝術展變成平常事〉，《橙新聞》',
+		name_en: 'Article by Marina Watt, Orange News',
+		date: '2022-06-07'
+	},
+	{
+		slug: 'kitty-hung',
+		name_hk: '洪曉嫻，〈和孩子觀看世界的 100 種方法〉，原文刊載於《立場新聞》',
+		name_en: 'Article by Kitty Hung, originally published on Stand News',
+		date: '2021-09-027'
+	},
+	{
+		slug: 'ysabelle-cheung',
+		name_hk: 'Ysabelle Cheung, “事件譜之又係藝術家又係阿爸阿媽”, ARTOMITY 藝源',
+		name_en: 'Ysabelle Cheung, “Event Scores by Artists-Parents”, ARTOMITY',
+		date: '2021-09-23'
+	},
+	{
+		slug: 'wong-ming-lok',
+		name_hk: '黃明樂 ，〈探索那停頓了的當下〉，原文刊載於《明報》〈女人心〉專欄',
+		name_en: 'Article by Wong Ming Lok, published on Mingpao',
+		date: '2021-09-06'
+	},
+	{
+		slug: 'so-mei-chi',
+		name_hk: '蘇美智，〈小學雞媽媽：又係藝術家又係阿爸阿媽〉，《明報》Happy PaMa 教得樂第361期',
+		name_en: 'Article by So Mei Chi, published on Mingpao Happy PaMa column',
+		date: '2021-08-31'
+	}
+]
