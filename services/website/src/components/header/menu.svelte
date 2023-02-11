@@ -28,7 +28,7 @@
 		},
 		{
 			label: 'related_articles',
-			href: 'related_articles',
+			href: 'related-articles',
 			desktop_only: false
 		},
 		{
